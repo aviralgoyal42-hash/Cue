@@ -1,0 +1,17 @@
+{
+  "flags": {
+    "rows_task7": 300,
+    "rows_task6": 300,
+    "columns_compared": 14,
+    "differences": {},
+    "identical": true
+  },
+  "alerts": {
+    "rows_task7": 2700,
+    "rows_task6": 2700,
+    "columns_compared": 17,
+    "differences": {},
+    "identical": true
+  },
+  "passed": true
+}

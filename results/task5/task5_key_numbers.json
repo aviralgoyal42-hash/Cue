@@ -1,0 +1,74 @@
+{
+  "runs": 360,
+  "sessions": 2612,
+  "errors": 0,
+  "invariants_hold_all_runs": true,
+  "settings_x_levels": 24,
+  "working": 8,
+  "highest_working_level": {
+    "e0.6_x1.0": {
+      "levels_that_work": [
+        0.0,
+        0.1
+      ],
+      "highest_level_that_works": 0.1,
+      "working_levels_form_one_block_from_0": true,
+      "levels_tried": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ]
+    },
+    "e0.6_x0.9": {
+      "levels_that_work": [
+        0.0,
+        0.1
+      ],
+      "highest_level_that_works": 0.1,
+      "working_levels_form_one_block_from_0": true,
+      "levels_tried": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ]
+    },
+    "e1.0_x1.0": {
+      "levels_that_work": [
+        0.0,
+        0.1
+      ],
+      "highest_level_that_works": 0.1,
+      "working_levels_form_one_block_from_0": true,
+      "levels_tried": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ]
+    },
+    "e1.0_x0.9": {
+      "levels_that_work": [
+        0.0,
+        0.1
+      ],
+      "highest_level_that_works": 0.1,
+      "working_levels_form_one_block_from_0": true,
+      "levels_tried": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ]
+    }
+  }
+}

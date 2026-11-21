@@ -1,0 +1,92 @@
+﻿{
+ "sessions": 5123,
+ "settings_work": 75,
+ "error_rows": 0,
+ "volume_stops": 0,
+ "stops_at_55": 376,
+ "stops_at_55_true_p_below_ceiling": 376,
+ "sessions_at_70": 1109,
+ "stops_at_70": 0,
+ "peak_p_all": 56.59248238048773,
+ "peak_p_working": 53.74161175660914,
+ "peak_p_full_sessions": 53.74161175660914,
+ "sessions_over_ceiling_plus5": 255,
+ "over_all_at_ceiling_40": true,
+ "over_and_under_1s": 202,
+ "over_and_1s_or_longer": 53,
+ "under_1s_median_volume_ml": 487.02030249058214,
+ "under_1s_min_threshold_ml": 450.0,
+ "works_residual_le_10ml": 42,
+ "works_residual_gt_50ml": 27,
+ "works_max_residual_ml": 156.4011121880875,
+ "leak_settings": 6,
+ "leak_runs": 30,
+ "leak_before_alert_runs": 0,
+ "leak_max_ml": 429.4890295008638,
+ "leak_settings_max_volume_ml": 491.3384556585731,
+ "over_and_ended_by_max_duration": 22,
+ "trap_x1_runs_over_500ml": 29,
+ "trap_x1_runs": 90,
+ "trap_x1_max_volume_ml": 661.4567179168293,
+ "trap_x1_leaked_ml": 0.0,
+ "highest_volume_other_settings_ml": 477.61892992772266,
+ "p2_lower_bound_15_of_15": 0.8189637274779153
+}
+runs 1620; error rows 0; sessions 5123; works 75/108
+invariants hold in every setting: True
+cutoff counts: {'pressure_ceiling': 2881, 'max_duration': 2234, 'run_ended': 8}
+highest true p_D: 56.59248238048773 ; in working settings: 53.74161175660914
+factor_b                            max_duration_s             pressure_ceiling_cmH2O            
+level_b                                      30.0  60.0  120.0                  40.0  55.0  70.0 
+factor_a          level_a                                                                        
+max_duration_s    30.0                                                            3.0  10.0  10.0
+                  60.0                                                            2.0  12.0  12.0
+                  120.0                                                           2.0  12.0  12.0
+sphincter_scaling 0.9                                                             6.0  17.0  17.0
+                  1.0                                                             1.0  17.0  17.0
+stim_name         e0.6_s0.0_5on5off           11.0  14.0  14.0                    7.0  16.0  16.0
+                  e1.0_s0.0_5on5off           12.0  12.0  12.0                    0.0  18.0  18.0
+threshold_ml      350.0                        9.0   9.0   9.0                    3.0  12.0  12.0
+                  400.0                       10.0   9.0   9.0                    4.0  12.0  12.0
+                  450.0                        4.0   8.0   8.0                    0.0  10.0  10.0
+            stim_name  max_duration_s  pressure_ceiling_cmH2O  sessions  median_duration_s  max_duration_seen_s  ended_by_max_duration  ended_by_pressure  ended_by_volume_stop  pressure_stops_with_true_p_below_ceiling  median_max_true_p_D  median_estimate_at_start_ml  median_estimate_at_stop_ml  median_residual_ml
+0   e0.6_s0.0_5on5off            30.0                    40.0       277               30.0                 30.0                   0.64               0.36                   0.0                                        25                39.40                       412.96                      410.30              169.71
+1   e0.6_s0.0_5on5off            30.0                    55.0       233               30.0                 30.0                   1.00               0.00                   0.0                                         0                38.95                       405.80                      396.48              145.50
+2   e0.6_s0.0_5on5off            30.0                    70.0       233               30.0                 30.0                   1.00               0.00                   0.0                                         0                38.95                       405.80                      396.48              145.50
+3   e0.6_s0.0_5on5off            60.0                    40.0       219               35.6                 60.0                   0.36               0.64                   0.0                                        51                41.65                       412.96                      409.12               39.48
+4   e0.6_s0.0_5on5off            60.0                    55.0       174               60.0                 60.0                   1.00               0.00                   0.0                                         0                42.37                       407.66                      392.98                2.51
+5   e0.6_s0.0_5on5off            60.0                    70.0       174               60.0                 60.0                   1.00               0.00                   0.0                                         0                42.37                       407.66                      392.98                2.51
+6   e0.6_s0.0_5on5off           120.0                    40.0       219               35.6                120.0                   0.36               0.63                   0.0                                        51                41.75                       412.96                      393.43               39.48
+7   e0.6_s0.0_5on5off           120.0                    55.0       174              120.0                120.0                   1.00               0.00                   0.0                                         0                42.50                       406.08                      348.59                2.49
+8   e0.6_s0.0_5on5off           120.0                    70.0       174              120.0                120.0                   1.00               0.00                   0.0                                         0                42.50                       406.08                      348.59                2.49
+9   e1.0_s0.0_5on5off            30.0                    40.0       709                3.0                 12.9                   0.00               1.00                   0.0                                       193                41.26                       400.66                      399.11              323.36
+10  e1.0_s0.0_5on5off            30.0                    55.0       199               24.2                 30.0                   0.40               0.59                   0.0                                       118                53.10                       407.66                      401.76               91.05
+11  e1.0_s0.0_5on5off            30.0                    70.0       180               30.0                 30.0                   1.00               0.00                   0.0                                         0                53.36                       407.45                      403.16               27.27
+12  e1.0_s0.0_5on5off            60.0                    40.0       709                3.0                 12.9                   0.00               1.00                   0.0                                       193                41.26                       400.66                      399.11              323.36
+13  e1.0_s0.0_5on5off            60.0                    55.0       196               24.1                 60.0                   0.33               0.66                   0.0                                       130                53.10                       404.44                      396.40               66.06
+14  e1.0_s0.0_5on5off            60.0                    70.0       174               60.0                 60.0                   1.00               0.00                   0.0                                         0                53.36                       407.66                      392.98                2.51
+15  e1.0_s0.0_5on5off           120.0                    40.0       709                3.0                 12.9                   0.00               1.00                   0.0                                       193                41.26                       400.66                      399.11              323.36
+16  e1.0_s0.0_5on5off           120.0                    55.0       196               24.1                120.0                   0.34               0.65                   0.0                                       128                53.11                       404.44                      384.11               56.91
+17  e1.0_s0.0_5on5off           120.0                    70.0       174              120.0                120.0                   1.00               0.00                   0.0                                         0                53.39                       406.08                      348.59                2.49
+settings with any leak: 6 ; after alert: 6
+            stim_name  sphincter_scaling  max_duration_s  threshold_ml  pressure_ceiling_cmH2O  runs  runs_leaking_at_all  runs_leaking_after_alert  leaked_ml_mean  leaked_ml_max  leaked_after_alert_ml_max  max_volume_ml_max  first_alert_h_median  sessions_per_run
+6   e0.6_s0.0_5on5off                0.9            30.0         450.0                    40.0    15                    4                         4            75.3          429.5                      429.5              491.3                   6.4               3.9
+15  e0.6_s0.0_5on5off                0.9            60.0         450.0                    40.0    15                    4                         4            52.7          429.5                      429.5              490.8                   6.4               2.9
+24  e0.6_s0.0_5on5off                0.9           120.0         450.0                    40.0    15                    4                         4            52.6          429.5                      429.5              490.8                   6.4               2.9
+60  e1.0_s0.0_5on5off                0.9            30.0         450.0                    40.0    15                    6                         6            71.7          429.3                      429.3              490.8                   6.4               5.1
+69  e1.0_s0.0_5on5off                0.9            60.0         450.0                    40.0    15                    6                         6            71.7          429.3                      429.3              490.8                   6.4               5.1
+78  e1.0_s0.0_5on5off                0.9           120.0         450.0                    40.0    15                    6                         6            71.7          429.3                      429.3              490.8                   6.4               5.1
+verdict changes 3 to 15 seeds: 0 of 12
+            stim_name  pressure_ceiling_cmH2O  sphincter_scaling  P1_sessions_voided_ge_50pct_3seeds  P2_runs_without_overflow_after_alert_3seeds  P3_sessions_within_ceiling_plus5_3seeds  full_loop_works_3seeds  P1_sessions_voided_ge_50pct_15seeds  P2_runs_without_overflow_after_alert_15seeds  P3_sessions_within_ceiling_plus5_15seeds  full_loop_works_15seeds
+0   e0.6_s0.0_5on5off                    40.0                0.9                                 1.0                                          1.0                                      1.0                    True                                  1.0                                           1.0                                      0.97                     True
+1   e0.6_s0.0_5on5off                    40.0                1.0                                 1.0                                          1.0                                      0.5                   False                                  1.0                                           1.0                                      0.77                    False
+2   e0.6_s0.0_5on5off                    55.0                0.9                                 1.0                                          1.0                                      1.0                    True                                  1.0                                           1.0                                      1.00                     True
+3   e0.6_s0.0_5on5off                    55.0                1.0                                 1.0                                          1.0                                      1.0                    True                                  1.0                                           1.0                                      1.00                     True
+4   e0.6_s0.0_5on5off                    70.0                0.9                                 1.0                                          1.0                                      1.0                    True                                  1.0                                           1.0                                      1.00                     True
+5   e0.6_s0.0_5on5off                    70.0                1.0                                 1.0                                          1.0                                      1.0                    True                                  1.0                                           1.0                                      1.00                     True
+6   e1.0_s0.0_5on5off                    40.0                0.9                                 0.0                                          1.0                                      1.0                   False                                  0.0                                           1.0                                      1.00                    False
+7   e1.0_s0.0_5on5off                    40.0                1.0                                 0.0                                          1.0                                      1.0                   False                                  0.0                                           1.0                                      1.00                    False
+8   e1.0_s0.0_5on5off                    55.0                0.9                                 1.0                                          1.0                                      1.0                    True                                  1.0                                           1.0                                      1.00                     True
+9   e1.0_s0.0_5on5off                    55.0                1.0                                 1.0                                          1.0                                      1.0                    True                                  1.0                                           1.0                                      1.00                     True
+10  e1.0_s0.0_5on5off                    70.0                0.9                                 1.0                                          1.0                                      1.0                    True                                  1.0                                           1.0                                      1.00                     True
+11  e1.0_s0.0_5on5off                    70.0                1.0                                 1.0                                          1.0                                      1.0                    True                                  1.0                                           1.0                                      1.00                     True

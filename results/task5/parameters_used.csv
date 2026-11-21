@@ -1,0 +1,56 @@
+section,name,value,unit,status,source
+GROUPS,CEILING_SWEEP_ML,"[500.0, 750.0, 1000.0, 1500.0]",mL,ASSUMED,Values chosen to show how results depend on the unsourced ceiling.
+GROUPS,SENSOR_SCENARIOS,"{'ideal': {}, 'anchor_11pct': {'mean_relative_error': 0.1117}, 'mre_20pct': {'mean_relative_error': 0.2}, 'mre_30pct': {'mean_relative_error': 0.3}, 'mre_40pct': {'mean_relative_error': 0.4}, 'gain_minus20': {'mean_relative_error': 0.1117, 'gain_error': -0.2}, 'gain_plus20': {'mean_relative_error': 0.1117, 'gain_error': 0.2}, 'drift_minus2ph': {'mean_relative_error': 0.1117, 'drift_per_hour': -0.02}, 'drift_plus2ph': {'mean_relative_error': 0.1117, 'drift_per_hour': 0.02}, 'delay_5min': {'mean_relative_error': 0.1117, 'delay_s': 300.0}, 'delay_15min': {'mean_relative_error': 0.1117, 'delay_s': 900.0}, 'missing_20pct': {'mean_relative_error': 0.1117, 'missing_probability': 0.2}, 'missing_50pct': {'mean_relative_error': 0.1117, 'missing_probability': 0.5}, 'misaligned_at_4h': {'mean_relative_error': 0.1117, 'misalignment_start_h': 4.0, 'misalignment_gain': 0.7, 'misalignment_missing_probability': 0.3}, 'combined_bad': {'mean_relative_error': 0.3, 'drift_per_hour': -0.02, 'missing_probability': 0.3, 'delay_s': 300.0}}",-,ASSUMED,Sweep of error types and sizes; posture changes are represented by the misalignment scenario (Toymus 2024 tested supine only).
+GROUPS,USER_SCENARIOS,"{'prompt': {'delay_min_s': 30.0, 'delay_max_s': 300.0}, 'delayed': {'delay_min_s': 1800.0, 'delay_max_s': 5400.0}, 'no_press': {'responds_to_alert': False}, 'accidental_no_alert': {'responds_to_alert': False, 'accidental_press_times_s': [3600.0, 7200.0]}, 'press_in_lockout': {'delay_min_s': 30.0, 'delay_max_s': 300.0, 'second_press_after_s': 300.0}, 'held_button': {'delay_min_s': 30.0, 'delay_max_s': 300.0, 'hold_s': 900.0}}",-,ASSUMED,No data exist on how people with SCI respond to a fullness alert. Delays are uniform distributions chosen to span 'prompt' (0.5-5 min) and 'delayed' (30-90 min).
+GROUPS,STIM_PATTERNS,"{'e0.6_s0.0_continuous': {'detrusor_drive': 0.6, 'sphincter_drive': 0.0, 'on_s': 1.0, 'off_s': 0.0}, 'e0.6_s0.5_continuous': {'detrusor_drive': 0.6, 'sphincter_drive': 0.5, 'on_s': 1.0, 'off_s': 0.0}, 'e0.6_s0.0_5on5off': {'detrusor_drive': 0.6, 'sphincter_drive': 0.0, 'on_s': 5.0, 'off_s': 5.0}, 'e0.6_s0.5_5on5off': {'detrusor_drive': 0.6, 'sphincter_drive': 0.5, 'on_s': 5.0, 'off_s': 5.0}, 'e1.0_s0.0_continuous': {'detrusor_drive': 1.0, 'sphincter_drive': 0.0, 'on_s': 1.0, 'off_s': 0.0}, 'e1.0_s0.5_continuous': {'detrusor_drive': 1.0, 'sphincter_drive': 0.5, 'on_s': 1.0, 'off_s': 0.0}, 'e1.0_s0.0_5on5off': {'detrusor_drive': 1.0, 'sphincter_drive': 0.0, 'on_s': 5.0, 'off_s': 5.0}, 'e1.0_s0.5_5on5off': {'detrusor_drive': 1.0, 'sphincter_drive': 0.5, 'on_s': 5.0, 'off_s': 5.0}}",-,ASSUMED,"Grid declared before any stimulation run. 0.6 = upstream healthy voiding detrusor drive (SOURCED model value); 1.0 = maximum. Sphincter 0.5 = co-activation at the storage level (ASSUMED, unvalidated conflict); 0.0 = no co-activation."
+GROUPS,REFERENCE_STIM,e1.0_s0.5_5on5off,-,ASSUMED,Declared before running: co-activation (the conservative assumption) with intermittent bursts.
+GROUPS,STIM_MAP_GRID,"{'detrusor_drive': [0.4, 0.6, 0.8, 1.0], 'sphincter_drive': [0.0, 0.25, 0.5, 1.0], 'timing_on_off_s': [[1.0, 0.0], [2.0, 2.0], [5.0, 5.0], [10.0, 5.0], [5.0, 10.0]], 'session_s': [60.0, 120.0], 'start_volume_ml': 450.0}",-,ASSUMED,Stage 5 characterisation grid (open-loop stimulation from a full bladder).
+GROUPS,PRESSURE_SCENARIOS,"{'ok': {'noise_sd_cmH2O': 2.0}, 'noisy': {'noise_sd_cmH2O': 10.0}, 'reads_low_30pct': {'noise_sd_cmH2O': 2.0, 'gain_error': -0.3}, 'stuck_low': {'stuck_at_cmH2O': 5.0}, 'dead': {'dead_from_s': 0.0}}",-,ASSUMED,Hypothetical implant channel; no published accuracy exists. 'ok' still has 2 cmH2O noise.
+GROUPS,EXTRA_SENSOR_FAULTS,"{'stuck_high_450ml_from_5h': {'mean_relative_error': 0.1117, 'stuck_from_h': 5.0, 'stuck_at_ml': 450.0}, 'stuck_low_50ml_from_3h': {'mean_relative_error': 0.1117, 'stuck_from_h': 3.0, 'stuck_at_ml': 50.0}}",-,ASSUMED,Frozen-output faults that give a stuck device estimate (Experiment 4).
+GROUPS,EMPTYING_CLASSES,"{'complete_min_fraction': 0.95, 'partial_min_fraction': 0.1}",-,ASSUMED,"Voided fraction of the pre-session volume: >= 0.95 complete, >= 0.10 partial, else none."
+SIMULATION,dt_s,0.1,s,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062), paper_figures notebooks. Must stay < 0.4 s: forward Euler on the sphincter equation (tau_S = 0.2 s) diverges above that (Stage 2 finding)."
+SIMULATION,duration_s,86400,s,ASSUMED,One simulated day: long enough for several filling cycles.
+SIMULATION,seed,42,-,SOURCED,"Seed used in lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) notebooks (an arbitrary but fixed choice)."
+SIMULATION,inflow_noise,1.0,-,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) default. Note: raises mean inflow from 0.017 to ~0.023 mL/s (Stage 2)."
+SIMULATION,initial_volume_ml,0.0,mL,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) starts from an empty bladder."
+SCI,enabled,True,-,ASSUMED,Experiments 1-4 all use the simplified SCI condition.
+SCI,injury_level,suprasacral,-,ASSUMED,"ONE simplified condition: injury above the sacral cord, sacral reflex arc intact. The true injury level is unconfirmed. Other levels are not implemented."
+SCI,voluntary_voiding,False,-,ASSUMED,Sensation to the brain and the decision to void are lost (upstream is_voiding() trigger switched off).
+SCI,coordinated_voiding_program,False,-,ASSUMED,"The descending coordinated void (detrusor on, sphincter relaxed) is lost."
+SCI,storage_drive_profile,upstream,-,ASSUMED,"The upstream storage-phase drives (volume-dependent Gaussians) stand in for the intact spinal reflexes below the injury. The paper calls them signals 'from the brain', so this reinterpretation is ours."
+SCI,fullness_reference_ml,500.0,mL,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) max_V_B (Table S1 lists it as New: no primary source). Used ONLY to scale fullness inside the neural drives, so they behave exactly as upstream up to 500 mL. Above 500 mL they are extrapolated."
+SCI,drive_above_reference,extrapolate,-,ASSUMED,"How the neural drives behave above 500 mL, where upstream never goes. 'extrapolate' (default) = upstream formulas unchanged, i.e. least modification; 'hold' = drive frozen at its 500 mL value. Neither is sourced; both are reported."
+SCI,volume_ceiling_ml,1000.0,mL,ASSUMED,"Placeholder. Upstream hard-clips volume at 500 mL; no sourced SCI value was found. Inflow arriving at the ceiling is discarded by the model, so results are reported as a sweep over several ceilings and the discarded volume is measured."
+SENSOR,sample_interval_s,60.0,s,ASSUMED,"One reading per minute. Toymus 2024 pulses every 2.5 s but recorded in-vivo volumes every 30 min, so no sourced alert-system rate exists."
+SENSOR,best_case_mean_relative_error,0.1117,-,SOURCED,"Toymus et al. 2024, Nat Commun 15:7216 (doi:10.1038/s41467-024-50397-8): wearable A-mode patch, 5 healthy volunteers, supine only, reference = B-mode ultrasound (not catheter), in-vivo mean relative error 11.17% (definition not stated). Used ONLY as a labelled best-case anchor: healthy, supine, BMI 18-23.7; not an SCI accuracy."
+SENSOR,noise_model,gaussian_multiplicative,-,ASSUMED,"reading = truth x (1 + e), e ~ Normal(0, s), with s chosen so that mean |e| equals the target mean relative error (s = MRE x sqrt(pi/2)). The real error distribution is unknown."
+DEVICE,median_window,5,readings,ASSUMED,Estimate = median of the last 5 valid readings (robust to spikes).
+DEVICE,confirm_n,3,readings,ASSUMED,Alert only after 3 consecutive valid estimates at/above threshold.
+DEVICE,rearm_hysteresis_ml,50.0,mL,ASSUMED,Alert re-arms when the estimate falls 50 mL below threshold.
+DEVICE,stale_timeout_s,600.0,s,ASSUMED,No valid reading for 10 min -> device raises 'sensor stale'.
+EXPERIMENT2,alert_thresholds_ml,"[250.0, 300.0, 350.0, 400.0, 450.0, 500.0]",mL,ASSUMED,"Swept, never tuned: the trade-off is the result."
+EXPERIMENT2,duration_s,43200,s,ASSUMED,12 h covers the first fill past 500 mL and the leak onset (~7 h).
+EXPERIMENT2,sphincter_scalings,"[1.0, 0.9]",x somatic_a,ASSUMED,Default and 10% weaker: the two Stage 3 baseline behaviours (no leak / leak).
+EXPERIMENT2,physiology_seeds,"[42, 1, 2]",-,ASSUMED,Inflow-noise seeds (filling-time spread).
+EXPERIMENT2,sensor_seeds_per_case,20,-,ASSUMED,Repeats of each sensor scenario with new sensor noise.
+EXPERIMENT2,reference_volume_ml,500.0,mL,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) max_V_B (Table S1 lists it as New: no primary source); see EXPERIMENT2_SUCCESS_CRITERIA.md."
+EXPERIMENT2,false_alert_fraction,0.6,x V_ref,ASSUMED,Alert below 300 mL true volume counts as false.
+EXPERIMENT2,relative_error_floor_ml,50.0,mL,ASSUMED,Relative error only computed where true volume >= 50 mL.
+CONTROLLER,max_duration_s,60.0,s,ASSUMED,"Primary cutoff, needs no sensor. The model's healthy void lasts ~27 s. Swept 30/60/120 s in Experiment 3."
+CONTROLLER,volume_stop_ml,100.0,mL,ASSUMED,Stop when the DEVICE ESTIMATE falls to 100 mL.
+CONTROLLER,pressure_ceilings_cmH2O,"[40.0, 55.0, 70.0]",cmH2O,ASSUMED,"Swept. 55 is near this model's healthy-void peak (54.7). 40 echoes the detrusor leak point pressure linked to upper-tract risk in myelodysplasia (McGuire et al. 1981, J Urol 126:205-209; checked via secondary sources only); it is NOT a validated stimulation limit."
+CONTROLLER,reference_pressure_ceiling_cmH2O,55.0,cmH2O,ASSUMED,Middle of the sweep.
+CONTROLLER,lockout_s,1800.0,s,ASSUMED,30 min between uses.
+CONTROLLER,pressure_sample_interval_s,0.5,s,ASSUMED,Synthetic implant channel sampling.
+CONTROLLER,pressure_max_age_s,2.0,s,ASSUMED,Older pressure readings are ignored.
+CONTROLLER,ultrasound_interval_during_stim_s,"[60.0, 5.0]",s,ASSUMED,60 s = unchanged; 5 s = faster sampling while stimulating. Swept.
+CONTROLLER,post_stimulus_window_s,120.0,s,ASSUMED,"Flow up to 120 s after a session counts as that session's emptying, not as leakage."
+SESSION_GUARD,session_caps,"[2, 3, 4]",sessions per 12 h run,ASSUMED,"Given by the user. Per 12 h run, not per day. Swept in Experiment 7."
+SESSION_GUARD,min_drop_fractions,"[0.2, 0.4]",-,ASSUMED,Given by the user. Swept in Experiment 7.
+SESSION_GUARD,readings_before_check,5,readings,ASSUMED,"Equal to DEVICE.median_window, so the estimate judged holds no reading from before or during the session."
+SESSION_GUARD,check_deadline_s,600.0,s,ASSUMED,Reuses DEVICE.stale_timeout_s. Must not exceed the lockout.
+SESSION_GUARD,alert_repeat_s,1800.0,s,ASSUMED,Reuses CONTROLLER.lockout_s.
+EXPERIMENT3,duration_s,43200,s,ASSUMED,"Covers the first fill, alert, emptying and refill."
+EXPERIMENT3,alert_threshold_ml,400.0,mL,ASSUMED,Centre of the 350-450 mL band where the anchor sensor passed in Experiment 2 (a choice made after Experiment 2; 350 and 450 also run).
+EXPERIMENT3,physiology_seeds,"[42, 1, 2]",-,ASSUMED,Inflow seeds.
+EXPERIMENT3,sensor_scenario,anchor_11pct,-,ASSUMED,Best-case anchor sensor.

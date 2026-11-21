@@ -1,0 +1,401 @@
+{
+  "n_monitoring_runs": 10800,
+  "C4_stale": {
+    "stale_gaps": {
+      "anchor_11pct": 0,
+      "combined_bad": 0,
+      "delay_15min": 0,
+      "delay_5min": 0,
+      "drift_minus2ph": 0,
+      "drift_plus2ph": 0,
+      "gain_minus20": 0,
+      "gain_plus20": 0,
+      "ideal": 0,
+      "misaligned_at_4h": 6,
+      "missing_20pct": 0,
+      "missing_50pct": 330,
+      "mre_20pct": 0,
+      "mre_30pct": 0,
+      "mre_40pct": 0
+    },
+    "stale_flagged": {
+      "anchor_11pct": 0,
+      "combined_bad": 0,
+      "delay_15min": 0,
+      "delay_5min": 0,
+      "drift_minus2ph": 0,
+      "drift_plus2ph": 0,
+      "gain_minus20": 0,
+      "gain_plus20": 0,
+      "ideal": 0,
+      "misaligned_at_4h": 6,
+      "missing_20pct": 0,
+      "missing_50pct": 330,
+      "mre_20pct": 0,
+      "mre_30pct": 0,
+      "mre_40pct": 0
+    }
+  },
+  "passing_combinations": [
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "anchor_11pct",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "anchor_11pct",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "anchor_11pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "combined_bad",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "combined_bad",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "delay_15min",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "delay_15min",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "delay_5min",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "delay_5min",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "drift_minus2ph",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "drift_plus2ph",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "drift_plus2ph",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "drift_plus2ph",
+      "threshold_ml": 500.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "gain_minus20",
+      "threshold_ml": 300.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "gain_minus20",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "gain_plus20",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "gain_plus20",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "gain_plus20",
+      "threshold_ml": 500.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "ideal",
+      "threshold_ml": 300.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "ideal",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "ideal",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "misaligned_at_4h",
+      "threshold_ml": 300.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "missing_20pct",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "missing_20pct",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "missing_20pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "missing_50pct",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "missing_50pct",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "mre_20pct",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "mre_20pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "mre_30pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "mre_30pct",
+      "threshold_ml": 500.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "mre_40pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 0.9,
+      "scenario": "mre_40pct",
+      "threshold_ml": 500.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "anchor_11pct",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "anchor_11pct",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "anchor_11pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "combined_bad",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "combined_bad",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "delay_15min",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "delay_15min",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "delay_15min",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "delay_5min",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "delay_5min",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "delay_5min",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "drift_minus2ph",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "drift_minus2ph",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "drift_plus2ph",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "drift_plus2ph",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "drift_plus2ph",
+      "threshold_ml": 500.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "gain_minus20",
+      "threshold_ml": 300.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "gain_minus20",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "gain_plus20",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "gain_plus20",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "gain_plus20",
+      "threshold_ml": 500.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "ideal",
+      "threshold_ml": 300.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "ideal",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "ideal",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "ideal",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "missing_20pct",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "missing_20pct",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "missing_20pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "missing_50pct",
+      "threshold_ml": 350.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "missing_50pct",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "missing_50pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "mre_20pct",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "mre_20pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "mre_20pct",
+      "threshold_ml": 500.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "mre_30pct",
+      "threshold_ml": 400.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "mre_30pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "mre_30pct",
+      "threshold_ml": 500.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "mre_40pct",
+      "threshold_ml": 450.0
+    },
+    {
+      "sphincter_scaling": 1.0,
+      "scenario": "mre_40pct",
+      "threshold_ml": 500.0
+    }
+  ]
+}

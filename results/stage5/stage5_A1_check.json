@@ -1,0 +1,6 @@
+{
+  "A1_bit_identical_to_fresh_stage3_model": true,
+  "A1_max_abs_diff_vs_saved_stage3_trace_ml": 1.1368683772161603e-13,
+  "alerts_during_check": 1,
+  "stimulation_ever_on": false
+}

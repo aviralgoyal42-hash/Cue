@@ -1,0 +1,14 @@
+﻿exp4: 324 runs ...
+  25/324 done
+  50/324 done
+  75/324 done
+  100/324 done
+  125/324 done
+  150/324 done
+  175/324 done
+  200/324 done
+  225/324 done
+  250/324 done
+  275/324 done
+  300/324 done
+{"exp3_settings": 104, "exp3_full_loop_works": 38}

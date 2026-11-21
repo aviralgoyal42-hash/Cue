@@ -1,0 +1,27 @@
+﻿{
+  "open_loop": {
+    "rows_task8": 900,
+    "rows_task7": 900,
+    "columns_compared": 11,
+    "differences": {},
+    "identical": true
+  },
+  "closed_loop": {
+    "runs": {
+      "rows_task6": 6,
+      "rows_task5": 6,
+      "columns_compared": 34,
+      "differences": {},
+      "identical": true
+    },
+    "sessions": {
+      "rows_task6": 12,
+      "rows_task5": 12,
+      "columns_compared": 27,
+      "differences": {},
+      "identical": true
+    }
+  },
+  "passed": true
+}
+REPRODUCTION CHECK PASSED

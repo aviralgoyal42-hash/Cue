@@ -1,0 +1,751 @@
+rule,test,criterion,cell,rate,runs_counted,required,passed
+cap2_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,all,I4,code,1.0,0,1.0,True
+cap2_drop0.20,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.20,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.20,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T2,T2a,sphincter_scaling=0.9,0.9333333333333333,15,0.95,False
+cap2_drop0.20,T2,T2a,sphincter_scaling=1.0,0.9333333333333333,15,0.95,False
+cap2_drop0.20,T2,T2b,sphincter_scaling=0.9,1.0,15,0.95,True
+cap2_drop0.20,T2,T2b,sphincter_scaling=1.0,1.0,15,0.95,True
+cap2_drop0.20,T2,T2c,sphincter_scaling=0.9,1.0,15,0.95,True
+cap2_drop0.20,T2,T2c,sphincter_scaling=1.0,1.0,15,0.95,True
+cap2_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.6,15,0.05,False
+cap2_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.6,15,0.05,False
+cap2_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,1.0,False
+cap2_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,6,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,6,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,all,I4,code,1.0,0,1.0,True
+cap2_drop0.40,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap2_drop0.40,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap2_drop0.40,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T2,T2a,sphincter_scaling=0.9,1.0,15,0.95,True
+cap2_drop0.40,T2,T2a,sphincter_scaling=1.0,1.0,15,0.95,True
+cap2_drop0.40,T2,T2b,sphincter_scaling=0.9,1.0,15,0.95,True
+cap2_drop0.40,T2,T2b,sphincter_scaling=1.0,1.0,15,0.95,True
+cap2_drop0.40,T2,T2c,sphincter_scaling=0.9,1.0,15,0.95,True
+cap2_drop0.40,T2,T2c,sphincter_scaling=1.0,1.0,15,0.95,True
+cap2_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.6,15,0.05,False
+cap2_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.6,15,0.05,False
+cap2_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap2_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap2_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,1.0,False
+cap2_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,6,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,6,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap2_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,all,I4,code,1.0,0,1.0,True
+cap3_drop0.20,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.20,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.20,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T2,T2a,sphincter_scaling=0.9,0.9333333333333333,15,0.95,False
+cap3_drop0.20,T2,T2a,sphincter_scaling=1.0,0.9333333333333333,15,0.95,False
+cap3_drop0.20,T2,T2b,sphincter_scaling=0.9,1.0,15,0.95,True
+cap3_drop0.20,T2,T2b,sphincter_scaling=1.0,1.0,15,0.95,True
+cap3_drop0.20,T2,T2c,sphincter_scaling=0.9,1.0,15,0.95,True
+cap3_drop0.20,T2,T2c,sphincter_scaling=1.0,1.0,15,0.95,True
+cap3_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.06666666666666667,15,0.05,False
+cap3_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,14,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,all,I4,code,1.0,0,1.0,True
+cap3_drop0.40,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap3_drop0.40,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap3_drop0.40,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T2,T2a,sphincter_scaling=0.9,1.0,15,0.95,True
+cap3_drop0.40,T2,T2a,sphincter_scaling=1.0,1.0,15,0.95,True
+cap3_drop0.40,T2,T2b,sphincter_scaling=0.9,1.0,15,0.95,True
+cap3_drop0.40,T2,T2b,sphincter_scaling=1.0,1.0,15,0.95,True
+cap3_drop0.40,T2,T2c,sphincter_scaling=0.9,1.0,15,0.95,True
+cap3_drop0.40,T2,T2c,sphincter_scaling=1.0,1.0,15,0.95,True
+cap3_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.06666666666666667,15,0.05,False
+cap3_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap3_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap3_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,14,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap3_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,all,I4,code,1.0,0,1.0,True
+cap4_drop0.20,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.20,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.20,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T2,T2a,sphincter_scaling=0.9,0.9333333333333333,15,0.95,False
+cap4_drop0.20,T2,T2a,sphincter_scaling=1.0,0.9333333333333333,15,0.95,False
+cap4_drop0.20,T2,T2b,sphincter_scaling=0.9,1.0,15,0.95,True
+cap4_drop0.20,T2,T2b,sphincter_scaling=1.0,1.0,15,0.95,True
+cap4_drop0.20,T2,T2c,sphincter_scaling=0.9,1.0,15,0.95,True
+cap4_drop0.20,T2,T2c,sphincter_scaling=1.0,1.0,15,0.95,True
+cap4_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.20,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.20,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I1,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I2,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T1, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T2, stim_name=e1.0_s0.5_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,all,I3,"test=T3, stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,all,I4,code,1.0,0,1.0,True
+cap4_drop0.40,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,T1,T1a,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,T1,T1a,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,T1,T1b,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,T1,T1b,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,T1,T1c,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,0.95,True
+cap4_drop0.40,T1,T1c,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,0.95,True
+cap4_drop0.40,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T1,T1d,"stim_name=e1.0_s0.0_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T1,T1d,"stim_name=e1.0_s0.5_5on5off, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T2,T2a,sphincter_scaling=0.9,1.0,15,0.95,True
+cap4_drop0.40,T2,T2a,sphincter_scaling=1.0,1.0,15,0.95,True
+cap4_drop0.40,T2,T2b,sphincter_scaling=0.9,1.0,15,0.95,True
+cap4_drop0.40,T2,T2b,sphincter_scaling=1.0,1.0,15,0.95,True
+cap4_drop0.40,T2,T2c,sphincter_scaling=0.9,1.0,15,0.95,True
+cap4_drop0.40,T2,T2c,sphincter_scaling=1.0,1.0,15,0.95,True
+cap4_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3a,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",0.0,15,0.05,True
+cap4_drop0.40,T3,T3b,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",0.0,15,0.05,True
+cap4_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3c,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e0.6_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=350.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=400.0, sphincter_scaling=1.0",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=0.9",1.0,15,1.0,True
+cap4_drop0.40,T3,T3d,"stim_name=e1.0_s0.0_5on5off, threshold_ml=450.0, sphincter_scaling=1.0",1.0,15,1.0,True

@@ -1,0 +1,30 @@
+{
+  "M1_on_time_rate_by_scaling": {
+    "1.0": 1.0,
+    "0.9": 1.0
+  },
+  "M1_pass": true,
+  "M2_cells": 28,
+  "M2_highest_flag_rate": 0.02,
+  "M2_cells_over_5pct": [],
+  "M2_pass": true,
+  "M4_cells_checked": 84,
+  "M4_cells_pass_to_fail": [],
+  "M4_pass": true,
+  "M3_target_cells_working": {
+    "monitor_off": 0,
+    "flag_only": 0,
+    "flag_and_correct": 2
+  },
+  "M3_cells_rescued": [
+    "x0.9 350 mL",
+    "x1.0 350 mL"
+  ],
+  "M3_cells_still_failing": [
+    "x0.9 400 mL",
+    "x0.9 450 mL",
+    "x1.0 400 mL",
+    "x1.0 450 mL"
+  ],
+  "flag_works_M1_and_M2": true
+}

@@ -1,0 +1,16 @@
+scenario,stale_gaps,stale_flagged
+anchor_11pct,0,0
+combined_bad,12,12
+delay_15min,0,0
+delay_5min,0,0
+drift_minus2ph,0,0
+drift_plus2ph,0,0
+gain_minus20,0,0
+gain_plus20,0,0
+ideal,0,0
+misaligned_at_4h,12,12
+missing_20pct,0,0
+missing_50pct,1302,1302
+mre_20pct,0,0
+mre_30pct,0,0
+mre_40pct,0,0

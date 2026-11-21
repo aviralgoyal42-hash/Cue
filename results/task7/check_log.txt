@@ -1,0 +1,48 @@
+﻿  trace 1/30 done  23:39:03
+  trace 2/30 done  23:39:03
+  trace 3/30 done  23:39:03
+  trace 4/30 done  23:39:03
+  trace 5/30 done  23:39:04
+  trace 6/30 done  23:39:04
+  trace 7/30 done  23:39:04
+  trace 8/30 done  23:39:04
+  trace 9/30 done  23:39:04
+  trace 10/30 done  23:39:04
+  trace 11/30 done  23:39:04
+  trace 12/30 done  23:39:04
+  trace 13/30 done  23:39:05
+  trace 14/30 done  23:39:05
+  trace 15/30 done  23:39:05
+  trace 16/30 done  23:39:05
+  trace 17/30 done  23:39:05
+  trace 18/30 done  23:39:05
+  trace 19/30 done  23:39:05
+  trace 20/30 done  23:39:05
+  trace 21/30 done  23:39:05
+  trace 22/30 done  23:39:05
+  trace 23/30 done  23:39:05
+  trace 24/30 done  23:39:05
+  trace 25/30 done  23:39:06
+  trace 26/30 done  23:39:07
+  trace 27/30 done  23:39:07
+  trace 28/30 done  23:39:07
+  trace 29/30 done  23:39:07
+  trace 30/30 done  23:39:07
+{
+  "flags": {
+    "rows_task7": 300,
+    "rows_task6": 300,
+    "columns_compared": 14,
+    "differences": {},
+    "identical": true
+  },
+  "alerts": {
+    "rows_task7": 2700,
+    "rows_task6": 2700,
+    "columns_compared": 17,
+    "differences": {},
+    "identical": true
+  },
+  "passed": true
+}
+REPRODUCTION CHECK PASSED

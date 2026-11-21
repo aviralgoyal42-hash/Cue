@@ -1,0 +1,61 @@
+﻿sphincter_scaling          0.9  1.0
+variant                            
+confirm_n=1                  7    7
+confirm_n=5                  6    7
+default                      6    7
+median_window=1              6    7
+median_window=3              7    7
+median_window=9              6    7
+rearm_hysteresis_ml=100.0    6    7
+rearm_hysteresis_ml=25.0     6    7
+stale_timeout_s=1200.0       6    7
+stale_timeout_s=300.0        6    7
+ drop_fraction  sphincter_scaling         scenario  flag_rate  flag_within_30min_after_4h_rate  median_flag_time_h  M1_pass  M2_pass
+          0.15                0.9     anchor_11pct      1.000                              NaN               2.075      NaN      0.0
+          0.15                0.9   drift_minus2ph      1.000                              NaN               2.058      NaN      0.0
+          0.15                0.9     gain_minus20      1.000                              NaN               2.250      NaN      0.0
+          0.15                0.9            ideal      0.000                              NaN                 NaN      NaN      1.0
+          0.15                0.9 misaligned_at_4h      1.000                            0.013               1.975      0.0      NaN
+          0.15                0.9    missing_50pct      1.000                              NaN               3.092      NaN      0.0
+          0.15                0.9        mre_20pct      1.000                              NaN               1.592      NaN      0.0
+          0.15                0.9        mre_30pct      1.000                              NaN               1.500      NaN      0.0
+          0.15                1.0     anchor_11pct      1.000                              NaN               2.075      NaN      0.0
+          0.15                1.0   drift_minus2ph      1.000                              NaN               2.100      NaN      0.0
+          0.15                1.0     gain_minus20      1.000                              NaN               2.275      NaN      0.0
+          0.15                1.0            ideal      0.000                              NaN                 NaN      NaN      1.0
+          0.15                1.0 misaligned_at_4h      1.000                            0.020               2.017      0.0      NaN
+          0.15                1.0    missing_50pct      1.000                              NaN               3.217      NaN      0.0
+          0.15                1.0        mre_20pct      1.000                              NaN               1.617      NaN      0.0
+          0.15                1.0        mre_30pct      1.000                              NaN               1.433      NaN      0.0
+          0.25                0.9     anchor_11pct      0.967                              NaN               5.683      NaN      0.0
+          0.25                0.9   drift_minus2ph      0.960                              NaN               5.567      NaN      0.0
+          0.25                0.9     gain_minus20      0.953                              NaN               5.433      NaN      0.0
+          0.25                0.9            ideal      0.000                              NaN                 NaN      NaN      1.0
+          0.25                0.9 misaligned_at_4h      0.993                            0.647               4.050      0.0      NaN
+          0.25                0.9    missing_50pct      0.507                              NaN               7.950      NaN      0.0
+          0.25                0.9        mre_20pct      1.000                              NaN               1.750      NaN      0.0
+          0.25                0.9        mre_30pct      1.000                              NaN               1.558      NaN      0.0
+          0.25                1.0     anchor_11pct      0.907                              NaN               5.650      NaN      0.0
+          0.25                1.0   drift_minus2ph      0.900                              NaN               5.483      NaN      0.0
+          0.25                1.0     gain_minus20      0.873                              NaN               5.067      NaN      0.0
+          0.25                1.0            ideal      0.000                              NaN                 NaN      NaN      1.0
+          0.25                1.0 misaligned_at_4h      0.987                            0.687               4.042      0.0      NaN
+          0.25                1.0    missing_50pct      0.427                              NaN               7.458      NaN      0.0
+          0.25                1.0        mre_20pct      1.000                              NaN               1.750      NaN      0.0
+          0.25                1.0        mre_30pct      1.000                              NaN               1.467      NaN      0.0
+          0.35                0.9     anchor_11pct      0.053                              NaN               9.642      NaN      0.0
+          0.35                0.9   drift_minus2ph      0.067                              NaN              10.025      NaN      0.0
+          0.35                0.9     gain_minus20      0.087                              NaN               9.033      NaN      0.0
+          0.35                0.9            ideal      0.000                              NaN                 NaN      NaN      1.0
+          0.35                0.9 misaligned_at_4h      0.480                            0.453               4.083      0.0      NaN
+          0.35                0.9    missing_50pct      0.020                              NaN               7.817      NaN      1.0
+          0.35                0.9        mre_20pct      1.000                              NaN               2.675      NaN      0.0
+          0.35                0.9        mre_30pct      1.000                              NaN               1.683      NaN      0.0
+          0.35                1.0     anchor_11pct      0.053                              NaN               9.350      NaN      0.0
+          0.35                1.0   drift_minus2ph      0.067                              NaN               7.850      NaN      0.0
+          0.35                1.0     gain_minus20      0.033                              NaN               7.050      NaN      1.0
+          0.35                1.0            ideal      0.000                              NaN                 NaN      NaN      1.0
+          0.35                1.0 misaligned_at_4h      0.527                            0.513               4.100      0.0      NaN
+          0.35                1.0    missing_50pct      0.000                              NaN                 NaN      NaN      1.0
+          0.35                1.0        mre_20pct      1.000                              NaN               2.750      NaN      0.0
+          0.35                1.0        mre_30pct      1.000                              NaN               1.633      NaN      0.0

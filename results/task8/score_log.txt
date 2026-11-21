@@ -1,0 +1,87 @@
+﻿    set                 scenario      rule  independence b_errors_fixed  n_fixed  weakest_b_error_fixed  one_block_from_best cells_working_by_error
+   main           mis_x0.7_at_2h b_trust_b          0.00                       0                    NaN                 True              5;6;0;0;0
+   main           mis_x0.7_at_2h b_trust_b          0.25                       0                    NaN                 True              4;0;0;0;0
+   main           mis_x0.7_at_2h b_trust_b          0.50                       0                    NaN                 True              0;0;0;0;0
+   main           mis_x0.7_at_2h b_trust_b          0.75                       0                    NaN                 True              0;0;0;0;0
+   main           mis_x0.7_at_2h b_trust_b          1.00                       0                    NaN                 True              0;0;0;0;0
+   main           mis_x0.7_at_2h c_average          0.00                       0                    NaN                 True              3;3;4;4;2
+   main           mis_x0.7_at_2h c_average          0.25                       0                    NaN                 True              2;2;2;3;3
+   main           mis_x0.7_at_2h c_average          0.50                       0                    NaN                 True              2;2;2;2;2
+   main           mis_x0.7_at_2h c_average          0.75                       0                    NaN                 True              0;0;1;1;2
+   main           mis_x0.7_at_2h c_average          1.00                       0                    NaN                 True              0;0;0;0;0
+   main mis_x0.7_at_4h_gain_only b_trust_b          0.00                       0                    NaN                 True              5;6;1;0;0
+   main mis_x0.7_at_4h_gain_only b_trust_b          0.25                       0                    NaN                 True              4;4;0;0;0
+   main mis_x0.7_at_4h_gain_only b_trust_b          0.50                       0                    NaN                 True              2;0;0;0;0
+   main mis_x0.7_at_4h_gain_only b_trust_b          0.75                       0                    NaN                 True              0;0;0;0;0
+   main mis_x0.7_at_4h_gain_only b_trust_b          1.00                       0                    NaN                 True              0;0;0;0;0
+   main mis_x0.7_at_4h_gain_only c_average          0.00                       0                    NaN                 True              2;2;3;4;4
+   main mis_x0.7_at_4h_gain_only c_average          0.25                       0                    NaN                 True              2;2;2;2;3
+   main mis_x0.7_at_4h_gain_only c_average          0.50                       0                    NaN                 True              1;1;2;2;2
+   main mis_x0.7_at_4h_gain_only c_average          0.75                       0                    NaN                 True              0;0;0;1;2
+   main mis_x0.7_at_4h_gain_only c_average          1.00                       0                    NaN                 True              0;0;0;0;1
+   main          mis_x0.85_at_4h b_trust_b          0.00                       0                    NaN                 True              4;3;2;2;2
+   main          mis_x0.85_at_4h b_trust_b          0.25                       0                    NaN                 True              3;3;2;2;3
+   main          mis_x0.85_at_4h b_trust_b          0.50                       0                    NaN                 True              3;2;2;2;3
+   main          mis_x0.85_at_4h b_trust_b          0.75                       0                    NaN                 True              2;2;2;2;3
+   main          mis_x0.85_at_4h b_trust_b          1.00                       0                    NaN                 True              2;2;2;2;3
+   main          mis_x0.85_at_4h c_average          0.00                       0                    NaN                 True              4;4;5;6;4
+   main          mis_x0.85_at_4h c_average          0.25                       0                    NaN                 True              4;4;4;5;4
+   main          mis_x0.85_at_4h c_average          0.50                       0                    NaN                 True              3;4;4;4;3
+   main          mis_x0.85_at_4h c_average          0.75                       0                    NaN                 True              3;3;4;4;4
+   main          mis_x0.85_at_4h c_average          1.00                       0                    NaN                 True              2;2;3;4;4
+   main         misaligned_at_4h b_trust_b          0.00                       0                    NaN                 True              5;6;0;0;0
+   main         misaligned_at_4h b_trust_b          0.25                       0                    NaN                 True              4;2;0;0;0
+   main         misaligned_at_4h b_trust_b          0.50                       0                    NaN                 True              1;0;0;0;0
+   main         misaligned_at_4h b_trust_b          0.75                       0                    NaN                 True              0;0;0;0;0
+   main         misaligned_at_4h b_trust_b          1.00                       0                    NaN                 True              0;0;0;0;0
+   main         misaligned_at_4h c_average          0.00                       0                    NaN                 True              3;4;4;4;3
+   main         misaligned_at_4h c_average          0.25                       0                    NaN                 True              2;2;3;3;4
+   main         misaligned_at_4h c_average          0.50                       0                    NaN                 True              2;2;2;2;2
+   main         misaligned_at_4h c_average          0.75                       0                    NaN                 True              0;0;1;1;2
+   main         misaligned_at_4h c_average          1.00                       0                    NaN                 True              0;0;0;0;0
+heldout          held_x0.6_at_4h b_trust_b          0.00         0.1117        1                 0.1117                False              5;6;4;0;0
+heldout          held_x0.6_at_4h b_trust_b          0.25                       0                    NaN                 True              3;4;0;0;0
+heldout          held_x0.6_at_4h b_trust_b          0.50                       0                    NaN                 True              2;0;0;0;0
+heldout          held_x0.6_at_4h b_trust_b          0.75                       0                    NaN                 True              0;0;0;0;0
+heldout          held_x0.6_at_4h b_trust_b          1.00                       0                    NaN                 True              0;0;0;0;0
+heldout          held_x0.6_at_4h c_average          0.00                       0                    NaN                 True              3;3;3;4;2
+heldout          held_x0.6_at_4h c_average          0.25                       0                    NaN                 True              2;2;2;2;1
+heldout          held_x0.6_at_4h c_average          0.50                       0                    NaN                 True              0;0;0;0;1
+heldout          held_x0.6_at_4h c_average          0.75                       0                    NaN                 True              0;0;0;0;0
+heldout          held_x0.6_at_4h c_average          1.00                       0                    NaN                 True              0;0;0;0;0
+heldout          held_x0.7_at_4h b_trust_b          0.00         0.1117        1                 0.1117                False              5;6;0;0;0
+heldout          held_x0.7_at_4h b_trust_b          0.25                       0                    NaN                 True              4;3;0;0;0
+heldout          held_x0.7_at_4h b_trust_b          0.50                       0                    NaN                 True              0;0;0;0;0
+heldout          held_x0.7_at_4h b_trust_b          0.75                       0                    NaN                 True              0;0;0;0;0
+heldout          held_x0.7_at_4h b_trust_b          1.00                       0                    NaN                 True              0;0;0;0;0
+heldout          held_x0.7_at_4h c_average          0.00                       0                    NaN                 True              3;3;4;4;3
+heldout          held_x0.7_at_4h c_average          0.25                       0                    NaN                 True              2;2;3;3;4
+heldout          held_x0.7_at_4h c_average          0.50                       0                    NaN                 True              1;2;2;2;2
+heldout          held_x0.7_at_4h c_average          0.75                       0                    NaN                 True              0;0;1;1;2
+heldout          held_x0.7_at_4h c_average          1.00                       0                    NaN                 True              0;0;0;0;0
+heldout          held_x0.8_at_4h b_trust_b          0.00                       0                    NaN                 True              3;2;2;2;2
+heldout          held_x0.8_at_4h b_trust_b          0.25                       0                    NaN                 True              2;2;2;2;2
+heldout          held_x0.8_at_4h b_trust_b          0.50                       0                    NaN                 True              2;2;2;2;2
+heldout          held_x0.8_at_4h b_trust_b          0.75                       0                    NaN                 True              2;2;2;2;2
+heldout          held_x0.8_at_4h b_trust_b          1.00                       0                    NaN                 True              2;2;2;2;2
+heldout          held_x0.8_at_4h c_average          0.00                       0                    NaN                 True              4;4;4;5;4
+heldout          held_x0.8_at_4h c_average          0.25                       0                    NaN                 True              3;3;4;4;2
+heldout          held_x0.8_at_4h c_average          0.50                       0                    NaN                 True              2;3;3;4;3
+heldout          held_x0.8_at_4h c_average          0.75                       0                    NaN                 True              2;2;2;3;3
+heldout          held_x0.8_at_4h c_average          1.00                       0                    NaN                 True              2;2;2;2;3
+{
+  "main": {
+    "runs": 8100,
+    "flag_rows": 81450,
+    "alert_rows": 537300,
+    "rule_a_cells_checked": 108,
+    "rule_a_alerts_equal_A_alone": true
+  },
+  "heldout": {
+    "runs": 1200,
+    "flag_rows": 25800,
+    "alert_rows": 162000,
+    "rule_a_cells_checked": 24,
+    "rule_a_alerts_equal_A_alone": true
+  }
+}

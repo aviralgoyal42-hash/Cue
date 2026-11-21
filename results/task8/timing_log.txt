@@ -1,0 +1,11 @@
+﻿{
+  "seconds_per_run": {
+    "mis": 1.7217061999981524,
+    "none": 0.5386682000025758
+  },
+  "workers": 12,
+  "projected_main_sweep_min_at_15": 11.722895925023295,
+  "projected_main_sweep_min_at_10": 7.81526395001553,
+  "limit_min": 60.0,
+  "sensor_reps_to_use": 15
+}

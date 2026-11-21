@@ -1,0 +1,19 @@
+{
+  "runs": {
+    "rows_task6": 36,
+    "rows_task5": 36,
+    "columns_compared": 34,
+    "differences": {},
+    "identical": true
+  },
+  "sessions": {
+    "rows_task6": 176,
+    "rows_task5": 176,
+    "columns_compared": 27,
+    "differences": {},
+    "identical": true
+  },
+  "passed": true,
+  "errors": 0,
+  "invariants_hold_in_all_runs": true
+}

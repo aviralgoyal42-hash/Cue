@@ -1,0 +1,61 @@
+paper_symbol,group,code_key,description,table_value,unit,cited_source,species,used_by_code,note
+alpha,bladder_args,alpha,Exponent of the stretch-passive tensile stress relationship of the detrusor,2,-,Bastiaanssen 1996,unconfirmed,yes,
+A_BN,bladder_args,A_BN,Cross-sectional area of the entrance of the bladder neck,7.07e-4,m2,Bastiaanssen 1996,unconfirmed,yes,
+A_C,bladder_args,A_C,Cross-sectional area of the distal urethra,8.0e-5,m2,Bastiaanssen 1996,unconfirmed,yes,
+A_muscleS,bladder_args,A_muscleS,Nominal cross-sectional area of muscle layer in urethra,8.0e-6,m2,Bastiaanssen 1996,unconfirmed,yes,
+A_nomS (printed),bladder_args,A_nomD,Nominal cross-sectional area of the detrusor,2.78e-4,m2,Bastiaanssen 1996,unconfirmed,yes,Table prints A_nomS but describes the detrusor; code name is A_nomD
+A_tissueS,bladder_args,A_tissueS,Cross-sectional area of the tissue layer in the urethra wall,4.0e-5,m2,Bastiaanssen 1996,unconfirmed,yes,
+c_s,bladder_args,C_l,Constant for stretch component of passive tensile stress,5.0e3,see paper,Bastiaanssen 1996,unconfirmed,yes,Named C_l in code
+c_u,bladder_args,C_u,Constant for contraction velocity component of passive tensile stress,2.0e2,see paper,Bastiaanssen 1996,unconfirmed,yes,
+c_Qin,bladder_args,C_Qin,Constant kidney inflow rate,5e-8,m3/s,Bastiaanssen 1996,unconfirmed,yes,Used by upstream as the noise scale as well as the start value
+c_r,bladder_args,C_p,Constant for tissue contribution in bladder neck,1.5,-,Bastiaanssen 1996,unconfirmed,inactive,Named C_p in code; only used if tissue_pressed_in_BN is True (default False)
+Delta r,bladder_args,dr,Constant difference between urethra and opening radius,1.0e-4,m,Bastiaanssen 1996,unconfirmed,yes,
+h_D,bladder_args,h_D,Nominal thickness of the detrusor,8.19e-4,m,Bastiaanssen 1996,unconfirmed,no,Defined in code but never used
+h_nomS,bladder_args,h_nomS,Nominal thickness of the sphincter,2.65e-4,m,Bastiaanssen 1996,unconfirmed,yes,
+k,bladder_args,k,Constant in force-velocity relationship for sphincter,0.3,-,Bastiaanssen 1996,unconfirmed,yes,Code also applies it to the detrusor force-velocity curve
+l_optD,bladder_args,l_optD,Optimal length of contractile units in detrusor,4.68e-6,m,Bastiaanssen 1996,unconfirmed,yes,
+l_optS,bladder_args,l_optS,Optimal length of contractile units in sphincter,2.23e-6,m,Bastiaanssen 1996,unconfirmed,yes,
+p_0S,bladder_args,p_0S,Pressure in closed sphincter due to passive elements,100,Pa,Bastiaanssen 1996,unconfirmed,yes,
+p_nomS,bladder_args,p_nomS,Nominal pressure of sphincter due to passive elements,6.0e3,Pa,Bastiaanssen 1996,unconfirmed,yes,
+p_theta,bladder_args,p_theta,Threshold pressure for inflow obstruction,3.0e3,Pa,Bastiaanssen 1996,unconfirmed,no,Defined in code but never used
+rho,bladder_args,rho,Specific density of urine,1.0e3,kg/m3,Bastiaanssen 1996,not species-specific,yes,
+r_BN,bladder_args,r_BN,Radius of the entrance of the bladder neck,1.5e-2,m,Bastiaanssen 1996,unconfirmed,yes,
+r_optD,bladder_args,r_optD,Optimal radius of curvature of the detrusor,5.4e-2,m,Bastiaanssen 1996,unconfirmed,yes,
+r_optS,bladder_args,r_optS,Optimal radius of curvature of the sphincter,4.8e-3,m,Bastiaanssen 1996,unconfirmed,yes,
+r_0D,bladder_args,r_0D,Detrusor radius of curvature where passive forces are zero,2.7e-2,m,Bastiaanssen 1996,unconfirmed,yes,
+r_0S,bladder_args,r_0S,Sphincter radius where passive pressure is nominal,4.8e-3,m,Bastiaanssen 1996,unconfirmed,yes,
+R_1,bladder_args,R_1,Resistance term of the proximal urethra,3.0e8,N(m3/s)^-2,Bastiaanssen 1996,unconfirmed,yes,
+R_2,bladder_args,R_2,Resistance term of the distal urethra,2.4e8,N(m3/s)^-2,Bastiaanssen 1996,unconfirmed,yes,
+sigma_isoD,bladder_args,sigma_isoD,Maximal isometric tensile stress of the detrusor,4.0e5,Pa,Bastiaanssen 1996,unconfirmed,yes,
+sigma_isoS,bladder_args,sigma_isoS,Maximal isometric tensile stress of the sphincter,2.0e5,Pa,Bastiaanssen 1996,unconfirmed,yes,
+tau_D,bladder_args,tau_D,Time constant of detrusor activation,1.0,s,Bastiaanssen 1996,unconfirmed,yes,
+tau_S,bladder_args,tau_S,Time constant of sphincter activation,0.2,s,Bastiaanssen 1996,unconfirmed,yes,
+u_maxD,bladder_args,u_maxD,Maximal specific contraction velocity of detrusor,0.2,1/s,Bastiaanssen 1996,unconfirmed,yes,
+u_maxS,bladder_args,u_maxS,Maximal specific contraction velocity of sphincter,1.0,1/s,Bastiaanssen 1996,unconfirmed,yes,
+V_muscleD,bladder_args,V_muscleD,Amount of muscular tissue in the bladder wall,3.0e-5,m3,Bastiaanssen 1996,unconfirmed,yes,
+V_tissueD,bladder_args,V_tissueD,Amount of vesical tissue in the bladder wall,2.0e-5,m3,Bastiaanssen 1996,unconfirmed,yes,
+V_B_max,bladder_args,max_V_B,Maximum bladder volume,5.0e-4,m3,New (Lister 2025),no primary source,yes,
+voiding threshold,bladder_args,voiding_threshold,Bladder volume at which voiding is initiated (if using volume as threshold),5.0e-4,m3,New (Lister 2025),no primary source,yes,
+pressure threshold,bladder_args,pressure_threshold,Pressure at which voiding is initiated (if using pressure as threshold),5.367e3,Pa,New (Lister 2025),no primary source,yes,Table rounds the code value 5.3669e3
+r_U_max,bladder_args,r_U_max,Maximum urethral radius,5.0e-3,m,New (Lister 2025),no primary source,yes,
+kidney_a,kidney_args,kidney_a,Amplitude of sinusoidal urine inflow,0.00625,mL/s,New (Lister 2025),no primary source,yes,
+kidney_b,kidney_args,kidney_b,Angular frequency for 24-hour cycle,0.2617993878,rad/hr,New (Lister 2025),no primary source,yes,Table gives 2 pi / 24
+kidney_c,kidney_args,kidney_c,Mean (offset) of urine inflow,0.017,mL/s,New (Lister 2025),no primary source,yes,
+kidney_o,kidney_args,kidney_o,Phase shift of circadian cycle,0.000581776417,rad (as printed),New (Lister 2025),no primary source,yes,Table gives pi / 5400; code stores 2400 pi; they agree only after dividing the code value by 3600 squared; the actual phase in the sine is 2 pi / 3 rad
+n,noise,noise,Noise factor for kidney function,1.0,-,New (Lister 2025),no primary source,yes,Default of process_neural_input
+parasympathetic_a,neural_args,parasympathetic_a,Amplitude of Gaussian,0.8,-,New (Lister 2025),no primary source,yes,
+parasympathetic_b,neural_args,parasympathetic_b,Centre of Gaussian,1.0,-,New (Lister 2025),no primary source,yes,
+parasympathetic_c,neural_args,parasympathetic_c,Std. dev. of Gaussian,0.1,-,New (Lister 2025),no primary source,yes,
+parasympathetic_d,neural_args,parasympathetic_d,Vertical offset,0.04,-,New (Lister 2025),no primary source,yes,
+parasympathetic_w_voiding,neural_args,parasympathetic_w_voiding,Fixed activation during voiding,0.6,-,New (Lister 2025),no primary source,yes,
+parasympathetic_fullness_comp,neural_args,parasympathetic_fullness_comp,Linear multiplier for fullness,0.15,-,New (Lister 2025),no primary source,yes,
+sympathetic_a,neural_args,sympathetic_a,Amplitude of Gaussian,0.6,-,New (Lister 2025),no primary source,yes,
+sympathetic_b,neural_args,sympathetic_b,Centre of Gaussian,0.8,-,New (Lister 2025),no primary source,yes,
+sympathetic_c,neural_args,sympathetic_c,Std. dev. of Gaussian,0.08,-,New (Lister 2025),no primary source,yes,
+sympathetic_d,neural_args,sympathetic_d,Vertical offset,0.1,-,New (Lister 2025),no primary source,yes,
+sympathetic_w_voiding,neural_args,sympathetic_w_voiding,Fixed activation during voiding,0,-,New (Lister 2025),no primary source,yes,
+somatic_a,neural_args,somatic_a,Amplitude of Gaussian,0.5,-,New (Lister 2025),no primary source,yes,
+somatic_b,neural_args,somatic_b,Centre of Gaussian,1.0,-,New (Lister 2025),no primary source,yes,
+somatic_c,neural_args,somatic_c,Std. dev. of Gaussian,0.1,-,New (Lister 2025),no primary source,yes,
+somatic_d,neural_args,somatic_d,Vertical offset,0,-,New (Lister 2025),no primary source,yes,
+somatic_w_voiding,neural_args,somatic_w_voiding,Fixed activation during voiding,0.1,-,New (Lister 2025),no primary source,yes,

@@ -1,0 +1,22 @@
+{
+  "runs": {
+    "rows_task5": 24,
+    "rows_task4": 24,
+    "columns_compared": 36,
+    "columns_only_in_task4": [],
+    "differences": {},
+    "identical": true
+  },
+  "sessions": {
+    "rows_task5": 152,
+    "rows_task4": 152,
+    "columns_compared": 26,
+    "columns_only_in_task4": [],
+    "differences": {},
+    "identical": true
+  },
+  "level_0.5_sessions": 128,
+  "level_0.5_sessions_voiding_10pct_or_more": 0,
+  "errors": 0,
+  "passed": true
+}

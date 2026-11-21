@@ -1,0 +1,27 @@
+{
+  "T1_vs_exp4_runs": {
+    "rows_old": 12,
+    "rows_new": 12,
+    "columns_compared": 30,
+    "identical": true
+  },
+  "T2_vs_exp3_runs": {
+    "rows_old": 6,
+    "rows_new": 6,
+    "columns_compared": 30,
+    "identical": true
+  },
+  "T1_vs_exp4_sessions": {
+    "rows_old": 144,
+    "rows_new": 144,
+    "columns_compared": 21,
+    "identical": true
+  },
+  "T2_vs_exp3_sessions": {
+    "rows_old": 64,
+    "rows_new": 64,
+    "columns_compared": 21,
+    "identical": true
+  },
+  "reproduces": true
+}

@@ -1,0 +1,13 @@
+stim_name,pressure_ceiling_cmH2O,sphincter_scaling,P1_sessions_voided_ge_50pct_3seeds,P2_runs_without_overflow_after_alert_3seeds,P3_sessions_within_ceiling_plus5_3seeds,full_loop_works_3seeds,P1_sessions_voided_ge_50pct_15seeds,P2_runs_without_overflow_after_alert_15seeds,P3_sessions_within_ceiling_plus5_15seeds,full_loop_works_15seeds
+e0.6_s0.0_5on5off,40.0,0.9,1.0,1.0,1.0,True,1.0,1.0,0.9666666666666668,True
+e0.6_s0.0_5on5off,40.0,1.0,1.0,1.0,0.5,False,1.0,1.0,0.7666666666666666,False
+e0.6_s0.0_5on5off,55.0,0.9,1.0,1.0,1.0,True,1.0,1.0,1.0,True
+e0.6_s0.0_5on5off,55.0,1.0,1.0,1.0,1.0,True,1.0,1.0,1.0,True
+e0.6_s0.0_5on5off,70.0,0.9,1.0,1.0,1.0,True,1.0,1.0,1.0,True
+e0.6_s0.0_5on5off,70.0,1.0,1.0,1.0,1.0,True,1.0,1.0,1.0,True
+e1.0_s0.0_5on5off,40.0,0.9,0.0,1.0,1.0,False,0.0,1.0,1.0,False
+e1.0_s0.0_5on5off,40.0,1.0,0.0,1.0,1.0,False,0.0,1.0,1.0,False
+e1.0_s0.0_5on5off,55.0,0.9,1.0,1.0,1.0,True,1.0,1.0,1.0,True
+e1.0_s0.0_5on5off,55.0,1.0,1.0,1.0,1.0,True,1.0,1.0,1.0,True
+e1.0_s0.0_5on5off,70.0,0.9,1.0,1.0,1.0,True,1.0,1.0,1.0,True
+e1.0_s0.0_5on5off,70.0,1.0,1.0,1.0,1.0,True,1.0,1.0,1.0,True

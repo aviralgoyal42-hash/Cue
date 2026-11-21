@@ -1,0 +1,31 @@
+section,name,value,unit,status,source
+SCI,CEILING_SWEEP_ML,"[500.0, 750.0, 1000.0, 1500.0]",mL,ASSUMED,Values chosen to show how results depend on the unsourced ceiling.
+SENSOR,SENSOR_SCENARIOS,"['ideal', 'anchor_11pct', 'mre_20pct', 'mre_30pct', 'mre_40pct', 'gain_minus20', 'gain_plus20', 'drift_minus2ph', 'drift_plus2ph', 'delay_5min', 'delay_15min', 'missing_20pct', 'missing_50pct', 'misaligned_at_4h', 'combined_bad']",-,ASSUMED,Sweep of error types and sizes; posture changes are represented by the misalignment scenario (Toymus 2024 tested supine only).
+SIMULATION,dt_s,0.1,s,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062), paper_figures notebooks. Must stay < 0.4 s: forward Euler on the sphincter equation (tau_S = 0.2 s) diverges above that (Stage 2 finding)."
+SIMULATION,duration_s,86400,s,ASSUMED,One simulated day: long enough for several filling cycles.
+SIMULATION,seed,42,-,SOURCED,"Seed used in lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) notebooks (an arbitrary but fixed choice)."
+SIMULATION,inflow_noise,1.0,-,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) default. Note: raises mean inflow from 0.017 to ~0.023 mL/s (Stage 2)."
+SIMULATION,initial_volume_ml,0.0,mL,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) starts from an empty bladder."
+SCI,enabled,True,-,ASSUMED,Experiments 1-4 all use the simplified SCI condition.
+SCI,injury_level,suprasacral,-,ASSUMED,"ONE simplified condition: injury above the sacral cord, sacral reflex arc intact. The true injury level is unconfirmed. Other levels are not implemented."
+SCI,voluntary_voiding,False,-,ASSUMED,Sensation to the brain and the decision to void are lost (upstream is_voiding() trigger switched off).
+SCI,coordinated_voiding_program,False,-,ASSUMED,"The descending coordinated void (detrusor on, sphincter relaxed) is lost."
+SCI,storage_drive_profile,upstream,-,ASSUMED,"The upstream storage-phase drives (volume-dependent Gaussians) stand in for the intact spinal reflexes below the injury. The paper calls them signals 'from the brain', so this reinterpretation is ours."
+SCI,fullness_reference_ml,500.0,mL,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) max_V_B. Used ONLY to scale fullness inside the neural drives, so they behave exactly as upstream up to 500 mL. Above 500 mL they are extrapolated."
+SCI,drive_above_reference,extrapolate,-,ASSUMED,"How the neural drives behave above 500 mL, where upstream never goes. 'extrapolate' (default) = upstream formulas unchanged, i.e. least modification; 'hold' = drive frozen at its 500 mL value. Neither is sourced; both are reported."
+SCI,volume_ceiling_ml,1000.0,mL,ASSUMED,"Placeholder. Upstream hard-clips volume at 500 mL; no sourced SCI value was found. Inflow arriving at the ceiling is discarded by the model, so results are reported as a sweep over several ceilings and the discarded volume is measured."
+SENSOR,sample_interval_s,60.0,s,ASSUMED,"One reading per minute. Toymus 2024 pulses every 2.5 s but recorded in-vivo volumes every 30 min, so no sourced alert-system rate exists."
+SENSOR,best_case_mean_relative_error,0.1117,-,SOURCED,"Toymus et al. 2024, Nat Commun 15:7216 (doi:10.1038/s41467-024-50397-8): wearable A-mode patch, 5 healthy volunteers, supine only, reference = B-mode ultrasound (not catheter), in-vivo mean relative error 11.17% (definition not stated). Used ONLY as a labelled best-case anchor: healthy, supine, BMI 18-23.7; not an SCI accuracy."
+SENSOR,noise_model,gaussian_multiplicative,-,ASSUMED,"reading = truth x (1 + e), e ~ Normal(0, s), with s chosen so that mean |e| equals the target mean relative error (s = MRE x sqrt(pi/2)). The real error distribution is unknown."
+DEVICE,median_window,5,readings,ASSUMED,Estimate = median of the last 5 valid readings (robust to spikes).
+DEVICE,confirm_n,3,readings,ASSUMED,Alert only after 3 consecutive valid estimates at/above threshold.
+DEVICE,rearm_hysteresis_ml,50.0,mL,ASSUMED,Alert re-arms when the estimate falls 50 mL below threshold.
+DEVICE,stale_timeout_s,600.0,s,ASSUMED,No valid reading for 10 min -> device raises 'sensor stale'.
+EXPERIMENT2,alert_thresholds_ml,"[250.0, 300.0, 350.0, 400.0, 450.0, 500.0]",mL,ASSUMED,"Swept, never tuned: the trade-off is the result."
+EXPERIMENT2,duration_s,43200,s,ASSUMED,12 h covers the first fill past 500 mL and the leak onset (~7 h).
+EXPERIMENT2,sphincter_scalings,"[1.0, 0.9]",x somatic_a,ASSUMED,Default and 10% weaker: the two Stage 3 baseline behaviours (no leak / leak).
+EXPERIMENT2,physiology_seeds,"[42, 1, 2]",-,ASSUMED,Inflow-noise seeds (filling-time spread).
+EXPERIMENT2,sensor_seeds_per_case,20,-,ASSUMED,Repeats of each sensor scenario with new sensor noise.
+EXPERIMENT2,reference_volume_ml,500.0,mL,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) max_V_B; see EXPERIMENT2_SUCCESS_CRITERIA.md."
+EXPERIMENT2,false_alert_fraction,0.6,x V_ref,ASSUMED,Alert below 300 mL true volume counts as false.
+EXPERIMENT2,relative_error_floor_ml,50.0,mL,ASSUMED,Relative error only computed where true volume >= 50 mL.

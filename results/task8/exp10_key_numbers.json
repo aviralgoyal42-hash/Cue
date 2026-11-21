@@ -1,0 +1,16 @@
+{
+  "main": {
+    "runs": 8100,
+    "flag_rows": 81450,
+    "alert_rows": 537300,
+    "rule_a_cells_checked": 108,
+    "rule_a_alerts_equal_A_alone": true
+  },
+  "heldout": {
+    "runs": 1200,
+    "flag_rows": 25800,
+    "alert_rows": 162000,
+    "rule_a_cells_checked": 24,
+    "rule_a_alerts_equal_A_alone": true
+  }
+}

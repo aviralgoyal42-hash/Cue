@@ -1,0 +1,14 @@
+name,group,detrusor_drive,sphincter_drive,on_s,off_s,sphincter_block,block_scope,block_fails_at_s
+e0.6_s0.5_5on5off_block0.8_burst,A-check,0.6,0.5,5.0,5.0,0.8,burst,
+e0.6_s0.5_5on5off_block1.0_burst,A-check,0.6,0.5,5.0,5.0,1.0,burst,
+e0.6_s0.5_5on5off_block1.0_burst_fail0s,A-check,0.6,0.5,5.0,5.0,1.0,burst,0.0
+e0.6_s0.5_5on5off_block1.0_burst_fail20s,A-fault,0.6,0.5,5.0,5.0,1.0,burst,20.0
+e0.6_s0.5_5on5off_block0.8_session,A-session,0.6,0.5,5.0,5.0,0.8,session,
+e0.6_s0.5_5on5off_block1.0_session,A-session,0.6,0.5,5.0,5.0,1.0,session,
+e1.0_s0.5_5on5off_block0.8_burst,A-check,1.0,0.5,5.0,5.0,0.8,burst,
+e1.0_s0.5_5on5off_block1.0_burst,A-check,1.0,0.5,5.0,5.0,1.0,burst,
+e1.0_s0.5_5on5off_block1.0_burst_fail0s,A-check,1.0,0.5,5.0,5.0,1.0,burst,0.0
+e1.0_s0.5_5on5off_block1.0_burst_fail20s,A-fault,1.0,0.5,5.0,5.0,1.0,burst,20.0
+e1.0_s0.5_5on5off_block0.8_session,A-session,1.0,0.5,5.0,5.0,0.8,session,
+e1.0_s0.5_5on5off_block1.0_session,A-session,1.0,0.5,5.0,5.0,1.0,session,
+e0.6_s0.0_5on5off,B-probe,0.6,0.0,5.0,5.0,,,

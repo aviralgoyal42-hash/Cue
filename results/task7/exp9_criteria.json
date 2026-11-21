@@ -1,0 +1,106 @@
+{
+  "F1_runs_compared": 6300,
+  "F1_differences": {},
+  "F1_pass": true,
+  "M1_on_time_rate_by_scaling": {
+    "1.0": 0.9933333333333333,
+    "0.9": 1.0
+  },
+  "M1_pass": true,
+  "M2_cells": 28,
+  "M2_highest_flag_rate": 0.04,
+  "M2_pass": true,
+  "R1_ratio_median_new": {
+    "1.0": 0.7000817558037891,
+    "0.9": 0.7058327602014705
+  },
+  "R1_ratio_median_old": {
+    "1.0": 0.8157829167738208,
+    "0.9": 0.8238526310457899
+  },
+  "R1_band": [
+    0.65,
+    0.75
+  ],
+  "M4_cells_checked": 84,
+  "M4_cells_pass_to_fail": [],
+  "M3_target_cells_working": {
+    "monitor_off": 0,
+    "old_correction": 2,
+    "new_correction": 4
+  },
+  "M3_cells_rescued_new": [
+    "x0.9 350 mL",
+    "x0.9 400 mL",
+    "x1.0 350 mL",
+    "x1.0 400 mL"
+  ],
+  "M3_cells_still_failing_new": [
+    "x0.9 450 mL",
+    "x1.0 450 mL"
+  ],
+  "M3_cells_old_rescued_but_new_lost": [],
+  "R1_pass": true,
+  "M4_pass": true,
+  "improvement": true,
+  "HELD_OUT": {
+    "mis_x0.5_at_4h": {
+      "band": [
+        0.45,
+        0.55
+      ],
+      "ratio_median_new": {
+        "1.0": 0.495809657508129,
+        "0.9": 0.49930917429260746
+      },
+      "ratio_median_old": {
+        "1.0": 0.5763735122691005,
+        "0.9": 0.578184240963163
+      },
+      "pass": true,
+      "corrected_rate_new": {
+        "1.0": 1.0,
+        "0.9": 1.0
+      },
+      "over_corrected_rate_new": {
+        "1.0": 0.02,
+        "0.9": 0.13333333333333333
+      },
+      "cells_working": {
+        "monitor_off": 0,
+        "old_correction": 2,
+        "new_correction": 4
+      }
+    },
+    "mis_x0.85_at_4h": {
+      "band": [
+        0.8,
+        0.9
+      ],
+      "ratio_median_new": {
+        "1.0": 0.8459028696197699,
+        "0.9": 0.8701625886983589
+      },
+      "ratio_median_old": {
+        "1.0": 0.9764910419345436,
+        "0.9": 0.9547290358068008
+      },
+      "pass": true,
+      "corrected_rate_new": {
+        "1.0": 0.41333333333333333,
+        "0.9": 0.8066666666666666
+      },
+      "over_corrected_rate_new": {
+        "1.0": 0.24193548387096775,
+        "0.9": 0.11570247933884298
+      },
+      "cells_working": {
+        "monitor_off": 2,
+        "old_correction": 3,
+        "new_correction": 3
+      }
+    }
+  },
+  "H1_pass": true,
+  "H2_pass": true
+}

@@ -1,0 +1,78 @@
+﻿{
+ "old_3_seeds": {
+  "set": "old",
+  "exp3_runs": 312,
+  "exp4_runs": 324,
+  "exp3_sessions": 2214,
+  "exp4_sessions": 1889,
+  "exp3_errors": 0,
+  "exp4_errors": 0,
+  "settings": 104,
+  "settings_work": 38,
+  "settings_work_with_co_activation": 0,
+  "P1_pass": 40,
+  "P2_pass": 76,
+  "P3_pass": 86,
+  "exp3_invariants_hold": true,
+  "exp4_invariants_hold": true,
+  "worst_case_all_max_duration": true,
+  "volume_stop_60s": 0,
+  "sessions_60s": 1236,
+  "volume_stop_5s": 87,
+  "sessions_5s": 978,
+  "peak_exp3": 58.46686407743489,
+  "peak_exp3_working": 53.833309050751915,
+  "peak_exp4": 64.21262537752646,
+  "peak_stuck_high_ok_channel": 58.64627014177776,
+  "max_exceed_of_ceiling_exp4": 9.212625377526464,
+  "stuck_high_sessions_per_run_max": 12.0,
+  "reference_P1_max": 0.0,
+  "median_residual_working_min": 1.3260782777990698,
+  "median_residual_working_max": 97.47973851294122,
+  "no_co_activation_sessions": 416
+ },
+ "new_15_seeds": {
+  "set": "new",
+  "exp3_runs": 1560,
+  "exp4_runs": 1620,
+  "exp3_sessions": 11105,
+  "exp4_sessions": 9379,
+  "exp3_errors": 0,
+  "exp4_errors": 0,
+  "settings": 104,
+  "settings_work": 38,
+  "settings_work_with_co_activation": 0,
+  "P1_pass": 40,
+  "P2_pass": 76,
+  "P3_pass": 86,
+  "exp3_invariants_hold": true,
+  "exp4_invariants_hold": true,
+  "worst_case_all_max_duration": true,
+  "volume_stop_60s": 0,
+  "sessions_60s": 6193,
+  "volume_stop_5s": 440,
+  "sessions_5s": 4912,
+  "peak_exp3": 60.17682787139657,
+  "peak_exp3_working": 53.8333127828394,
+  "peak_exp4": 67.16590469309381,
+  "peak_stuck_high_ok_channel": 59.44032860614982,
+  "max_exceed_of_ceiling_exp4": 12.165904693093808,
+  "stuck_high_sessions_per_run_max": 12.0,
+  "reference_P1_max": 0.0,
+  "median_residual_working_min": 1.8387090427654567,
+  "median_residual_working_max": 98.75530758056522,
+  "no_co_activation_sessions": 2105
+ },
+ "verdicts_changed": 0,
+ "exp4_cells_crossing_a_line": 6
+}
+Empty DataFrame
+Columns: [group, stim_name, pressure_ceiling_cmH2O, ultrasound_interval_during_stim_s, threshold_ml, max_duration_s, sphincter_scaling, P1_sessions_voided_ge_50pct_old, P1_sessions_voided_ge_50pct_new, P2_runs_without_overflow_after_alert_old, P2_runs_without_overflow_after_alert_new, P3_sessions_within_ceiling_plus5_old, P3_sessions_within_ceiling_plus5_new, changed]
+Index: []
+        reference                   group  sphincter_scaling  P1_sessions_voided_ge_50pct_old  P1_sessions_voided_ge_50pct_new  overflow_despite_alert_rate_old  overflow_despite_alert_rate_new  P3_sessions_within_ceiling_plus5_old  P3_sessions_within_ceiling_plus5_new  max_true_p_D_during_stim_cmH2O_old  max_true_p_D_during_stim_cmH2O_new crossed_line_descriptive
+e1.0_s0.0_5on5off     sensor:combined_bad                0.9                            0.714                            0.933                            0.667                            0.400                                   1.0                                   1.0                              54.962                              54.962                       P1
+e1.0_s0.0_5on5off     sensor:combined_bad                1.0                            0.750                            0.879                            0.000                            0.000                                   1.0                                   1.0                              56.544                              56.586                       P1
+e1.0_s0.0_5on5off   sensor:drift_minus2ph                0.9                            1.000                            0.952                            0.000                            0.467                                   1.0                                   1.0                              53.552                              54.680              no overflow
+e1.0_s0.0_5on5off     sensor:gain_minus20                0.9                            0.833                            0.633                            0.667                            0.867                                   1.0                                   1.0                              54.488                              55.147                       P1
+e1.0_s0.0_5on5off sensor:misaligned_at_4h                1.0                            0.750                            0.833                            0.000                            0.000                                   1.0                                   1.0                              55.531                              56.633                       P1
+e1.0_s0.0_5on5off            user:delayed                0.9                            0.750                            0.957                            0.333                            0.733                                   1.0                                   1.0                              54.256                              54.914                       P1

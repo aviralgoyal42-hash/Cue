@@ -1,0 +1,1476 @@
+check,quoted,recomputed,allowed,ok
+S2 max diff vs notebook,4.9e-07,4.871027350361601e-07,5e-09,True
+S2 5-day intervoid h,6.04,6.037925925925926,0.005,True
+S2 5-day capacity mL,489.56,489.5625739596421,0.005,True
+S2 peak flow,21.11,21.112,0.01,True
+S2 closure pressure,59.08,59.083,0.01,True
+S3 peak p_D default,56.57,56.56792612668247,0.01,True
+S3 final p_D default,12.24,12.242783309486486,0.01,True
+S3 discarded default,957.08,957.0756906504394,0.01,True
+S3 discarded ceiling 500,1457.08,1457.0756906477795,0.01,True
+S3 discarded ceiling 1500,457.08,457.0756906554096,0.01,True
+S3 hold final p_D 1000,32.96,32.962052134436206,0.01,True
+S3 weak leak x0.9,1470.61,1470.611156622181,0.01,True
+S3 urine produced,1957.08,1957.0756906467975,0.01,True
+4b passes default 400,10.0,10.0,0.0,True
+4b passes x0.9 400,10.0,10.0,0.0,True
+4b combos passing,69.0,69.0,0.0,True
+4b flips,7.0,7.0,0.0,True
+4b anchor lead 400,83.9,83.85833333333333,0.05,True
+4b anchor band 400,0.987,0.9866666666666668,0.0005,True
+S5 60 s complete,15.0,15.0,0.0,True
+S5 60 s none,59.0,59.0,0.0,True
+S5 peak p_D 60 s,53.8,53.833207517462185,0.05,True
+S5 peak p_D all,57.9,57.92414378640507,0.05,True
+S5 voided fraction max at s>=0.5,0.0,-0.0074317568183033,0.1,True
+S5 flow in OFF max,0.14,0.1433333333333333,0.005,True
+E3 settings,104.0,104.0,0.0,True
+E3 works,38.0,38.0,0.0,True
+E3 works with co-activation,0.0,0.0,0.0,True
+E3 sessions at 60 s,1236.0,1236.0,0.0,True
+E3 sessions at 5 s,978.0,978.0,0.0,True
+E3 volume stops at 60 s,0.0,0.0,0.0,True
+E3 volume stops at 5 s,87.0,87.0,0.0,True
+E3 max p working,53.8,53.83330905075192,0.05,True
+E3 max p all,58.5,58.46686407743489,0.05,True
+E3 residual max working,97.0,97.47973851294122,0.6,True
+E4 worst pressure,64.2,64.21262537752646,0.05,True
+E4 stuck high sessions,12.0,12.0,0.01,True
+E4 combo all max duration,1.0,1.0,0.0,True
+E4 noisy P1,0.15,0.1538461538461538,0.005,True
+E4 noisy sessions,4.33,4.333333333333333,0.01,True
+E4 no-press leak x0.9,412.48,412.48334892632215,0.01,True
+E4 misaligned maxV default,565.0,565.1753923484081,0.5,True
+E4 misaligned leak x0.9,274.0,273.94139084479554,0.5,True
+E4 delayed peak,56.7,56.72333036220507,0.05,True
+E4 invariants hold,1.0,1.0,0.0,True
+E5 misaligned passes,0.0,0.0,0.0,True
+"E5 churn window 1, 30% error",30.64,30.63555555555556,0.005,True
+E6 M1 d=0.25,0.687,0.6866666666666666,0.0005,True
+E3b reproduces Exp 3,1.0,1.0,0.0,True
+E3b shared runs,36.0,36.0,0.0,True
+E3b shared sessions,104.0,104.0,0.0,True
+E3b run columns compared,31.0,31.0,0.0,True
+E3b session columns compared,22.0,22.0,0.0,True
+E3b verdict changes 3 to 15 seeds,0.0,0.0,0.0,True
+E3b settings_work,75.0,75.0,0.0,True
+E3b sessions,5123.0,5123.0,0.0,True
+E3b error_rows,0.0,0.0,0.0,True
+E3b volume_stops,0.0,0.0,0.0,True
+E3b stops_at_55,376.0,376.0,0.0,True
+E3b stops_at_55_true_p_below_ceiling,376.0,376.0,0.0,True
+E3b sessions_at_70,1109.0,1109.0,0.0,True
+E3b stops_at_70,0.0,0.0,0.0,True
+E3b sessions_over_ceiling_plus5,255.0,255.0,0.0,True
+E3b over_and_under_1s,202.0,202.0,0.0,True
+E3b over_and_1s_or_longer,53.0,53.0,0.0,True
+E3b over_and_ended_by_max_duration,22.0,22.0,0.0,True
+E3b works_residual_le_10ml,42.0,42.0,0.0,True
+E3b works_residual_gt_50ml,27.0,27.0,0.0,True
+E3b leak_settings,6.0,6.0,0.0,True
+E3b leak_runs,30.0,30.0,0.0,True
+E3b leak_before_alert_runs,0.0,0.0,0.0,True
+E3b trap_x1_runs_over_500ml,29.0,29.0,0.0,True
+E3b trap_x1_runs,90.0,90.0,0.0,True
+E3b trap_x1_leaked_ml,0.0,0.0,0.0,True
+E3b peak_p_all,56.6,56.59248238048773,0.05,True
+E3b peak_p_working,53.7,53.74161175660914,0.05,True
+E3b under_1s_median_volume_ml,487.0,487.02030249058214,0.5,True
+E3b works_max_residual_ml,156.0,156.4011121880875,0.5,True
+E3b leak_max_ml,429.5,429.4890295008638,0.05,True
+E3b leak_settings_max_volume_ml,491.0,491.3384556585731,0.5,True
+E3b trap_x1_max_volume_ml,661.0,661.4567179168293,0.5,True
+E3b highest_volume_other_settings_ml,478.0,477.61892992772266,0.5,True
+E3b p2_lower_bound_15_of_15,0.82,0.8189637274779153,0.005,True
+E3b works pressure_ceiling_cmH2O 40.0,7.0,7.0,0.0,True
+E3b works pressure_ceiling_cmH2O 55.0,34.0,34.0,0.0,True
+E3b works pressure_ceiling_cmH2O 70.0,34.0,34.0,0.0,True
+E3b works max_duration_s 30.0,23.0,23.0,0.0,True
+E3b works max_duration_s 60.0,26.0,26.0,0.0,True
+E3b works max_duration_s 120.0,26.0,26.0,0.0,True
+E3b works threshold_ml 350.0,27.0,27.0,0.0,True
+E3b works threshold_ml 400.0,28.0,28.0,0.0,True
+E3b works threshold_ml 450.0,20.0,20.0,0.0,True
+E3b works sphincter_scaling 0.9,40.0,40.0,0.0,True
+E3b works sphincter_scaling 1.0,35.0,35.0,0.0,True
+E3b works stim_name e0.6_s0.0_5on5off,39.0,39.0,0.0,True
+E3b works stim_name e1.0_s0.0_5on5off,36.0,36.0,0.0,True
+E3b pair stim_name e0.6_s0.0_5on5off ceiling 40.0,7.0,7.0,0.0,True
+E3b pair stim_name e0.6_s0.0_5on5off ceiling 55.0,16.0,16.0,0.0,True
+E3b pair stim_name e1.0_s0.0_5on5off ceiling 40.0,0.0,0.0,0.0,True
+E3b pair stim_name e1.0_s0.0_5on5off ceiling 70.0,18.0,18.0,0.0,True
+E3b pair threshold_ml 350.0 ceiling 40.0,3.0,3.0,0.0,True
+E3b pair threshold_ml 400.0 ceiling 40.0,4.0,4.0,0.0,True
+E3b pair threshold_ml 450.0 ceiling 40.0,0.0,0.0,0.0,True
+E3b pair threshold_ml 450.0 ceiling 55.0,10.0,10.0,0.0,True
+E3b median residual 30.0,129.7,129.6859993706897,0.05,True
+E3b median residual 60.0,3.9,3.857183371869824,0.05,True
+E3b median residual 120.0,3.5,3.5282373883150666,0.05,True
+E7 runs,1710.0,1710.0,0.0,True
+E7 sessions,3767.0,3767.0,0.0,True
+E7 rule-on runs,1620.0,1620.0,0.0,True
+E7 settings passing,1.0,1.0,0.0,True
+E7 passing setting is cap 4 drop 0.40,1.0,1.0,0.0,True
+E7 I1 failing cells,0.0,0.0,0.0,True
+E7 I2 failing cells,0.0,0.0,0.0,True
+E7 I3 failing cells,0.0,0.0,0.0,True
+E7 I4 failing cells,0.0,0.0,0.0,True
+E7 consistency,1.0,1.0,0.0,True
+E7 consistency exp4 sessions,144.0,144.0,0.0,True
+E7 consistency exp3 sessions,64.0,64.0,0.0,True
+E7 T3 runs with no alert,1042.0,1042.0,0.0,True
+E7 latched runs,578.0,578.0,0.0,True
+E7 fault alerts,540.0,540.0,0.0,True
+E7 fault alerts in fault groups,540.0,540.0,0.0,True
+E7 session-limit alerts,38.0,38.0,0.0,True
+E7 session-limit alerts in T3,38.0,38.0,0.0,True
+E7 timeouts,0.0,0.0,0.0,True
+E7 presses while latched,0.0,0.0,0.0,True
+E7 T3 false alarms,0.0,0.0,0.0,True
+E7 T1 off sessions,12.0,12.0,0.0,True
+E7 T1 on sessions max,1.0,1.0,0.0,True
+E7 T2 off sessions,10.7,10.7,0.005,True
+"E7 T2 on sessions, drop 0.20",1.07,1.0666666666666667,0.005,True
+E7 T1 alert latency max,300.0,300.0,0.0,True
+E7 T1 alert latency min,241.0,241.0,0.0,True
+"E7 T2 alert latency max, drop 0.40",293.0,293.0,0.0,True
+"E7 T2 alert latency max, drop 0.20",3293.0,3293.0,0.0,True
+E7 empties off max volume,367.1,367.10466478754176,0.05,True
+E7 empties on max volume,708.6,708.628180809086,0.05,True
+E7 empties on leak mean x0.9,113.4,113.3503350230356,0.05,True
+E7 empties on leak max x0.9,217.3,217.30976019674983,0.05,True
+E7 empties on leaking runs x0.9,15.0,15.0,0.0,True
+E7 empties off sessions below 100,10.6,10.6,0.05,True
+E7 empties volume at alert,7.8,7.8112909226668545,0.05,True
+E7 coact volume at alert,343.4,343.4369454910914,0.05,True
+E7 T2 volume at alert,413.8,413.7759515825495,0.05,True
+E7 coact max volume x1.0,940.4,940.4275343295886,0.05,True
+E7 coact off leak mean x0.9,392.5,392.4771249978729,0.05,True
+E7 coact on leak mean x0.9,416.8,416.84753098415223,0.05,True
+E7 T2 off leak mean x0.9,393.7,393.6897067847112,0.05,True
+E7 T2 off leak max x0.9,432.5,432.47333990259153,0.05,True
+E7 peak with rule on,59.4,59.44032860614982,0.05,True
+E7 peak with rule off,59.4,59.44032860614982,0.05,True
+E7 peak with 3 seeds,58.6,58.64627014177776,0.05,True
+E7 sessions over the P3 margin in T1,0.0,0.0,0.0,True
+E7 T2 peak on,55.3,55.25276275785702,0.05,True
+E7 T2 peak off x1.0,56.5,56.48221025176544,0.05,True
+E7 T2 peak off x0.9,56.2,56.15574823258976,0.05,True
+E7 earliest leak h,6.63,6.6273333333333335,0.005,True
+E7 lead T2,0.51,0.5127777777777771,0.005,True
+E7 lead T1 coact,1.43,1.429444444444444,0.005,True
+E7 lead T1 empties,4.52,4.51686111111111,0.005,True
+E7 cap2_drop0.40 limit alerts,18.0,18.0,0.0,True
+E7 cap2_drop0.40 leaking runs,1.0,1.0,0.0,True
+E7 cap2_drop0.40 max volume,523.9,523.945240430001,0.05,True
+E7 cap3_drop0.40 limit alerts,1.0,1.0,0.0,True
+E7 cap3_drop0.40 leaking runs,0.0,0.0,0.0,True
+E7 cap3_drop0.40 max volume,477.6,477.61892992772266,0.05,True
+E7 cap4_drop0.40 limit alerts,0.0,0.0,0.0,True
+E7 cap4_drop0.40 leaking runs,0.0,0.0,0.0,True
+E7 cap4_drop0.40 max volume,477.6,477.61892992772266,0.05,True
+E7 cap 2 T3 leak,136.4,136.43281767444998,0.05,True
+E7 cap 4 runs per setting,180.0,180.0,0.0,True
+E7 cap 4 runs using all 4 sessions,1.0,1.0,0.0,True
+E7 T3 finished checks,2166.0,2166.0,0.0,True
+E7 T3 finished checks passed,2166.0,2166.0,0.0,True
+E7 T3 unfinished checks,14.0,14.0,0.0,True
+E7 unfinished checks latest start margin h,11.96,11.964055555555555,0.005,True
+E7 T3 sessions below 10 percent,0.0,0.0,0.0,True
+E7 failed drop lowest,-0.227,-0.2267739537889579,0.0005,True
+E7 failed drop highest,0.262,0.262156418334198,0.0005,True
+E7 partial drop lowest,0.417,0.4168193183022236,0.0005,True
+E7 partial drop highest,0.569,0.5689686150312521,0.0005,True
+E7 emptied drop lowest,0.493,0.4926095570244967,0.0005,True
+E7 emptied drop median,0.989,0.9886627573571516,0.0005,True
+E7 seed 11 estimate before,413.0,412.9616166545083,0.5,True
+E7 seed 11 estimate after,305.0,304.7010783228623,0.5,True
+E7 seed 11 true volume,341.0,341.2973167087374,0.5,True
+"E7 estimate above truth, of 15",12.0,12.0,0.0,True
+E7 estimate above truth runs,15.0,15.0,0.0,True
+E7 run time T1,129.0,128.66714285714286,0.5,True
+E7 run time T2,166.0,166.25428571428571,0.5,True
+E7 run time T3,69.0,68.86259259259259,0.5,True
+ED traces used,48.0,48.0,0.0,True
+ED sessions in traces,313.0,313.0,0.0,True
+ED sessions unmatched,0.0,0.0,0.0,True
+ED table sessions not in traces,20.0,20.0,0.0,True
+ED those sessions longest s,0.5,0.5,1e-09,True
+ED those sessions count,20.0,20.0,0.0,True
+ED those sessions emptied,0.0,0.0,0.0,True
+ED those sessions with s0.0,0.0,0.0,0.0,True
+ED sessions emptied,67.0,67.0,0.0,True
+ED sessions emptied post-hoc,67.0,67.0,0.0,True
+ED settings that empty,24.0,24.0,0.0,True
+ED settings that empty post-hoc,24.0,24.0,0.0,True
+ED co-activation sessions emptied,0.0,0.0,0.0,True
+ED median duration,17.0,17.0,0.0,True
+ED max duration,51.0,51.0,0.0,True
+ED over 120 s,0.0,0.0,0.0,True
+ED over 180 s,0.0,0.0,0.0,True
+ED max flow s after stop,1.0,1.0,0.0,True
+ED max stimulation s,60.0,60.0,0.0,True
+ED sensitivity median,17.0,17.0,0.0,True
+ED sensitivity max,44.0,44.0,0.0,True
+ED sessions stretched by trickle,3.0,3.0,0.0,True
+ED Q-based max,61.0,61.0,0.0,True
+ED ceiling 40 e1.0 shortest max,5.0,5.0,0.0,True
+ED ceiling 40 e1.0 longest,12.0,12.0,0.0,True
+ED ceiling 40 e1.0 shortest median,4.0,4.0,0.0,True
+ED ceiling 40 e1.0 voided low,67.0,66.66150362208356,0.5,True
+ED ceiling 40 e1.0 voided high,77.0,77.13360652437217,0.5,True
+ED burst sessions emptied,33.0,33.0,0.0,True
+ED burst flow s ON,446.0,446.0,0.0,True
+ED burst flow s OFF,71.0,71.0,0.0,True
+ED OFF flow in first second,68.0,68.0,0.0,True
+ED OFF flow in second second,3.0,3.0,0.0,True
+ED tau_S,0.2,0.2,0.0,True
+ED tau_D,1.0,1.0,0.0,True
+ED effective tau_D low,0.59,0.5882352941176471,0.005,True
+ED effective tau_D high,0.91,0.9090909090909092,0.005,True
+ED sphincter target x1.0 at 0%,0.5,0.5,0.0005,True
+ED sphincter target x1.0 at 60%,0.5,0.4998322686860487,0.0005,True
+ED sphincter target x1.0 at 70%,0.494,0.4944455017308788,0.0005,True
+ED sphincter target x1.0 at 80%,0.432,0.4323323583816936,0.0005,True
+ED sphincter target x1.0 at 90%,0.197,0.1967346701436828,0.0005,True
+ED sphincter target x1.0 at 100%,0.0,0.0,0.0005,True
+ED sphincter target x0.9 at 0%,0.45,0.45,0.0005,True
+ED sphincter target x0.9 at 60%,0.45,0.4498490418174439,0.0005,True
+ED sphincter target x0.9 at 70%,0.445,0.445000951557791,0.0005,True
+ED sphincter target x0.9 at 80%,0.389,0.3890991225435242,0.0005,True
+ED sphincter target x0.9 at 90%,0.177,0.1770612031293145,0.0005,True
+ED sphincter target x0.9 at 100%,0.0,0.0,0.0005,True
+ED map burst runs at s0.5 and s1.0,128.0,128.0,0.0,True
+ED map between-burst flow there,0.0,0.0,0.0,True
+ED map after-session flow there,0.0,0.0,0.0,True
+ED e0.6_s0.0_5on5off 40 60 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_5on5off 40 60 median,35.5,35.5,0.0,True
+ED e0.6_s0.0_5on5off 40 60 max,36.0,36.0,0.0,True
+ED e0.6_s0.0_5on5off 40 5 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_5on5off 40 5 median,35.5,35.5,0.0,True
+ED e0.6_s0.0_5on5off 40 5 max,36.0,36.0,0.0,True
+ED e0.6_s0.0_5on5off 55 60 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_5on5off 55 60 median,47.5,47.5,0.0,True
+ED e0.6_s0.0_5on5off 55 60 max,51.0,51.0,0.0,True
+ED e0.6_s0.0_5on5off 55 5 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_5on5off 55 5 median,43.0,43.0,0.0,True
+ED e0.6_s0.0_5on5off 55 5 max,43.0,43.0,0.0,True
+ED e0.6_s0.0_5on5off 70 60 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_5on5off 70 60 median,47.5,47.5,0.0,True
+ED e0.6_s0.0_5on5off 70 60 max,51.0,51.0,0.0,True
+ED e0.6_s0.0_5on5off 70 5 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_5on5off 70 5 median,43.0,43.0,0.0,True
+ED e0.6_s0.0_5on5off 70 5 max,43.0,43.0,0.0,True
+ED e0.6_s0.0_continuous 40 60 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_continuous 40 60 median,21.0,21.0,0.0,True
+ED e0.6_s0.0_continuous 40 60 max,22.0,22.0,0.0,True
+ED e0.6_s0.0_continuous 40 5 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_continuous 40 5 median,20.5,20.5,0.0,True
+ED e0.6_s0.0_continuous 40 5 max,22.0,22.0,0.0,True
+ED e0.6_s0.0_continuous 55 60 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_continuous 55 60 median,22.0,22.0,0.0,True
+ED e0.6_s0.0_continuous 55 60 max,22.0,22.0,0.0,True
+ED e0.6_s0.0_continuous 55 5 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_continuous 55 5 median,22.0,22.0,0.0,True
+ED e0.6_s0.0_continuous 55 5 max,22.0,22.0,0.0,True
+ED e0.6_s0.0_continuous 70 60 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_continuous 70 60 median,22.0,22.0,0.0,True
+ED e0.6_s0.0_continuous 70 60 max,22.0,22.0,0.0,True
+ED e0.6_s0.0_continuous 70 5 n,2.0,2.0,0.0,True
+ED e0.6_s0.0_continuous 70 5 median,22.0,22.0,0.0,True
+ED e0.6_s0.0_continuous 70 5 max,22.0,22.0,0.0,True
+ED e1.0_s0.0_5on5off 40 60 n,6.0,6.0,0.0,True
+ED e1.0_s0.0_5on5off 40 60 median,4.0,4.0,0.0,True
+ED e1.0_s0.0_5on5off 40 60 max,12.0,12.0,0.0,True
+ED e1.0_s0.0_5on5off 40 5 n,7.0,7.0,0.0,True
+ED e1.0_s0.0_5on5off 40 5 median,5.0,5.0,0.0,True
+ED e1.0_s0.0_5on5off 40 5 max,5.0,5.0,0.0,True
+ED e1.0_s0.0_5on5off 55 60 n,2.0,2.0,0.0,True
+ED e1.0_s0.0_5on5off 55 60 median,28.5,28.5,0.0,True
+ED e1.0_s0.0_5on5off 55 60 max,32.0,32.0,0.0,True
+ED e1.0_s0.0_5on5off 55 5 n,2.0,2.0,0.0,True
+ED e1.0_s0.0_5on5off 55 5 median,24.5,24.5,0.0,True
+ED e1.0_s0.0_5on5off 55 5 max,25.0,25.0,0.0,True
+ED e1.0_s0.0_5on5off 70 60 n,2.0,2.0,0.0,True
+ED e1.0_s0.0_5on5off 70 60 median,41.5,41.5,0.0,True
+ED e1.0_s0.0_5on5off 70 60 max,51.0,51.0,0.0,True
+ED e1.0_s0.0_5on5off 70 5 n,2.0,2.0,0.0,True
+ED e1.0_s0.0_5on5off 70 5 median,32.0,32.0,0.0,True
+ED e1.0_s0.0_5on5off 70 5 max,32.0,32.0,0.0,True
+ED e1.0_s0.0_continuous 40 60 n,7.0,7.0,0.0,True
+ED e1.0_s0.0_continuous 40 60 median,4.0,4.0,0.0,True
+ED e1.0_s0.0_continuous 40 60 max,7.0,7.0,0.0,True
+ED e1.0_s0.0_continuous 40 5 n,7.0,7.0,0.0,True
+ED e1.0_s0.0_continuous 40 5 median,5.0,5.0,0.0,True
+ED e1.0_s0.0_continuous 40 5 max,5.0,5.0,0.0,True
+ED e1.0_s0.0_continuous 55 60 n,2.0,2.0,0.0,True
+ED e1.0_s0.0_continuous 55 60 median,14.5,14.5,0.0,True
+ED e1.0_s0.0_continuous 55 60 max,15.0,15.0,0.0,True
+ED e1.0_s0.0_continuous 55 5 n,2.0,2.0,0.0,True
+ED e1.0_s0.0_continuous 55 5 median,15.5,15.5,0.0,True
+ED e1.0_s0.0_continuous 55 5 max,16.0,16.0,0.0,True
+ED e1.0_s0.0_continuous 70 60 n,2.0,2.0,0.0,True
+ED e1.0_s0.0_continuous 70 60 median,17.0,17.0,0.0,True
+ED e1.0_s0.0_continuous 70 60 max,17.0,17.0,0.0,True
+ED e1.0_s0.0_continuous 70 5 n,2.0,2.0,0.0,True
+ED e1.0_s0.0_continuous 70 5 median,17.0,17.0,0.0,True
+ED e1.0_s0.0_continuous 70 5 max,17.0,17.0,0.0,True
+ED example drop after burst end mL,9.7,9.689512222485234,0.05,True
+ED example inflow mL/s,0.03,0.02511479355280244,0.005,True
+ED trickle pushed out mL,0.12,0.1231200449615205,0.005,True
+FA map complete n,72.0,72.0,0.0,True
+FA map complete median,0.2,0.2097255513395663,0.05,True
+FA map complete min,0.0,0.0,0.05,True
+FA map complete max,11.3,11.270222338198804,0.05,True
+FA map 2on2off x0.9 residual,2.8,2.8381609031720965,0.05,True
+FA map other 70 max,1.8,1.8404716152692813,0.05,True
+FA map complete within 3 mL share,0.99,0.9861111111111112,0.005,True
+FA map partial n,14.0,14.0,0.0,True
+FA map partial min,46.0,46.34679135147208,0.5,True
+FA map partial max,393.0,392.7173663859732,0.5,True
+FA exp3_sessions_in_working_settings n,228.0,228.0,0.0,True
+FA exp3_sessions_in_working_settings median,2.5,2.493082312695296,0.05,True
+FA exp3_sessions_in_working_settings min,0.0,0.0,0.05,True
+FA exp3_sessions_in_working_settings max,199.5,199.532270001196,0.05,True
+FA exp3_sessions_in_working_settings share le 3,0.58,0.5789473684210527,0.005,True
+FA exp3_complete_sessions n,175.0,175.0,0.0,True
+FA exp3_complete_sessions median,1.9,1.8718423428169704,0.05,True
+FA exp3_complete_sessions min,0.0,0.0,0.05,True
+FA exp3_complete_sessions max,17.8,17.758585485745115,0.05,True
+FA exp3_complete_sessions share le 3,0.78,0.7828571428571428,0.005,True
+FA exp3b_sessions_in_working_settings n,2380.0,2380.0,0.0,True
+FA exp3b_sessions_in_working_settings median,5.1,5.085709136478845,0.05,True
+FA exp3b_sessions_in_working_settings min,0.0,0.0,0.05,True
+FA exp3b_sessions_in_working_settings max,251.1,251.10759127914145,0.05,True
+FA exp3b_sessions_in_working_settings share le 3,0.33,0.32899159663865546,0.005,True
+FA exp3b_complete_sessions n,1470.0,1470.0,0.0,True
+FA exp3b_complete_sessions median,2.5,2.529604009770643,0.05,True
+FA exp3b_complete_sessions min,0.0,0.0,0.05,True
+FA exp3b_complete_sessions max,21.2,21.176830069250038,0.05,True
+FA exp3b_complete_sessions share le 3,0.57,0.5693877551020409,0.005,True
+FA exp7_T3_cap4_drop0.40_emptied_sessions n,370.0,370.0,0.0,True
+FA exp7_T3_cap4_drop0.40_emptied_sessions median,3.9,3.8945878213676814,0.05,True
+FA exp7_T3_cap4_drop0.40_emptied_sessions min,0.0,0.0,0.05,True
+FA exp7_T3_cap4_drop0.40_emptied_sessions max,240.9,240.89977064916724,0.05,True
+FA exp7_T3_cap4_drop0.40_emptied_sessions share le 3,0.38,0.37567567567567567,0.005,True
+FA exp3 setting median low,1.3,1.3260782777990698,0.05,True
+FA exp3 setting median high,97.5,97.47973851294122,0.05,True
+FA exp3b setting median low,1.9,1.8788908123917556,0.05,True
+FA exp3b setting median high,156.4,156.4011121880875,0.05,True
+FA exp3 working sessions over 3 mL,96.0,96.0,0.0,True
+FA exp3 working sessions over 50 mL,42.0,42.0,0.0,True
+FA exp3 ceiling-stopped median,60.8,60.79937070395935,0.05,True
+FA exp3 ceiling-stopped max,199.5,199.532270001196,0.05,True
+FA exp3 other cutoffs min,0.0,0.0,0.05,True
+FA exp3 other cutoffs max,6.3,6.306827791597868,0.05,True
+FA exp3b working sessions over 3 mL,1597.0,1597.0,0.0,True
+FA exp3b working sessions over 50 mL,868.0,868.0,0.0,True
+FA exp3b ceiling-stopped median,92.6,92.61347617260398,0.05,True
+FA exp3b ceiling-stopped max,207.2,207.16848629563648,0.05,True
+FA exp3 runs,312.0,312.0,0.0,True
+FA exp4 runs,324.0,324.0,0.0,True
+FA exp3+4 runs,636.0,636.0,0.0,True
+FA exp3+4 errors,0.0,0.0,0.0,True
+FA exp3+4 invariants hold,636.0,636.0,0.0,True
+FA exp3b runs,1620.0,1620.0,0.0,True
+FA exp7 runs,1710.0,1710.0,0.0,True
+FA exp2b x1.0 best,10.0,10.0,0.0,True
+FA exp2b x1.0 of,14.0,14.0,0.0,True
+FA exp2b x1.0 runs per cell,300.0,300.0,0.0,True
+FA exp2b x1.0 best at 400,1.0,1.0,0.0,True
+FA exp2b x0.9 best,10.0,10.0,0.0,True
+FA exp2b x0.9 of,14.0,14.0,0.0,True
+FA exp2b x0.9 runs per cell,300.0,300.0,0.0,True
+FA exp2b x0.9 best at 400,1.0,1.0,0.0,True
+FA exp2 x1.0 best,11.0,11.0,0.0,True
+FA exp2 x1.0 of,14.0,14.0,0.0,True
+FA exp2 x1.0 runs per cell,60.0,60.0,0.0,True
+FA exp2 x1.0 best at 400,1.0,1.0,0.0,True
+FA exp2 x0.9 best,9.0,9.0,0.0,True
+FA exp2 x0.9 of,14.0,14.0,0.0,True
+FA exp2 x0.9 runs per cell,60.0,60.0,0.0,True
+FA exp2 x0.9 best at 400,1.0,1.0,0.0,True
+FA exp2b x1.0 best thresholds,2.0,2.0,0.0,True
+FA exp2b x0.9 400 failing,4.0,4.0,0.0,True
+FA exp2b x1.0 450 failing,4.0,4.0,0.0,True
+FA scenarios listed,14.0,14.0,0.0,True
+FA exp3b settings,108.0,108.0,0.0,True
+FA exp3b working,75.0,75.0,0.0,True
+FA exp3b flag disagreements,0.0,0.0,0.0,True
+FA exp7_T1_rule_off runs,60.0,60.0,0.0,True
+FA exp7_T1_rule_off sessions min,12.0,12.0,0.0,True
+FA exp7_T1_rule_off sessions max,12.0,12.0,0.0,True
+FA exp7_T1_rule_on runs,360.0,360.0,0.0,True
+FA exp7_T1_rule_on sessions min,1.0,1.0,0.0,True
+FA exp7_T1_rule_on sessions max,1.0,1.0,0.0,True
+FA p at 400,11.6,11.550951906098724,0.05,True
+FA p at 450,32.5,32.463755280338255,0.05,True
+FA first 40 at mL,461.0,461.286452581305,0.5,True
+FA first 55 at mL,491.0,490.5605647162413,0.5,True
+FA peak p,56.6,56.56792612668247,0.05,True
+FA peak at mL,502.0,502.458402297378,0.5,True
+FA peak at h,7.2,7.201388888888889,0.05,True
+FA max volume 12 h,909.0,908.7468955428992,0.5,True
+FA seconds at or above 55,1269.0,1269.0,0.0,True
+FA curve 0-50 median,6.9,6.866401771331754,0.05,True
+FA curve 0-50 max,7.8,7.767797542373983,0.05,True
+FA curve 200-250 median,8.9,8.925554597735859,0.05,True
+FA curve 200-250 max,9.2,9.174638446439882,0.05,True
+FA curve 350-400 median,9.0,9.01535089120187,0.05,True
+FA curve 350-400 max,11.5,11.54057805392018,0.05,True
+FA curve 400-450 median,17.2,17.229024565041712,0.05,True
+FA curve 400-450 max,32.4,32.42598046031416,0.05,True
+FA curve 450-500 median,51.5,51.53601952422436,0.05,True
+FA curve 450-500 max,56.5,56.499662777916754,0.05,True
+FA curve 500-550 median,50.1,50.10954280939675,0.05,True
+FA curve 500-550 max,56.6,56.56792612668247,0.05,True
+FA curve 550-600 median,25.0,24.96596676085259,0.05,True
+FA curve 550-600 max,39.0,39.03218628056811,0.05,True
+FA curve 650-700 median,13.3,13.326511869014386,0.05,True
+FA curve 650-700 max,13.4,13.427533393300076,0.05,True
+FA curve 850-900 median,14.1,14.082243506431112,0.05,True
+FA curve 850-900 max,14.4,14.435692237212546,0.05,True
+FA curve up to 400 low,6.9,6.866401771331754,0.05,True
+FA curve up to 400 high,9.4,9.415469055537036,0.05,True
+FA curve above 650 low,13.3,13.326511869014386,0.05,True
+FA curve above 650 high,14.4,14.3849401240334,0.05,True
+FA x0.9 peak,55.1,55.08310614994537,0.05,True
+FA x0.9 at mL,491.0,490.9886112274576,0.5,True
+FA x0.9 leaked,420.0,420.14730005161016,0.5,True
+FA x0.9 seconds at or above 55,36.0,36.0,0.0,True
+FA healthy peak,54.7,54.72135384029653,0.05,True
+FA healthy seconds at or above 55,0.0,0.0,0.0,True
+FA stage3 sci cases,34.0,34.0,0.0,True
+FA stage3 cases at or above 55,30.0,30.0,0.0,True
+FA stage3 peak low,45.2,45.2215240276191,0.05,True
+FA stage3 peak high,57.3,57.25578775490028,0.05,True
+FA exp3 storage runs,312.0,312.0,0.0,True
+FA exp3 storage runs at or above 55,119.0,119.0,0.0,True
+FA exp3 of those without co-activation,0.0,0.0,0.0,True
+FA exp3 storage max,56.6,56.5684947241295,0.05,True
+FA exp4 storage runs,324.0,324.0,0.0,True
+FA exp4 storage runs at or above 55,129.0,129.0,0.0,True
+FA exp4 of those without co-activation,21.0,21.0,0.0,True
+FA exp4 storage max,56.6,56.5684947241295,0.05,True
+FA exp3b storage runs,1620.0,1620.0,0.0,True
+FA exp3b storage runs at or above 55,40.0,40.0,0.0,True
+FA exp3b of those without co-activation,40.0,40.0,0.0,True
+FA exp3b storage max,56.6,56.56849466177753,0.05,True
+FA exp7 storage runs,1710.0,1710.0,0.0,True
+FA exp7 storage runs at or above 55,412.0,412.0,0.0,True
+FA exp7 of those without co-activation,104.0,104.0,0.0,True
+FA exp7 storage max,56.6,56.56869362137069,0.05,True
+FA exp3b at or above 55 all at ceiling 40,40.0,40.0,0.0,True
+FA lowest max volume in those runs,490.7,490.68279723563614,0.05,True
+RR reproduces,1.0,1.0,0.0,True
+RR exp3_runs old rows,312.0,312.0,0.0,True
+RR exp3_runs new rows matched,312.0,312.0,0.0,True
+RR exp3_runs columns,37.0,37.0,0.0,True
+RR exp3_sessions old rows,2214.0,2214.0,0.0,True
+RR exp3_sessions new rows matched,2214.0,2214.0,0.0,True
+RR exp3_sessions columns,27.0,27.0,0.0,True
+RR exp4_runs old rows,324.0,324.0,0.0,True
+RR exp4_runs new rows matched,324.0,324.0,0.0,True
+RR exp4_runs columns,37.0,37.0,0.0,True
+RR exp4_sessions old rows,1889.0,1889.0,0.0,True
+RR exp4_sessions new rows matched,1889.0,1889.0,0.0,True
+RR exp4_sessions columns,27.0,27.0,0.0,True
+RR new exp3_runs,1560.0,1560.0,0.0,True
+RR new exp4_runs,1620.0,1620.0,0.0,True
+RR new exp3_sessions,11105.0,11105.0,0.0,True
+RR new exp4_sessions,9379.0,9379.0,0.0,True
+RR new exp3_errors,0.0,0.0,0.0,True
+RR new exp4_errors,0.0,0.0,0.0,True
+RR new settings,104.0,104.0,0.0,True
+RR new settings_work,38.0,38.0,0.0,True
+RR new settings_work_with_co_activation,0.0,0.0,0.0,True
+RR new P1_pass,40.0,40.0,0.0,True
+RR new P2_pass,76.0,76.0,0.0,True
+RR new P3_pass,86.0,86.0,0.0,True
+RR new exp3_invariants_hold,1.0,1.0,0.0,True
+RR new exp4_invariants_hold,1.0,1.0,0.0,True
+RR new worst_case_all_max_duration,1.0,1.0,0.0,True
+RR new volume_stop_60s,0.0,0.0,0.0,True
+RR new sessions_60s,6193.0,6193.0,0.0,True
+RR new volume_stop_5s,440.0,440.0,0.0,True
+RR new sessions_5s,4912.0,4912.0,0.0,True
+RR new stuck_high_sessions_per_run_max,12.0,12.0,0.0,True
+RR new reference_P1_max,0.0,0.0,0.0,True
+RR total sessions,20484.0,20484.0,0.0,True
+RR old peak_exp3,58.47,58.46686407743489,0.005,True
+RR new peak_exp3,60.18,60.17682787139657,0.005,True
+RR old peak_exp3_working,53.83,53.833309050751915,0.005,True
+RR new peak_exp3_working,53.83,53.8333127828394,0.005,True
+RR old peak_exp4,64.21,64.21262537752646,0.005,True
+RR new peak_exp4,67.17,67.16590469309381,0.005,True
+RR old max_exceed_of_ceiling_exp4,9.21,9.212625377526464,0.005,True
+RR new max_exceed_of_ceiling_exp4,12.17,12.165904693093808,0.005,True
+RR old peak_stuck_high_ok_channel,58.65,58.64627014177776,0.005,True
+RR new peak_stuck_high_ok_channel,59.44,59.44032860614982,0.005,True
+RR old median_residual_working_min,1.33,1.3260782777990698,0.005,True
+RR new median_residual_working_min,1.84,1.8387090427654567,0.005,True
+RR old median_residual_working_max,97.48,97.47973851294122,0.005,True
+RR new median_residual_working_max,98.76,98.75530758056522,0.005,True
+RR old volume stop 5 s,87.0,87.0,0.0,True
+RR old sessions 5 s,978.0,978.0,0.0,True
+RR old sessions 60 s,1236.0,1236.0,0.0,True
+RR verdicts changed,0.0,0.0,0.0,True
+RR exp4 crossings,6.0,6.0,0.0,True
+RR settings compared,104.0,104.0,0.0,True
+RR P1 lowest pass,0.933,0.9333333333333333,0.0005,True
+RR P1 highest fail,0.0,0.0,0.0,True
+RR P2 lowest pass,1.0,1.0,0.0,True
+RR P2 highest fail,0.0,0.0,0.0,True
+RR P3 lowest pass,0.967,0.9666666666666667,0.0005,True
+RR P3 highest fail,0.881,0.88125,0.0005,True
+RR working P2 all 15 of 15,1.0,1.0,0.0,True
+RR largest P1 move,0.067,0.06666666666666665,0.0005,True
+RR largest P3 move,0.267,0.2666666666666666,0.0005,True
+RR largest P3 move old,0.5,0.5,0.0005,True
+RR largest P3 move new,0.767,0.7666666666666666,0.0005,True
+RR largest P3 move setting,1.0,1.0,0.0,True
+RR threshold 350 P3 old,1.0,1.0,0.0,True
+RR threshold 350 P3 new,0.994,0.9944444444444445,0.0005,True
+RR threshold 350 still passes P3,1.0,1.0,0.0,True
+RR exp3 peak seed,4.0,4.0,0.0,True
+RR exp3 peak group threshold 350,1.0,1.0,0.0,True
+RR exp3 peak start volume,315.9,315.90997256249364,0.05,True
+RR exp3 peak duration,1.8,1.7999999999992724,0.05,True
+RR exp3 peak over ceiling,5.18,5.1768278713965685,0.005,True
+RR exp3 sessions over margin old,261.0,261.0,0.0,True
+RR exp3 sessions over margin new,1306.0,1306.0,0.0,True
+RR exp3 share over margin old pct,11.8,11.788617886178862,0.05,True
+RR exp3 share over margin new pct,11.8,11.760468257541648,0.05,True
+RR exp4 cells,108.0,108.0,0.0,True
+RR exp4 errors,0.0,0.0,0.0,True
+RR combo P3 old,0.972,0.9722222222222222,0.0005,True
+RR combo P3 new,0.961,0.9611111111111111,0.0005,True
+RR combo peak x1.0,67.16,67.15621520624703,0.005,True
+RR combo sessions,720.0,720.0,0.0,True
+RR combo all 60 s,720.0,720.0,0.0,True
+RR exp4 peak seed,14.0,14.0,0.0,True
+RR exp4 peak at x0.9,0.9,0.9,0.0,True
+RR exp4 over margin old,2.0,2.0,0.0,True
+RR exp4 over margin old all combo,2.0,2.0,0.0,True
+RR exp4 over margin new,24.0,24.0,0.0,True
+RR exp4 over margin new combo,14.0,14.0,0.0,True
+RR exp4 ok-channel over margin,10.0,10.0,0.0,True
+RR ok-channel all ceiling cutoff,10.0,10.0,0.0,True
+RR ok-channel faults,3.0,3.0,0.0,True
+RR ok-channel peak low,60.18,60.17682733497067,0.005,True
+RR ok-channel peak high,61.38,61.382983901888444,0.005,True
+RR ok-channel duration low,1.5,1.5,0.05,True
+RR ok-channel duration high,1.8,1.7999999999992724,0.05,True
+RR ok-channel start volume low,296.4,296.4044513866435,0.05,True
+RR ok-channel start volume high,315.9,315.90997256249364,0.05,True
+RR largest overflow-rate move,0.467,0.4666666666666667,0.0005,True
+RR largest overflow move cell,1.0,1.0,0.0,True
+RR drift_minus2ph x0.9 old rate,0.0,0.0,0.0,True
+RR largest exp4 P1 move,0.219,0.21904761904761905,0.0005,True
+RR cells with overflow old,32.0,32.0,0.0,True
+RR cells with overflow new,33.0,33.0,0.0,True
+RR cells with overflow new at x1.0,0.0,0.0,0.0,True
+RR user delayed x0.9 overflow old,0.333,0.3333333333333333,0.0005,True
+RR user delayed x0.9 overflow new,0.733,0.7333333333333333,0.0005,True
+RR crossings all second reference,6.0,6.0,0.0,True
+RR crossing sensor:combined_bad x0.9 old,0.714,0.7142857142857143,0.0005,True
+RR crossing sensor:combined_bad x0.9 new,0.933,0.9333333333333333,0.0005,True
+RR crossing sensor:combined_bad x1.0 old,0.75,0.75,0.0005,True
+RR crossing sensor:combined_bad x1.0 new,0.879,0.8787878787878788,0.0005,True
+RR crossing sensor:drift_minus2ph x0.9 old,0.0,0.0,0.0005,True
+RR crossing sensor:drift_minus2ph x0.9 new,0.467,0.4666666666666667,0.0005,True
+RR crossing sensor:gain_minus20 x0.9 old,0.833,0.8333333333333334,0.0005,True
+RR crossing sensor:gain_minus20 x0.9 new,0.633,0.6333333333333333,0.0005,True
+RR crossing sensor:misaligned_at_4h x1.0 old,0.75,0.75,0.0005,True
+RR crossing sensor:misaligned_at_4h x1.0 new,0.833,0.8333333333333334,0.0005,True
+RR crossing user:delayed x0.9 old,0.75,0.75,0.0005,True
+RR crossing user:delayed x0.9 new,0.957,0.9565217391304348,0.0005,True
+RR old files hashed,214.0,214.0,0.0,True
+T5 runs,360.0,360.0,0.0,True
+T5 sessions,2612.0,2612.0,0.0,True
+T5 errors,0.0,0.0,0.0,True
+T5 invariants_hold_all_runs,1.0,1.0,0.0,True
+T5 working,8.0,8.0,0.0,True
+T5 e0.6_x1.0 highest working level,0.1,0.1,0.0,True
+T5 e0.6_x1.0 one block from 0,1.0,1.0,0.0,True
+T5 e0.6_x0.9 highest working level,0.1,0.1,0.0,True
+T5 e0.6_x0.9 one block from 0,1.0,1.0,0.0,True
+T5 e1.0_x1.0 highest working level,0.1,0.1,0.0,True
+T5 e1.0_x1.0 one block from 0,1.0,1.0,0.0,True
+T5 e1.0_x0.9 highest working level,0.1,0.1,0.0,True
+T5 e1.0_x0.9 one block from 0,1.0,1.0,0.0,True
+T5 reproduction runs rows,120.0,120.0,0.0,True
+T5 reproduction runs identical,1.0,1.0,0.0,True
+T5 reproduction sessions rows,761.0,761.0,0.0,True
+T5 reproduction sessions identical,1.0,1.0,0.0,True
+T5 level 0.5 sessions,641.0,641.0,0.0,True
+T5 level 0.5 sessions voiding 10% or more,0.0,0.0,0.0,True
+T5 e0.6 x1.0 level 0.0 P1,1.0,1.0,0.0005,True
+T5 e0.6 x1.0 level 0.0 P2,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.0 P3,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.0 works,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.0 leftover median,2.2,2.1523011770837304,0.05,True
+T5 e0.6 x1.0 level 0.0 leftover min,0.0,0.0,0.05,True
+T5 e0.6 x1.0 level 0.0 leftover max,6.8,6.758299762455765,0.05,True
+T5 e0.6 x1.0 level 0.0 peak p_D,49.6,49.55276090118404,0.05,True
+T5 e0.6 x1.0 level 0.0 max volume,426.4,426.3833726196342,0.05,True
+T5 e0.6 x1.0 level 0.0 sessions per run,2.0,2.0,0.005,True
+T5 e0.6 x1.0 level 0.0 emptied sessions,30.0,30.0,0.0,True
+T5 e0.6 x1.0 level 0.0 emptying time median,50.0,50.0,0.0,True
+T5 e0.6 x1.0 level 0.0 emptying time max,51.0,51.0,0.0,True
+T5 e0.6 x1.0 level 0.1 P1,0.968,0.967741935483871,0.0005,True
+T5 e0.6 x1.0 level 0.1 P2,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.1 P3,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.1 works,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.1 leftover median,91.0,91.01824965807077,0.05,True
+T5 e0.6 x1.0 level 0.1 leftover min,0.7,0.7285860368466393,0.05,True
+T5 e0.6 x1.0 level 0.1 leftover max,385.2,385.1553244759893,0.05,True
+T5 e0.6 x1.0 level 0.1 peak p_D,49.0,49.04611501444141,0.05,True
+T5 e0.6 x1.0 level 0.1 max volume,424.6,424.5650853570261,0.05,True
+T5 e0.6 x1.0 level 0.1 sessions per run,2.07,2.066666666666667,0.005,True
+T5 e0.6 x1.0 level 0.1 emptied sessions,30.0,30.0,0.0,True
+T5 e0.6 x1.0 level 0.1 emptying time median,55.0,55.0,0.0,True
+T5 e0.6 x1.0 level 0.1 emptying time max,56.0,56.0,0.0,True
+T5 e0.6 x1.0 level 0.2 P1,0.0,0.0,0.0005,True
+T5 e0.6 x1.0 level 0.2 P2,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.2 P3,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.2 works,0.0,0.0,0.0,True
+T5 e0.6 x1.0 level 0.2 leftover median,572.6,572.6172154639024,0.05,True
+T5 e0.6 x1.0 level 0.2 leftover min,322.7,322.7043278301295,0.05,True
+T5 e0.6 x1.0 level 0.2 leftover max,830.4,830.3580818786035,0.05,True
+T5 e0.6 x1.0 level 0.2 peak p_D,55.8,55.76569551424989,0.05,True
+T5 e0.6 x1.0 level 0.2 max volume,851.7,851.6692055772673,0.05,True
+T5 e0.6 x1.0 level 0.2 sessions per run,10.6,10.6,0.005,True
+T5 e0.6 x1.0 level 0.2 emptied sessions,0.0,0.0,0.0,True
+T5 e0.6 x1.0 level 0.3 P1,0.0,0.0,0.0005,True
+T5 e0.6 x1.0 level 0.3 P2,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.3 P3,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.3 works,0.0,0.0,0.0,True
+T5 e0.6 x1.0 level 0.3 leftover median,633.5,633.545319309975,0.05,True
+T5 e0.6 x1.0 level 0.3 leftover min,343.4,343.4316150608838,0.05,True
+T5 e0.6 x1.0 level 0.3 leftover max,920.9,920.9038663479625,0.05,True
+T5 e0.6 x1.0 level 0.3 peak p_D,54.6,54.56495588525876,0.05,True
+T5 e0.6 x1.0 level 0.3 max volume,938.7,938.7442909258341,0.05,True
+T5 e0.6 x1.0 level 0.3 sessions per run,10.67,10.666666666666666,0.005,True
+T5 e0.6 x1.0 level 0.3 emptied sessions,0.0,0.0,0.0,True
+T5 e0.6 x1.0 level 0.4 P1,0.0,0.0,0.0005,True
+T5 e0.6 x1.0 level 0.4 P2,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.4 P3,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.4 works,0.0,0.0,0.0,True
+T5 e0.6 x1.0 level 0.4 leftover median,634.2,634.2279011171777,0.05,True
+T5 e0.6 x1.0 level 0.4 leftover min,343.4,343.4316150608838,0.05,True
+T5 e0.6 x1.0 level 0.4 leftover max,920.9,920.9134240705665,0.05,True
+T5 e0.6 x1.0 level 0.4 peak p_D,54.5,54.489343840761066,0.05,True
+T5 e0.6 x1.0 level 0.4 max volume,940.4,940.4275343295886,0.05,True
+T5 e0.6 x1.0 level 0.4 sessions per run,10.67,10.666666666666666,0.005,True
+T5 e0.6 x1.0 level 0.4 emptied sessions,0.0,0.0,0.0,True
+T5 e0.6 x1.0 level 0.5 P1,0.0,0.0,0.0005,True
+T5 e0.6 x1.0 level 0.5 P2,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.5 P3,1.0,1.0,0.0,True
+T5 e0.6 x1.0 level 0.5 works,0.0,0.0,0.0,True
+T5 e0.6 x1.0 level 0.5 leftover median,634.2,634.2285216339699,0.05,True
+T5 e0.6 x1.0 level 0.5 leftover min,343.4,343.4316150608838,0.05,True
+T5 e0.6 x1.0 level 0.5 leftover max,920.9,920.9135466818892,0.05,True
+T5 e0.6 x1.0 level 0.5 peak p_D,54.5,54.48900223112799,0.05,True
+T5 e0.6 x1.0 level 0.5 max volume,940.4,940.4275343295886,0.05,True
+T5 e0.6 x1.0 level 0.5 sessions per run,10.67,10.666666666666666,0.005,True
+T5 e0.6 x1.0 level 0.5 emptied sessions,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.0 P1,1.0,1.0,0.0005,True
+T5 e0.6 x0.9 level 0.0 P2,1.0,1.0,0.0,True
+T5 e0.6 x0.9 level 0.0 P3,1.0,1.0,0.0,True
+T5 e0.6 x0.9 level 0.0 works,1.0,1.0,0.0,True
+T5 e0.6 x0.9 level 0.0 leftover median,2.2,2.1523011770837304,0.05,True
+T5 e0.6 x0.9 level 0.0 leftover min,0.0,0.0,0.05,True
+T5 e0.6 x0.9 level 0.0 leftover max,6.8,6.758299762455765,0.05,True
+T5 e0.6 x0.9 level 0.0 peak p_D,46.3,46.25596205181275,0.05,True
+T5 e0.6 x0.9 level 0.0 max volume,426.4,426.3833726196342,0.05,True
+T5 e0.6 x0.9 level 0.0 sessions per run,2.0,2.0,0.005,True
+T5 e0.6 x0.9 level 0.0 emptied sessions,30.0,30.0,0.0,True
+T5 e0.6 x0.9 level 0.0 emptying time median,50.0,50.0,0.0,True
+T5 e0.6 x0.9 level 0.0 emptying time max,51.0,51.0,0.0,True
+T5 e0.6 x0.9 level 0.1 P1,1.0,1.0,0.0005,True
+T5 e0.6 x0.9 level 0.1 P2,1.0,1.0,0.0,True
+T5 e0.6 x0.9 level 0.1 P3,1.0,1.0,0.0,True
+T5 e0.6 x0.9 level 0.1 works,1.0,1.0,0.0,True
+T5 e0.6 x0.9 level 0.1 leftover median,82.1,82.06294303907552,0.05,True
+T5 e0.6 x0.9 level 0.1 leftover min,0.7,0.7285860368466393,0.05,True
+T5 e0.6 x0.9 level 0.1 leftover max,170.1,170.14173009157753,0.05,True
+T5 e0.6 x0.9 level 0.1 peak p_D,47.0,47.021351296814835,0.05,True
+T5 e0.6 x0.9 level 0.1 max volume,424.6,424.5650853570261,0.05,True
+T5 e0.6 x0.9 level 0.1 sessions per run,2.0,2.0,0.005,True
+T5 e0.6 x0.9 level 0.1 emptied sessions,30.0,30.0,0.0,True
+T5 e0.6 x0.9 level 0.1 emptying time median,55.0,55.0,0.0,True
+T5 e0.6 x0.9 level 0.1 emptying time max,56.0,56.0,0.0,True
+T5 e0.6 x0.9 level 0.2 P1,0.0,0.0,0.0005,True
+T5 e0.6 x0.9 level 0.2 P2,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.2 P3,1.0,1.0,0.0,True
+T5 e0.6 x0.9 level 0.2 works,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.2 leftover median,469.3,469.29150625602267,0.05,True
+T5 e0.6 x0.9 level 0.2 leftover min,322.7,322.69894380854527,0.05,True
+T5 e0.6 x0.9 level 0.2 leftover max,489.9,489.9086779982354,0.05,True
+T5 e0.6 x0.9 level 0.2 peak p_D,53.1,53.12319835803683,0.05,True
+T5 e0.6 x0.9 level 0.2 max volume,491.6,491.59942557317123,0.05,True
+T5 e0.6 x0.9 level 0.2 sessions per run,10.67,10.666666666666666,0.005,True
+T5 e0.6 x0.9 level 0.2 emptied sessions,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.3 P1,0.0,0.0,0.0005,True
+T5 e0.6 x0.9 level 0.3 P2,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.3 P3,1.0,1.0,0.0,True
+T5 e0.6 x0.9 level 0.3 works,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.3 leftover median,486.3,486.3226830138152,0.05,True
+T5 e0.6 x0.9 level 0.3 leftover min,343.4,343.4316150608838,0.05,True
+T5 e0.6 x0.9 level 0.3 leftover max,490.3,490.2593483310751,0.05,True
+T5 e0.6 x0.9 level 0.3 peak p_D,54.4,54.44417908615946,0.05,True
+T5 e0.6 x0.9 level 0.3 max volume,491.6,491.63696466011913,0.05,True
+T5 e0.6 x0.9 level 0.3 sessions per run,10.67,10.666666666666666,0.005,True
+T5 e0.6 x0.9 level 0.3 emptied sessions,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.4 P1,0.0,0.0,0.0005,True
+T5 e0.6 x0.9 level 0.4 P2,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.4 P3,1.0,1.0,0.0,True
+T5 e0.6 x0.9 level 0.4 works,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.4 leftover median,486.4,486.3949240136942,0.05,True
+T5 e0.6 x0.9 level 0.4 leftover min,343.4,343.4316150608838,0.05,True
+T5 e0.6 x0.9 level 0.4 leftover max,490.4,490.3976053799526,0.05,True
+T5 e0.6 x0.9 level 0.4 peak p_D,54.5,54.530043677916595,0.05,True
+T5 e0.6 x0.9 level 0.4 max volume,491.6,491.6369785834083,0.05,True
+T5 e0.6 x0.9 level 0.4 sessions per run,10.67,10.666666666666666,0.005,True
+T5 e0.6 x0.9 level 0.4 emptied sessions,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.5 P1,0.0,0.0,0.0005,True
+T5 e0.6 x0.9 level 0.5 P2,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.5 P3,1.0,1.0,0.0,True
+T5 e0.6 x0.9 level 0.5 works,0.0,0.0,0.0,True
+T5 e0.6 x0.9 level 0.5 leftover median,486.4,486.3976936850225,0.05,True
+T5 e0.6 x0.9 level 0.5 leftover min,343.4,343.4316150608838,0.05,True
+T5 e0.6 x0.9 level 0.5 leftover max,490.4,490.40342024039745,0.05,True
+T5 e0.6 x0.9 level 0.5 peak p_D,54.5,54.533047738182525,0.05,True
+T5 e0.6 x0.9 level 0.5 max volume,491.6,491.6369790854841,0.05,True
+T5 e0.6 x0.9 level 0.5 sessions per run,10.67,10.666666666666666,0.005,True
+T5 e0.6 x0.9 level 0.5 emptied sessions,0.0,0.0,0.0,True
+T5 e1.0 x1.0 level 0.0 P1,1.0,1.0,0.0005,True
+T5 e1.0 x1.0 level 0.0 P2,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.0 P3,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.0 works,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.0 leftover median,62.3,62.340986933949154,0.05,True
+T5 e1.0 x1.0 level 0.0 leftover min,0.5,0.501156825219667,0.05,True
+T5 e1.0 x1.0 level 0.0 leftover max,199.5,199.53227000119597,0.05,True
+T5 e1.0 x1.0 level 0.0 peak p_D,53.7,53.73766570896877,0.05,True
+T5 e1.0 x1.0 level 0.0 max volume,424.6,424.5637110148332,0.05,True
+T5 e1.0 x1.0 level 0.0 sessions per run,2.0,2.0,0.005,True
+T5 e1.0 x1.0 level 0.0 emptied sessions,30.0,30.0,0.0,True
+T5 e1.0 x1.0 level 0.0 emptying time median,25.0,25.0,0.0,True
+T5 e1.0 x1.0 level 0.0 emptying time max,50.0,50.0,0.0,True
+T5 e1.0 x1.0 level 0.1 P1,0.903,0.9032258064516129,0.0005,True
+T5 e1.0 x1.0 level 0.1 P2,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.1 P3,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.1 works,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.1 leftover median,116.2,116.19412007992594,0.05,True
+T5 e1.0 x1.0 level 0.1 leftover min,1.1,1.1064586586582832,0.05,True
+T5 e1.0 x1.0 level 0.1 leftover max,209.1,209.10480702898622,0.05,True
+T5 e1.0 x1.0 level 0.1 peak p_D,54.6,54.59613648901207,0.05,True
+T5 e1.0 x1.0 level 0.1 max volume,424.6,424.5637110148332,0.05,True
+T5 e1.0 x1.0 level 0.1 sessions per run,2.07,2.066666666666667,0.005,True
+T5 e1.0 x1.0 level 0.1 emptied sessions,31.0,31.0,0.0,True
+T5 e1.0 x1.0 level 0.1 emptying time median,25.0,25.0,0.0,True
+T5 e1.0 x1.0 level 0.1 emptying time max,51.0,51.0,0.0,True
+T5 e1.0 x1.0 level 0.2 P1,0.0,0.0,0.0005,True
+T5 e1.0 x1.0 level 0.2 P2,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.2 P3,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.2 works,0.0,0.0,0.0,True
+T5 e1.0 x1.0 level 0.2 leftover median,260.7,260.7345365782182,0.05,True
+T5 e1.0 x1.0 level 0.2 leftover min,201.8,201.7584408559792,0.05,True
+T5 e1.0 x1.0 level 0.2 leftover max,330.5,330.54749236119244,0.05,True
+T5 e1.0 x1.0 level 0.2 peak p_D,56.6,56.61803692680802,0.05,True
+T5 e1.0 x1.0 level 0.2 max volume,439.4,439.36584837418064,0.05,True
+T5 e1.0 x1.0 level 0.2 sessions per run,4.27,4.266666666666667,0.005,True
+T5 e1.0 x1.0 level 0.2 emptied sessions,64.0,64.0,0.0,True
+T5 e1.0 x1.0 level 0.2 emptying time median,35.0,35.0,0.0,True
+T5 e1.0 x1.0 level 0.2 emptying time max,56.0,56.0,0.0,True
+T5 e1.0 x1.0 level 0.3 P1,0.0,0.0,0.0005,True
+T5 e1.0 x1.0 level 0.3 P2,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.3 P3,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.3 works,0.0,0.0,0.0,True
+T5 e1.0 x1.0 level 0.3 leftover median,607.0,607.0428233554786,0.05,True
+T5 e1.0 x1.0 level 0.3 leftover min,341.6,341.64636786483845,0.05,True
+T5 e1.0 x1.0 level 0.3 leftover max,840.3,840.3302032491149,0.05,True
+T5 e1.0 x1.0 level 0.3 peak p_D,56.6,56.61676651582289,0.05,True
+T5 e1.0 x1.0 level 0.3 max volume,858.0,857.9803656827361,0.05,True
+T5 e1.0 x1.0 level 0.3 sessions per run,10.67,10.666666666666666,0.005,True
+T5 e1.0 x1.0 level 0.3 emptied sessions,0.0,0.0,0.0,True
+T5 e1.0 x1.0 level 0.4 P1,0.0,0.0,0.0005,True
+T5 e1.0 x1.0 level 0.4 P2,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.4 P3,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.4 works,0.0,0.0,0.0,True
+T5 e1.0 x1.0 level 0.4 leftover median,629.8,629.7635166359855,0.05,True
+T5 e1.0 x1.0 level 0.4 leftover min,343.3,343.28171977149464,0.05,True
+T5 e1.0 x1.0 level 0.4 leftover max,907.4,907.3671156902524,0.05,True
+T5 e1.0 x1.0 level 0.4 peak p_D,56.5,56.489599827293034,0.05,True
+T5 e1.0 x1.0 level 0.4 max volume,936.7,936.6968287507319,0.05,True
+T5 e1.0 x1.0 level 0.4 sessions per run,10.67,10.666666666666666,0.005,True
+T5 e1.0 x1.0 level 0.4 emptied sessions,0.0,0.0,0.0,True
+T5 e1.0 x1.0 level 0.5 P1,0.0,0.0,0.0005,True
+T5 e1.0 x1.0 level 0.5 P2,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.5 P3,1.0,1.0,0.0,True
+T5 e1.0 x1.0 level 0.5 works,0.0,0.0,0.0,True
+T5 e1.0 x1.0 level 0.5 leftover median,632.1,632.1203987666993,0.05,True
+T5 e1.0 x1.0 level 0.5 leftover min,343.4,343.4316150608838,0.05,True
+T5 e1.0 x1.0 level 0.5 leftover max,911.0,911.0121877348278,0.05,True
+T5 e1.0 x1.0 level 0.5 peak p_D,56.5,56.48221025176544,0.05,True
+T5 e1.0 x1.0 level 0.5 max volume,940.4,940.4275343295886,0.05,True
+T5 e1.0 x1.0 level 0.5 sessions per run,10.67,10.666666666666666,0.005,True
+T5 e1.0 x1.0 level 0.5 emptied sessions,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.0 P1,1.0,1.0,0.0005,True
+T5 e1.0 x0.9 level 0.0 P2,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.0 P3,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.0 works,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.0 leftover median,67.7,67.65334382901898,0.05,True
+T5 e1.0 x0.9 level 0.0 leftover min,1.5,1.5248108374821308,0.05,True
+T5 e1.0 x0.9 level 0.0 leftover max,188.4,188.4290066210746,0.05,True
+T5 e1.0 x0.9 level 0.0 peak p_D,53.7,53.74039844413553,0.05,True
+T5 e1.0 x0.9 level 0.0 max volume,424.6,424.5637110148332,0.05,True
+T5 e1.0 x0.9 level 0.0 sessions per run,2.0,2.0,0.005,True
+T5 e1.0 x0.9 level 0.0 emptied sessions,30.0,30.0,0.0,True
+T5 e1.0 x0.9 level 0.0 emptying time median,25.0,25.0,0.0,True
+T5 e1.0 x0.9 level 0.0 emptying time max,50.0,50.0,0.0,True
+T5 e1.0 x0.9 level 0.1 P1,0.903,0.9032258064516129,0.0005,True
+T5 e1.0 x0.9 level 0.1 P2,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.1 P3,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.1 works,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.1 leftover median,120.9,120.93387877154443,0.05,True
+T5 e1.0 x0.9 level 0.1 leftover min,1.1,1.1064586586582832,0.05,True
+T5 e1.0 x0.9 level 0.1 leftover max,204.3,204.2599585965587,0.05,True
+T5 e1.0 x0.9 level 0.1 peak p_D,54.6,54.59331057981591,0.05,True
+T5 e1.0 x0.9 level 0.1 max volume,424.6,424.5637110148332,0.05,True
+T5 e1.0 x0.9 level 0.1 sessions per run,2.07,2.066666666666667,0.005,True
+T5 e1.0 x0.9 level 0.1 emptied sessions,31.0,31.0,0.0,True
+T5 e1.0 x0.9 level 0.1 emptying time median,25.0,25.0,0.0,True
+T5 e1.0 x0.9 level 0.1 emptying time max,51.0,51.0,0.0,True
+T5 e1.0 x0.9 level 0.2 P1,0.032,0.031746031746031744,0.0005,True
+T5 e1.0 x0.9 level 0.2 P2,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.2 P3,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.2 works,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.2 leftover median,257.9,257.87101243922916,0.05,True
+T5 e1.0 x0.9 level 0.2 leftover min,188.0,188.0107288616174,0.05,True
+T5 e1.0 x0.9 level 0.2 leftover max,304.6,304.60485280902805,0.05,True
+T5 e1.0 x0.9 level 0.2 peak p_D,56.4,56.400374819705036,0.05,True
+T5 e1.0 x0.9 level 0.2 max volume,425.8,425.83818014143077,0.05,True
+T5 e1.0 x0.9 level 0.2 sessions per run,4.2,4.2,0.005,True
+T5 e1.0 x0.9 level 0.2 emptied sessions,63.0,63.0,0.0,True
+T5 e1.0 x0.9 level 0.2 emptying time median,42.0,42.0,0.0,True
+T5 e1.0 x0.9 level 0.2 emptying time max,56.0,56.0,0.0,True
+T5 e1.0 x0.9 level 0.3 P1,0.0,0.0,0.0005,True
+T5 e1.0 x0.9 level 0.3 P2,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.3 P3,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.3 works,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.3 leftover median,486.1,486.13458641885484,0.05,True
+T5 e1.0 x0.9 level 0.3 leftover min,341.6,341.6285501192021,0.05,True
+T5 e1.0 x0.9 level 0.3 leftover max,490.4,490.3783645221851,0.05,True
+T5 e1.0 x0.9 level 0.3 peak p_D,55.4,55.422250759334794,0.05,True
+T5 e1.0 x0.9 level 0.3 max volume,491.6,491.63694513398036,0.05,True
+T5 e1.0 x0.9 level 0.3 sessions per run,10.73,10.733333333333333,0.005,True
+T5 e1.0 x0.9 level 0.3 emptied sessions,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.4 P1,0.0,0.0,0.0005,True
+T5 e1.0 x0.9 level 0.4 P2,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.4 P3,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.4 works,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.4 leftover median,486.3,486.25032027203997,0.05,True
+T5 e1.0 x0.9 level 0.4 leftover min,343.3,343.2817116116073,0.05,True
+T5 e1.0 x0.9 level 0.4 leftover max,490.6,490.6061935979464,0.05,True
+T5 e1.0 x0.9 level 0.4 peak p_D,56.0,56.00854547569027,0.05,True
+T5 e1.0 x0.9 level 0.4 max volume,491.6,491.6369584454872,0.05,True
+T5 e1.0 x0.9 level 0.4 sessions per run,10.73,10.733333333333333,0.005,True
+T5 e1.0 x0.9 level 0.4 emptied sessions,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.5 P1,0.0,0.0,0.0005,True
+T5 e1.0 x0.9 level 0.5 P2,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.5 P3,1.0,1.0,0.0,True
+T5 e1.0 x0.9 level 0.5 works,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.5 leftover median,486.3,486.2612328584612,0.05,True
+T5 e1.0 x0.9 level 0.5 leftover min,343.4,343.4316150608838,0.05,True
+T5 e1.0 x0.9 level 0.5 leftover max,490.8,490.7559237643506,0.05,True
+T5 e1.0 x0.9 level 0.5 peak p_D,56.2,56.15574823258976,0.05,True
+T5 e1.0 x0.9 level 0.5 max volume,491.6,491.6369644155827,0.05,True
+T5 e1.0 x0.9 level 0.5 sessions per run,10.73,10.733333333333333,0.005,True
+T5 e1.0 x0.9 level 0.5 emptied sessions,0.0,0.0,0.0,True
+T5 highest peak p_D,56.6,56.61803692680802,0.05,True
+T5 cells passing P3,24.0,24.0,0.0,True
+T5 max leaked after alert,432.5,432.47333990259153,0.05,True
+T5 flow after stimulation stop max,2.0,2.0,0.0,True
+T5 emptying time max overall,56.0,56.0,0.0,True
+T5 level 0.1 sessions under 50%,7.0,7.0,0.0,True
+T5 level 0.1 worst session voided,0.053,0.0532658112733163,0.0005,True
+T5 e1.0 x1.0 level 0.2 voided median,0.331,0.33069335783779885,0.0005,True
+T5 e1.0 x1.0 level 0.2 voided max,0.483,0.4833250743773337,0.0005,True
+T5 e1.0 x1.0 level 0.2 sessions reaching 50%,0.0,0.0,0.0,True
+T5 e1.0 x0.9 level 0.2 voided median,0.343,0.34313549189060133,0.0005,True
+T5 e1.0 x0.9 level 0.2 voided max,0.529,0.5294786887033494,0.0005,True
+T5 e1.0 x0.9 level 0.2 sessions reaching 50%,2.0,2.0,0.0,True
+T6 check runs,36.0,36.0,0.0,True
+T6 check sessions,176.0,176.0,0.0,True
+T6 check run columns,34.0,34.0,0.0,True
+T6 check session columns,27.0,27.0,0.0,True
+T6 check differences,0.0,0.0,0.0,True
+"T6 check passed, invariants hold",2.0,2.0,0.0,True
+T6 closed-loop runs,90.0,90.0,0.0,True
+T6 closed-loop errors,0.0,0.0,0.0,True
+T6 fault e0.6 x1.0 sessions,12.0,12.0,0.0,True
+T6 fault e0.6 x1.0 sessions voiding 50%,0.0,0.0,0.0,True
+T6 fault e0.6 x1.0 voided median,0.37,0.3735762410119057,0.005,True
+T6 fault e0.6 x1.0 leftover median,247.0,247.30914648245798,0.5,True
+T6 fault e0.6 x1.0 peak p_D,50.0,49.97457892777169,0.05,True
+T6 fault e0.6 x1.0 sessions within ceiling+5,12.0,12.0,0.0,True
+T6 fault e0.6 x0.9 sessions,12.0,12.0,0.0,True
+T6 fault e0.6 x0.9 sessions voiding 50%,0.0,0.0,0.0,True
+T6 fault e0.6 x0.9 voided median,0.38,0.3815027307942254,0.005,True
+T6 fault e0.6 x0.9 leftover median,245.0,245.16868778891904,0.5,True
+T6 fault e0.6 x0.9 peak p_D,49.2,49.1981114210389,0.05,True
+T6 fault e0.6 x0.9 sessions within ceiling+5,12.0,12.0,0.0,True
+T6 fault e1.0 x1.0 sessions,9.0,9.0,0.0,True
+T6 fault e1.0 x1.0 sessions voiding 50%,9.0,9.0,0.0,True
+T6 fault e1.0 x1.0 voided median,0.58,0.5764301599140262,0.005,True
+T6 fault e1.0 x1.0 leftover median,166.0,165.75566283928265,0.5,True
+T6 fault e1.0 x1.0 peak p_D,72.0,72.04619071869396,0.05,True
+T6 fault e1.0 x1.0 sessions within ceiling+5,5.0,5.0,0.0,True
+T6 fault e1.0 x0.9 sessions,9.0,9.0,0.0,True
+T6 fault e1.0 x0.9 sessions voiding 50%,9.0,9.0,0.0,True
+T6 fault e1.0 x0.9 voided median,0.58,0.5750750354944,0.005,True
+T6 fault e1.0 x0.9 leftover median,161.0,161.1853964404522,0.5,True
+T6 fault e1.0 x0.9 peak p_D,73.8,73.75173111991447,0.05,True
+T6 fault e1.0 x0.9 sessions within ceiling+5,5.0,5.0,0.0,True
+T6 leftover e0.6 block0.8 burst x1.0,85.0,85.40051920519065,0.5,True
+T6 leftover e0.6 block0.8 burst x0.9,74.0,73.95237492314308,0.5,True
+T6 leftover e0.6 block0.8 session x1.0,1.5,1.4906193895968123,0.05,True
+T6 leftover e0.6 block0.8 session x0.9,1.5,1.4882691214246333,0.05,True
+T6 leftover e0.6 block1.0 burst x1.0,1.5,1.5172189114601689,0.05,True
+T6 leftover e0.6 block1.0 burst x0.9,1.5,1.5172189114601689,0.05,True
+T6 leftover e0.6 block1.0 session x1.0,1.3,1.3273350309262595,0.05,True
+T6 leftover e0.6 block1.0 session x0.9,1.3,1.3273350309262595,0.05,True
+T6 leftover e1.0 block0.8 burst x1.0,136.0,135.73486817441068,0.5,True
+T6 leftover e1.0 block0.8 burst x0.9,107.0,107.0061297147845,0.5,True
+T6 leftover e1.0 block0.8 session x1.0,75.0,74.91268026463588,0.5,True
+T6 leftover e1.0 block0.8 session x0.9,78.0,78.4943648631655,0.5,True
+T6 leftover e1.0 block1.0 burst x1.0,53.0,53.34792116145386,0.5,True
+T6 leftover e1.0 block1.0 burst x0.9,73.0,73.34166427330328,0.5,True
+T6 leftover e1.0 block1.0 session x1.0,8.0,8.428809798222288,0.5,True
+T6 leftover e1.0 block1.0 session x0.9,3.0,3.075084595768327,0.5,True
+T6 session-block lowest voided,0.69,0.6908753580438282,0.005,True
+T6 session-block sessions under 50%,0.0,0.0,0.0,True
+T6 session-block gap flow min,0.31,0.31,0.005,True
+T6 session-block flow after stop max s,2.0,2.0,0.0,True
+T6 probe runs,18.0,18.0,0.0,True
+T6 probe anchor patch checks,0.0,0.0,0.0,True
+T6 probe anchor sessions,12.0,12.0,0.0,True
+T6 probe misaligned runs flagged,6.0,6.0,0.0,True
+T6 probe misaligned runs with alert,6.0,6.0,0.0,True
+T6 probe x0.9 monitor off runs without alert,2.0,2.0,0.0,True
+T6 probe misaligned_monitor_off x1.0 max volume low,549.0,548.9417991754092,0.5,True
+T6 probe misaligned_monitor_off x1.0 max volume high,600.0,600.3351734466876,0.5,True
+T6 probe misaligned_monitor_on x1.0 max volume low,411.0,411.0481834235447,0.5,True
+T6 probe misaligned_monitor_on x1.0 max volume high,548.0,547.9237599397815,0.5,True
+T6 probe misaligned_monitor_on x0.9 max volume low,411.0,411.0481834235447,0.5,True
+T6 probe misaligned_monitor_on x0.9 max volume high,490.0,490.1566696325824,0.5,True
+T6 probe anchor_monitor_on x1.0 max volume low,391.0,391.3347465199845,0.5,True
+T6 probe anchor_monitor_on x1.0 max volume high,411.0,411.0481834235447,0.5,True
+T6 probe first flag earliest h,4.15,4.15,0.005,True
+T6 probe first flag latest h,4.3,4.3,0.005,True
+E8 runs,6300.0,6300.0,0.0,True
+E8 M1 x1.0,1.0,1.0,0.0,True
+E8 M1 x0.9,1.0,1.0,0.0,True
+E8 M2 highest,0.02,0.02,0.0005,True
+E8 M2 cells,28.0,28.0,0.0,True
+E8 false flags,25.0,25.0,0.0,True
+E8 runs without misalignment,4200.0,4200.0,0.0,True
+E8 false flags from rule 1,22.0,22.0,0.0,True
+E8 M4 cells,84.0,84.0,0.0,True
+E8 M4 harmed,0.0,0.0,0.0,True
+"E8 cells working, monitor off",54.0,54.0,0.0,True
+"E8 cells working, correction",54.0,54.0,0.0,True
+E8 M3 rescued,2.0,2.0,0.0,True
+E8 M3 before,0.0,0.0,0.0,True
+E8 target x1.0 on time,1.0,1.0,0.0005,True
+E8 target x1.0 rule 1 alone,0.933,0.9333333333333332,0.0005,True
+E8 target x1.0 rule 2 alone,0.927,0.9266666666666666,0.0005,True
+E8 target x1.0 corrected,1.0,1.0,0.0005,True
+E8 target x0.9 on time,1.0,1.0,0.0005,True
+E8 target x0.9 rule 1 alone,0.92,0.92,0.0005,True
+E8 target x0.9 rule 2 alone,0.953,0.9533333333333334,0.0005,True
+E8 target x0.9 corrected,0.993,0.9933333333333332,0.0005,True
+E8 target minutes to flag,13.0,13.000000000000009,0.5,True
+E8 target ratio median,0.818,0.8177390004234187,0.0005,True
+E8 target ratio p05,0.743,0.7429771057124853,0.0005,True
+E8 target ratio p95,0.895,0.8947688462929102,0.0005,True
+E8 mis_x0.5_at_4h on time x1.0,1.0,1.0,0.0005,True
+E8 mis_x0.5_at_4h on time x0.9,1.0,1.0,0.0005,True
+E8 mis_x0.7_at_6h on time x1.0,1.0,1.0,0.0005,True
+E8 mis_x0.7_at_6h on time x0.9,1.0,1.0,0.0005,True
+E8 mis_x0.7_at_2h on time x1.0,0.967,0.9666666666666668,0.0005,True
+E8 mis_x0.7_at_2h on time x0.9,0.967,0.9666666666666668,0.0005,True
+E8 mis_x0.7_at_4h_gain_only on time x1.0,0.953,0.9533333333333334,0.0005,True
+E8 mis_x0.7_at_4h_gain_only on time x0.9,0.96,0.96,0.0005,True
+E8 mis_dropout_only_at_4h on time x1.0,0.947,0.9466666666666668,0.0005,True
+E8 mis_dropout_only_at_4h on time x0.9,0.933,0.9333333333333332,0.0005,True
+E8 mis_x0.85_at_4h on time x1.0,0.913,0.9133333333333332,0.0005,True
+E8 mis_x0.85_at_4h on time x0.9,0.94,0.94,0.0005,True
+E8 x0.85 rule 1 alone x1.0,0.04,0.04,0.0005,True
+E8 x0.85 rule 1 alone x0.9,0.027,0.0266666666666666,0.0005,True
+E8 2 h rule 1 alone x1.0,0.493,0.4933333333333333,0.0005,True
+E8 2 h rule 1 alone x0.9,0.527,0.5266666666666666,0.0005,True
+E8 2 h ratio median,0.937,0.9372211882912662,0.0005,True
+E8 x0.5 minutes to flag,9.0,9.000000000000021,0.5,True
+"E8 target 350 x1.0 useful, off",0.693,0.6933333333333334,0.0005,True
+"E8 target 350 x1.0 useful, flag only",0.693,0.6933333333333334,0.0005,True
+"E8 target 350 x1.0 useful, corrected",1.0,1.0,0.0005,True
+"E8 target 350 x1.0 volume, corrected",403.0,402.9003739768262,0.5,True
+"E8 target 350 x1.0 volume, off",490.0,489.5259412046509,0.5,True
+"E8 target 350 x1.0 false alerts, corrected",0.0,0.0,0.0,True
+"E8 target 350 x0.9 useful, off",0.393,0.3933333333333333,0.0005,True
+"E8 target 350 x0.9 useful, flag only",0.393,0.3933333333333333,0.0005,True
+"E8 target 350 x0.9 useful, corrected",0.973,0.9733333333333334,0.0005,True
+"E8 target 350 x0.9 volume, corrected",403.0,403.17557531246575,0.5,True
+"E8 target 350 x0.9 volume, off",486.0,485.66543859916,0.5,True
+"E8 target 350 x0.9 false alerts, corrected",0.0,0.0,0.0,True
+"E8 target 400 x1.0 useful, off",0.013,0.0133333333333333,0.0005,True
+"E8 target 400 x1.0 useful, flag only",0.013,0.0133333333333333,0.0005,True
+"E8 target 400 x1.0 useful, corrected",0.887,0.8866666666666667,0.0005,True
+"E8 target 400 x1.0 volume, corrected",456.0,456.3349856648581,0.5,True
+"E8 target 400 x1.0 volume, off",552.0,552.296462349204,0.5,True
+"E8 target 400 x1.0 false alerts, corrected",0.0,0.0,0.0,True
+"E8 target 400 x0.9 useful, off",0.0,0.0,0.0005,True
+"E8 target 400 x0.9 useful, flag only",0.0,0.0,0.0005,True
+"E8 target 400 x0.9 useful, corrected",0.753,0.7533333333333333,0.0005,True
+"E8 target 400 x0.9 volume, corrected",461.0,460.9171855528471,0.5,True
+"E8 target 400 x0.9 false alerts, corrected",0.0,0.0,0.0,True
+"E8 target 450 x1.0 useful, off",0.0,0.0,0.0005,True
+"E8 target 450 x1.0 useful, flag only",0.0,0.0,0.0005,True
+"E8 target 450 x1.0 useful, corrected",0.427,0.4266666666666667,0.0005,True
+"E8 target 450 x1.0 volume, corrected",515.0,514.984681058952,0.5,True
+"E8 target 450 x1.0 volume, off",619.0,618.9813697008256,0.5,True
+"E8 target 450 x1.0 false alerts, corrected",0.0,0.0,0.0,True
+"E8 target 450 x0.9 useful, off",0.0,0.0,0.0005,True
+"E8 target 450 x0.9 useful, flag only",0.0,0.0,0.0005,True
+"E8 target 450 x0.9 useful, corrected",0.26,0.26,0.0005,True
+"E8 target 450 x0.9 volume, corrected",486.0,485.81660437412125,0.5,True
+"E8 target 450 x0.9 false alerts, corrected",0.0,0.0,0.0,True
+E8 mis_x0.5_at_4h cells before,0.0,0.0,0.0,True
+E8 mis_x0.5_at_4h cells after,2.0,2.0,0.0,True
+E8 mis_x0.7_at_4h_gain_only cells before,0.0,0.0,0.0,True
+E8 mis_x0.7_at_4h_gain_only cells after,2.0,2.0,0.0,True
+E8 mis_x0.7_at_6h cells before,2.0,2.0,0.0,True
+E8 mis_x0.7_at_6h cells after,4.0,4.0,0.0,True
+E8 mis_x0.85_at_4h cells before,3.0,3.0,0.0,True
+E8 mis_x0.85_at_4h cells after,3.0,3.0,0.0,True
+E8 mis_x0.7_at_2h cells before,0.0,0.0,0.0,True
+E8 mis_x0.7_at_2h cells after,0.0,0.0,0.0,True
+E8 mis_dropout_only_at_4h cells before,6.0,6.0,0.0,True
+E8 mis_dropout_only_at_4h cells after,6.0,6.0,0.0,True
+T7 check flag rows,300.0,300.0,0.0,True
+T7 check alert rows,2700.0,2700.0,0.0,True
+T7 check flag columns,14.0,14.0,0.0,True
+T7 check alert columns,17.0,17.0,0.0,True
+T7 check differences,0.0,0.0,0.0,True
+T7 check passed,1.0,1.0,0.0,True
+E9 first scoring F1 differences,1785.0,1785.0,0.0,True
+E9 F1 runs,6300.0,6300.0,0.0,True
+E9 F1 differences,0.0,0.0,0.0,True
+E9 all criteria pass,8.0,8.0,0.0,True
+E9 M1 x1.0,0.993,0.9933333333333333,0.0005,True
+E9 M1 x0.9,1.0,1.0,0.0,True
+E9 M2 highest,0.04,0.04,0.0005,True
+E9 M4 cells,84.0,84.0,0.0,True
+E9 M4 harmed,0.0,0.0,0.0,True
+E9 false flags,29.0,29.0,0.0,True
+E9 runs without misalignment,4200.0,4200.0,0.0,True
+E9 runs with a level flag,1800.0,1800.0,0.0,True
+E9 anchor x0.9 flag rate,0.04,0.04,0.0005,True
+E9 misaligned_at_4h x1.0 ratio old,0.816,0.8157829167738208,0.0005,True
+E9 misaligned_at_4h x1.0 ratio new,0.7,0.7000817558037891,0.0005,True
+E9 misaligned_at_4h x0.9 ratio old,0.824,0.8238526310457899,0.0005,True
+E9 misaligned_at_4h x0.9 ratio new,0.706,0.7058327602014705,0.0005,True
+E9 mis_x0.5_at_4h x1.0 ratio old,0.576,0.5763735122691005,0.0005,True
+E9 mis_x0.5_at_4h x1.0 ratio new,0.496,0.495809657508129,0.0005,True
+E9 mis_x0.5_at_4h x0.9 ratio old,0.578,0.578184240963163,0.0005,True
+E9 mis_x0.5_at_4h x0.9 ratio new,0.499,0.4993091742926074,0.0005,True
+E9 mis_x0.85_at_4h x1.0 ratio old,0.976,0.9764910419345436,0.0005,True
+E9 mis_x0.85_at_4h x1.0 ratio new,0.846,0.8459028696197699,0.0005,True
+E9 mis_x0.85_at_4h x0.9 ratio old,0.955,0.9547290358068008,0.0005,True
+E9 mis_x0.85_at_4h x0.9 ratio new,0.87,0.8701625886983589,0.0005,True
+E9 mis_x0.7_at_4h_gain_only x1.0 ratio old,0.79,0.7902909296279721,0.0005,True
+E9 mis_x0.7_at_4h_gain_only x1.0 ratio new,0.698,0.6978314103588423,0.0005,True
+E9 mis_x0.7_at_6h x1.0 ratio old,0.785,0.7849781728745204,0.0005,True
+E9 mis_x0.7_at_6h x1.0 ratio new,0.708,0.707853858949734,0.0005,True
+E9 mis_x0.7_at_2h x1.0 ratio old,0.944,0.9444730195601816,0.0005,True
+E9 mis_x0.7_at_2h x1.0 ratio new,0.703,0.7026348086721019,0.0005,True
+E9 mis_dropout_only_at_4h x1.0 ratio old,1.0,1.0,0.0005,True
+E9 mis_dropout_only_at_4h x1.0 ratio new,0.953,0.9532000975709964,0.0005,True
+E9 mis_dropout_only_at_4h x0.9 ratio old,0.936,0.9362390936866324,0.0005,True
+E9 mis_dropout_only_at_4h x0.9 ratio new,0.914,0.9138737128908406,0.0005,True
+E9 misaligned_at_4h x1.0 corrected rate,0.993,0.9933333333333332,0.0005,True
+E9 misaligned_at_4h x1.0 over-corrected,0.181,0.1812080536912751,0.0005,True
+E9 misaligned_at_4h x1.0 ratio p05,0.623,0.622827593076211,0.0005,True
+E9 misaligned_at_4h x1.0 ratio p95,0.783,0.7830025636368327,0.0005,True
+E9 misaligned_at_4h x0.9 corrected rate,1.0,1.0,0.0005,True
+E9 misaligned_at_4h x0.9 over-corrected,0.167,0.1666666666666666,0.0005,True
+E9 mis_x0.5_at_4h x1.0 corrected rate,1.0,1.0,0.0005,True
+E9 mis_x0.5_at_4h x1.0 over-corrected,0.02,0.02,0.0005,True
+E9 mis_x0.5_at_4h x1.0 ratio p05,0.457,0.4573592502427963,0.0005,True
+E9 mis_x0.5_at_4h x1.0 ratio p95,0.544,0.5438126735416863,0.0005,True
+E9 mis_x0.5_at_4h x0.9 corrected rate,1.0,1.0,0.0005,True
+E9 mis_x0.5_at_4h x0.9 over-corrected,0.133,0.1333333333333333,0.0005,True
+E9 mis_x0.85_at_4h x1.0 corrected rate,0.413,0.4133333333333333,0.0005,True
+E9 mis_x0.85_at_4h x1.0 over-corrected,0.242,0.2419354838709677,0.0005,True
+E9 mis_x0.85_at_4h x1.0 ratio p05,0.745,0.745489921794807,0.0005,True
+E9 mis_x0.85_at_4h x1.0 ratio p95,0.966,0.965863262523717,0.0005,True
+E9 mis_x0.85_at_4h x0.9 corrected rate,0.807,0.8066666666666666,0.0005,True
+E9 mis_x0.85_at_4h x0.9 over-corrected,0.116,0.1157024793388429,0.0005,True
+E9 mis_dropout_only_at_4h x1.0 corrected rate,0.14,0.14,0.0005,True
+E9 mis_dropout_only_at_4h x0.9 corrected rate,0.687,0.6866666666666666,0.0005,True
+E9 target x1.0 under-corrected,0.161,0.1610738255033557,0.0005,True
+E9 target x0.9 under-corrected,0.173,0.1733333333333333,0.0005,True
+"E9 flat line, negative slope",14.0,14.0,0.0,True
+"E9 flat line, too few readings",0.0,0.0,0.0,True
+E9 flat line at x1.0,0.0,0.0,0.0,True
+"E9 target 350 x1.0 useful, off",0.707,0.7066666666666667,0.0005,True
+"E9 target 350 x1.0 volume, off",489.0,489.1180663284511,0.5,True
+"E9 target 350 x1.0 useful, old",0.993,0.9933333333333332,0.0005,True
+"E9 target 350 x1.0 volume, old",406.0,406.2244582602474,0.5,True
+"E9 target 350 x1.0 useful, new",0.98,0.98,0.0005,True
+"E9 target 350 x1.0 volume, new",347.0,347.1669433073926,0.5,True
+"E9 target 350 x1.0 false alerts, new",0.013,0.0133333333333333,0.0005,True
+"E9 target 350 x1.0 false alerts, old",0.0,0.0,0.0,True
+"E9 target 350 x0.9 useful, off",0.48,0.48,0.0005,True
+"E9 target 350 x0.9 volume, off",485.0,485.1540878730207,0.5,True
+"E9 target 350 x0.9 useful, old",0.993,0.9933333333333332,0.0005,True
+"E9 target 350 x0.9 volume, old",402.0,402.12769750073744,0.5,True
+"E9 target 350 x0.9 useful, new",0.987,0.9866666666666668,0.0005,True
+"E9 target 350 x0.9 volume, new",344.0,344.3276684536253,0.5,True
+"E9 target 350 x0.9 false alerts, new",0.007,0.0066666666666666,0.0005,True
+"E9 target 350 x0.9 false alerts, old",0.0,0.0,0.0,True
+"E9 target 400 x1.0 useful, off",0.0,0.0,0.0005,True
+"E9 target 400 x1.0 volume, off",558.0,558.143583603807,0.5,True
+"E9 target 400 x1.0 useful, old",0.873,0.8733333333333333,0.0005,True
+"E9 target 400 x1.0 volume, old",457.0,456.914751659003,0.5,True
+"E9 target 400 x1.0 useful, new",0.993,0.9933333333333332,0.0005,True
+"E9 target 400 x1.0 volume, new",393.0,392.8202553045074,0.5,True
+"E9 target 400 x1.0 false alerts, new",0.0,0.0,0.0005,True
+"E9 target 400 x1.0 false alerts, old",0.0,0.0,0.0,True
+"E9 target 400 x0.9 useful, off",0.0,0.0,0.0005,True
+"E9 target 400 x0.9 volume, off",487.0,487.2299562908862,0.5,True
+"E9 target 400 x0.9 useful, old",0.793,0.7933333333333333,0.0005,True
+"E9 target 400 x0.9 volume, old",462.0,461.9101750358783,0.5,True
+"E9 target 400 x0.9 useful, new",0.993,0.9933333333333332,0.0005,True
+"E9 target 400 x0.9 volume, new",388.0,388.33060121397057,0.5,True
+"E9 target 400 x0.9 false alerts, new",0.0,0.0,0.0005,True
+"E9 target 400 x0.9 false alerts, old",0.0,0.0,0.0,True
+"E9 target 450 x1.0 useful, off",0.0,0.0,0.0005,True
+"E9 target 450 x1.0 volume, off",626.0,625.9266588663434,0.5,True
+"E9 target 450 x1.0 useful, old",0.407,0.4066666666666667,0.0005,True
+"E9 target 450 x1.0 volume, old",514.0,514.0925021616945,0.5,True
+"E9 target 450 x1.0 useful, new",0.94,0.94,0.0005,True
+"E9 target 450 x1.0 volume, new",439.0,438.8158305073344,0.5,True
+"E9 target 450 x1.0 false alerts, new",0.0,0.0,0.0005,True
+"E9 target 450 x1.0 false alerts, old",0.0,0.0,0.0,True
+"E9 target 450 x0.9 useful, off",0.0,0.0,0.0005,True
+"E9 target 450 x0.9 useful, old",0.24,0.24,0.0005,True
+"E9 target 450 x0.9 volume, old",486.0,486.0383705275433,0.5,True
+"E9 target 450 x0.9 useful, new",0.9,0.9,0.0005,True
+"E9 target 450 x0.9 volume, new",445.0,444.7273568097511,0.5,True
+"E9 target 450 x0.9 false alerts, new",0.0,0.0,0.0005,True
+"E9 target 450 x0.9 false alerts, old",0.0,0.0,0.0,True
+E9 misaligned_at_4h cells off,0.0,0.0,0.0,True
+E9 misaligned_at_4h cells old,2.0,2.0,0.0,True
+E9 misaligned_at_4h cells new,4.0,4.0,0.0,True
+E9 mis_x0.5_at_4h cells off,0.0,0.0,0.0,True
+E9 mis_x0.5_at_4h cells old,2.0,2.0,0.0,True
+E9 mis_x0.5_at_4h cells new,4.0,4.0,0.0,True
+E9 mis_x0.85_at_4h cells off,2.0,2.0,0.0,True
+E9 mis_x0.85_at_4h cells old,3.0,3.0,0.0,True
+E9 mis_x0.85_at_4h cells new,3.0,3.0,0.0,True
+E9 mis_x0.7_at_4h_gain_only cells off,0.0,0.0,0.0,True
+E9 mis_x0.7_at_4h_gain_only cells old,3.0,3.0,0.0,True
+E9 mis_x0.7_at_4h_gain_only cells new,5.0,5.0,0.0,True
+E9 mis_x0.7_at_6h cells off,2.0,2.0,0.0,True
+E9 mis_x0.7_at_6h cells old,4.0,4.0,0.0,True
+E9 mis_x0.7_at_6h cells new,4.0,4.0,0.0,True
+E9 mis_x0.7_at_2h cells off,0.0,0.0,0.0,True
+E9 mis_x0.7_at_2h cells old,0.0,0.0,0.0,True
+E9 mis_x0.7_at_2h cells new,0.0,0.0,0.0,True
+E9 mis_dropout_only_at_4h cells off,6.0,6.0,0.0,True
+E9 mis_dropout_only_at_4h cells old,6.0,6.0,0.0,True
+E9 mis_dropout_only_at_4h cells new,6.0,6.0,0.0,True
+"E9 cells without misalignment working, monitor_off",54.0,54.0,0.0,True
+"E9 cells without misalignment working, old_correction",54.0,54.0,0.0,True
+"E9 cells without misalignment working, new_correction",54.0,54.0,0.0,True
+E9 mis_x0.5_at_4h 450 x1.0 new_correction useful_rate,0.933,0.9333333333333332,0.0005,True
+E9 mis_x0.5_at_4h 450 x0.9 new_correction useful_rate,0.9,0.9,0.0005,True
+E9 mis_x0.5_at_4h 350 x1.0 new_correction false_alert_run_rate,0.02,0.02,0.0005,True
+E9 mis_x0.5_at_4h 350 x0.9 new_correction false_alert_run_rate,0.033,0.0333333333333333,0.0005,True
+E9 mis_x0.85_at_4h 350 x1.0 new_correction false_alert_run_rate,0.02,0.02,0.0005,True
+E9 mis_x0.85_at_4h 350 x0.9 new_correction false_alert_run_rate,0.007,0.0066666666666666,0.0005,True
+E9 mis_x0.7_at_2h 350 x1.0 new_correction false_alert_run_rate,0.06,0.06,0.0005,True
+E9 mis_x0.7_at_2h 350 x0.9 new_correction false_alert_run_rate,0.053,0.0533333333333333,0.0005,True
+E9 mis_x0.7_at_2h 400 x1.0 old_correction useful_rate,0.273,0.2733333333333333,0.0005,True
+E9 mis_x0.7_at_2h 400 x1.0 new_correction useful_rate,0.847,0.8466666666666667,0.0005,True
+E9 mis_x0.7_at_6h 450 x1.0 old_correction useful_rate,0.62,0.62,0.0005,True
+E9 mis_x0.7_at_6h 450 x1.0 new_correction useful_rate,0.94,0.94,0.0005,True
+E9 mis_x0.7_at_6h 450 x0.9 old_correction useful_rate,0.527,0.5266666666666666,0.0005,True
+E9 mis_x0.7_at_6h 450 x0.9 new_correction useful_rate,0.913,0.9133333333333332,0.0005,True
+T7 probe runs,12.0,12.0,0.0,True
+T7 probe errors,0.0,0.0,0.0,True
+T7 probe anchor patch checks,0.0,0.0,0.0,True
+T7 probe anchor sessions,12.0,12.0,0.0,True
+T7 probe misaligned runs flagged,6.0,6.0,0.0,True
+T7 probe misaligned first alert earliest h,5.75,5.75,0.05,True
+T7 probe misaligned first alert latest h,5.93,5.933333333333334,0.05,True
+T7 probe misaligned max volume low,369.0,369.2748881770332,0.5,True
+T7 probe misaligned max volume high,453.0,452.5109446397461,0.5,True
+T7 probe misaligned leak,0.0,0.0,0.0,True
+T7 probe misaligned sessions,12.0,12.0,0.0,True
+T7 probe misaligned sessions voiding 50%,12.0,12.0,0.0,True
+T7 probe seed 42 first session volume,387.0,387.12301742203147,0.5,True
+T7 probe seed 2 session volume low,360.0,360.2167526259743,0.5,True
+T7 probe seed 2 session volume high,369.0,369.25864505291736,0.5,True
+"T7 probe alert earlier by, least h",0.4,0.38333333333333286,0.05,True
+"T7 probe alert earlier by, most h",2.1,2.1333333333333337,0.05,True
+T8 check open-loop rows,900.0,900.0,0.0,True
+T8 check open-loop columns,11.0,11.0,0.0,True
+T8 check closed-loop runs,6.0,6.0,0.0,True
+T8 check closed-loop sessions,12.0,12.0,0.0,True
+T8 check closed-loop columns,61.0,61.0,0.0,True
+T8 check differences,0.0,0.0,0.0,True
+T8 check passed,1.0,1.0,0.0,True
+T8 timing projection min,11.7,11.722895925023295,0.05,True
+T8 sensor seeds used,15.0,15.0,0.0,True
+E10 main runs,8100.0,8100.0,0.0,True
+E10 main flag rows,81450.0,81450.0,0.0,True
+E10 main alert rows,537300.0,537300.0,0.0,True
+E10 held-out runs,1200.0,1200.0,0.0,True
+E10 rule (a) cells checked,132.0,132.0,0.0,True
+E10 rule (a) equals A alone,2.0,2.0,0.0,True
+E10 job files,1240.0,1240.0,0.0,True
+E10 held-out traces,20.0,20.0,0.0,True
+"E10 points fixed, main",0.0,0.0,0.0,True
+"E10 points fixed, held-out",2.0,2.0,0.0,True
+E10 target cells b_trust_b e0.05 c0.0,5.0,5.0,0.0,True
+E10 target cells b_trust_b e0.05 c0.25,4.0,4.0,0.0,True
+E10 target cells b_trust_b e0.05 c0.5,1.0,1.0,0.0,True
+E10 target cells b_trust_b e0.05 c0.75,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.05 c1.0,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.1117 c0.0,6.0,6.0,0.0,True
+E10 target cells b_trust_b e0.1117 c0.25,2.0,2.0,0.0,True
+E10 target cells b_trust_b e0.1117 c0.5,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.1117 c0.75,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.1117 c1.0,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.2 c0.0,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.2 c0.25,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.2 c0.5,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.2 c0.75,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.2 c1.0,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.3 c0.0,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.3 c0.25,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.3 c0.5,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.3 c0.75,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.3 c1.0,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.4 c0.0,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.4 c0.25,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.4 c0.5,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.4 c0.75,0.0,0.0,0.0,True
+E10 target cells b_trust_b e0.4 c1.0,0.0,0.0,0.0,True
+E10 target cells c_average e0.05 c0.0,3.0,3.0,0.0,True
+E10 target cells c_average e0.05 c0.25,2.0,2.0,0.0,True
+E10 target cells c_average e0.05 c0.5,2.0,2.0,0.0,True
+E10 target cells c_average e0.05 c0.75,0.0,0.0,0.0,True
+E10 target cells c_average e0.05 c1.0,0.0,0.0,0.0,True
+E10 target cells c_average e0.1117 c0.0,4.0,4.0,0.0,True
+E10 target cells c_average e0.1117 c0.25,2.0,2.0,0.0,True
+E10 target cells c_average e0.1117 c0.5,2.0,2.0,0.0,True
+E10 target cells c_average e0.1117 c0.75,0.0,0.0,0.0,True
+E10 target cells c_average e0.1117 c1.0,0.0,0.0,0.0,True
+E10 target cells c_average e0.2 c0.0,4.0,4.0,0.0,True
+E10 target cells c_average e0.2 c0.25,3.0,3.0,0.0,True
+E10 target cells c_average e0.2 c0.5,2.0,2.0,0.0,True
+E10 target cells c_average e0.2 c0.75,1.0,1.0,0.0,True
+E10 target cells c_average e0.2 c1.0,0.0,0.0,0.0,True
+E10 target cells c_average e0.3 c0.0,4.0,4.0,0.0,True
+E10 target cells c_average e0.3 c0.25,3.0,3.0,0.0,True
+E10 target cells c_average e0.3 c0.5,2.0,2.0,0.0,True
+E10 target cells c_average e0.3 c0.75,1.0,1.0,0.0,True
+E10 target cells c_average e0.3 c1.0,0.0,0.0,0.0,True
+E10 target cells c_average e0.4 c0.0,3.0,3.0,0.0,True
+E10 target cells c_average e0.4 c0.25,4.0,4.0,0.0,True
+E10 target cells c_average e0.4 c0.5,2.0,2.0,0.0,True
+E10 target cells c_average e0.4 c0.75,2.0,2.0,0.0,True
+E10 target cells c_average e0.4 c1.0,0.0,0.0,0.0,True
+E10 M2 worst cell e0.05,0.76,0.76,0.0005,True
+E10 M1 target e0.05,0.991,0.9911111111111112,0.0005,True
+E10 harmed rule b e0.05,0.0,0.0,0.0,True
+E10 harmed rule c e0.05,3.0,3.0,0.0,True
+E10 gained rule c e0.05,16.0,16.0,0.0,True
+E10 M2 worst cell e0.1117,0.609,0.6088888888888889,0.0005,True
+E10 M1 target e0.1117,0.982,0.9822222222222222,0.0005,True
+E10 harmed rule b e0.1117,0.0,0.0,0.0,True
+E10 harmed rule c e0.1117,2.0,2.0,0.0,True
+E10 gained rule c e0.1117,16.0,16.0,0.0,True
+E10 M2 worst cell e0.2,0.369,0.3688888888888889,0.0005,True
+E10 M1 target e0.2,0.484,0.4844444444444444,0.0005,True
+E10 harmed rule b e0.2,0.0,0.0,0.0,True
+E10 harmed rule c e0.2,0.0,0.0,0.0,True
+E10 gained rule c e0.2,14.0,14.0,0.0,True
+E10 M2 worst cell e0.3,0.267,0.2666666666666666,0.0005,True
+E10 M1 target e0.3,0.027,0.0266666666666666,0.0005,True
+E10 harmed rule b e0.3,2.0,2.0,0.0,True
+E10 harmed rule c e0.3,5.0,5.0,0.0,True
+E10 gained rule c e0.3,14.0,14.0,0.0,True
+E10 M2 worst cell e0.4,0.236,0.2355555555555555,0.0005,True
+E10 M1 target e0.4,0.0,0.0,0.0005,True
+E10 harmed rule b e0.4,3.0,3.0,0.0,True
+E10 harmed rule c e0.4,16.0,16.0,0.0,True
+E10 gained rule c e0.4,10.0,10.0,0.0,True
+E10 M2 cells,28.0,28.0,0.0,True
+E10 common-mode on time,0.004,0.0044444444444444,0.0005,True
+"E10 target cells, A alone",0.0,0.0,0.0,True
+"E10 mis_x0.7_at_2h cells, A alone",0.0,0.0,0.0,True
+"E10 mis_x0.7_at_2h cells, rule b",6.0,6.0,0.0,True
+E10 mis_x0.7_at_2h on time,0.973,0.9733333333333334,0.0005,True
+"E10 mis_x0.7_at_4h_gain_only cells, A alone",0.0,0.0,0.0,True
+"E10 mis_x0.7_at_4h_gain_only cells, rule b",6.0,6.0,0.0,True
+E10 mis_x0.7_at_4h_gain_only on time,0.987,0.9866666666666668,0.0005,True
+"E10 mis_x0.85_at_4h cells, A alone",2.0,2.0,0.0,True
+"E10 mis_x0.85_at_4h cells, rule b",3.0,3.0,0.0,True
+E10 mis_x0.85_at_4h on time,0.142,0.1422222222222222,0.0005,True
+E10 x0.85 on time at B 0.05,0.4,0.4,0.0005,True
+E10 early false alerts at B 0.20,0.071,0.0711111111111111,0.0005,True
+E10 target worst false alert e0.05,0.0,0.0,0.0005,True
+E10 target worst false alert e0.1117,0.009,0.0088888888888888,0.0005,True
+E10 target worst false alert e0.2,0.036,0.0355555555555555,0.0005,True
+E10 cells over 5% e0.05,7.0,7.0,0.0,True
+E10 cells over 5% without delay e0.05,3.0,3.0,0.0,True
+E10 cells over 5% e0.1117,9.0,9.0,0.0,True
+E10 cells over 5% without delay e0.1117,5.0,5.0,0.0,True
+E10 cells over 5% e0.2,19.0,19.0,0.0,True
+E10 cells over 5% e0.3,27.0,27.0,0.0,True
+E10 cells over 5% e0.4,28.0,28.0,0.0,True
+E10 anchor flags x1.0 e0.05,0.022,0.0222222222222222,0.0005,True
+E10 anchor flags x0.9 e0.05,0.018,0.0177777777777777,0.0005,True
+E10 anchor flags x1.0 e0.1117,0.04,0.04,0.0005,True
+E10 anchor flags x0.9 e0.1117,0.036,0.0355555555555555,0.0005,True
+E10 anchor flags x1.0 e0.2,0.067,0.0666666666666666,0.0005,True
+E10 anchor flags x0.9 e0.2,0.084,0.0844444444444444,0.0005,True
+E10 anchor flags x1.0 e0.3,0.093,0.0933333333333333,0.0005,True
+E10 anchor flags x0.9 e0.3,0.116,0.1155555555555555,0.0005,True
+E10 anchor flags x1.0 e0.4,0.147,0.1466666666666666,0.0005,True
+E10 anchor flags x0.9 e0.4,0.156,0.1555555555555555,0.0005,True
+E10 delay_15min flags low,0.58,0.5822222222222222,0.005,True
+E10 delay_15min flags high,0.76,0.76,0.005,True
+E10 delay_5min flags low,0.06,0.0622222222222222,0.005,True
+E10 delay_5min flags high,0.09,0.0888888888888888,0.005,True
+E10 side gain_b_0.8 on time x1.0,0.991,0.9911111111111112,0.0005,True
+E10 side gain_b_0.8 on time x0.9,0.982,0.9822222222222222,0.0005,True
+E10 side gain_b_1.2 on time x1.0,0.987,0.9866666666666668,0.0005,True
+E10 side gain_b_1.2 on time x0.9,0.982,0.9822222222222222,0.0005,True
+E10 side drift_b_minus2ph on time x1.0,0.964,0.9644444444444444,0.0005,True
+E10 side drift_b_minus2ph on time x0.9,0.947,0.9466666666666668,0.0005,True
+E10 side drift_b_plus2ph on time x1.0,0.991,0.9911111111111112,0.0005,True
+E10 side drift_b_plus2ph on time x0.9,0.987,0.9866666666666668,0.0005,True
+E10 side missing_b_50pct on time x1.0,0.76,0.76,0.0005,True
+E10 side missing_b_50pct on time x0.9,0.72,0.72,0.0005,True
+E10 B moves on time x1.0,0.991,0.9911111111111112,0.0005,True
+E10 B moves on time x0.9,0.996,0.9955555555555556,0.0005,True
+E10 B moves flag rate,1.0,1.0,0.0,True
+"E10 anchor flags, B drifting down, x1.0",0.098,0.0977777777777777,0.0005,True
+"E10 anchor flags, B drifting down, x0.9",0.164,0.1644444444444444,0.0005,True
+E10 side gain_b_0.8 target cells,2.0,2.0,0.0,True
+E10 side gain_b_0.8 anchor cells,6.0,6.0,0.0,True
+E10 side gain_b_1.2 target cells,4.0,4.0,0.0,True
+E10 side gain_b_1.2 anchor cells,6.0,6.0,0.0,True
+E10 side drift_b_minus2ph target cells,3.0,3.0,0.0,True
+E10 side drift_b_minus2ph anchor cells,6.0,6.0,0.0,True
+E10 side drift_b_plus2ph target cells,4.0,4.0,0.0,True
+E10 side drift_b_plus2ph anchor cells,6.0,6.0,0.0,True
+E10 side missing_b_50pct target cells,2.0,2.0,0.0,True
+E10 side missing_b_50pct anchor cells,6.0,6.0,0.0,True
+"E10 B moves anchor cells, rule b",0.0,0.0,0.0,True
+"E10 B moves anchor cells, rule c",3.0,3.0,0.0,True
+"E10 anchor cells, A alone",6.0,6.0,0.0,True
+E10 B moves useful at 400 x1.0,0.022,0.0222222222222222,0.0005,True
+E10 B 0.05 lead at 450 x0.9,22.5,22.516666666666666,0.05,True
+E10 B 0.05 useful at 450 x0.9,1.0,1.0,0.0,True
+E10 alert volume median e0.05,403.0,402.62118905084,0.5,True
+E10 alert volume p05 e0.05,380.0,380.49346389587873,0.55,True
+E10 alert volume median e0.1117,390.0,389.846467205463,0.5,True
+E10 alert volume p05 e0.1117,359.0,358.94441538290926,0.55,True
+E10 alert volume median e0.2,391.0,391.3879195397288,0.5,True
+E10 alert volume p05 e0.2,327.0,327.4852704741452,0.55,True
+E10 rule c harmed cells at B 0.40,16.0,16.0,0.0,True
+E10 rule c worst false alert among harmed cells at B 0.40,0.38,0.3822222222222222,0.005,True
+E10 held_x0.7_at_4h cells e0.05 c0,5.0,5.0,0.0,True
+E10 held_x0.7_at_4h cells e0.05 c0.25,4.0,4.0,0.0,True
+E10 held_x0.7_at_4h cells e0.1117 c0,6.0,6.0,0.0,True
+E10 held_x0.7_at_4h cells e0.1117 c0.25,3.0,3.0,0.0,True
+E10 held_x0.7_at_4h cells e0.2 c0,0.0,0.0,0.0,True
+E10 held_x0.7_at_4h cells e0.2 c0.25,0.0,0.0,0.0,True
+E10 held_x0.7_at_4h cells e0.3 c0,0.0,0.0,0.0,True
+E10 held_x0.7_at_4h cells e0.3 c0.25,0.0,0.0,0.0,True
+E10 held_x0.7_at_4h cells e0.4 c0,0.0,0.0,0.0,True
+E10 held_x0.7_at_4h cells e0.4 c0.25,0.0,0.0,0.0,True
+E10 held_x0.7_at_4h on time,0.98,0.98,0.0005,True
+E10 held_x0.6_at_4h cells e0.05 c0,5.0,5.0,0.0,True
+E10 held_x0.6_at_4h cells e0.05 c0.25,3.0,3.0,0.0,True
+E10 held_x0.6_at_4h cells e0.1117 c0,6.0,6.0,0.0,True
+E10 held_x0.6_at_4h cells e0.1117 c0.25,4.0,4.0,0.0,True
+E10 held_x0.6_at_4h cells e0.2 c0,4.0,4.0,0.0,True
+E10 held_x0.6_at_4h cells e0.2 c0.25,0.0,0.0,0.0,True
+E10 held_x0.6_at_4h cells e0.3 c0,0.0,0.0,0.0,True
+E10 held_x0.6_at_4h cells e0.3 c0.25,0.0,0.0,0.0,True
+E10 held_x0.6_at_4h cells e0.4 c0,0.0,0.0,0.0,True
+E10 held_x0.6_at_4h cells e0.4 c0.25,0.0,0.0,0.0,True
+E10 held_x0.6_at_4h on time,0.987,0.9866666666666668,0.0005,True
+E10 held_x0.8_at_4h cells e0.05 c0,3.0,3.0,0.0,True
+E10 held_x0.8_at_4h cells e0.05 c0.25,2.0,2.0,0.0,True
+E10 held_x0.8_at_4h cells e0.1117 c0,2.0,2.0,0.0,True
+E10 held_x0.8_at_4h cells e0.1117 c0.25,2.0,2.0,0.0,True
+E10 held_x0.8_at_4h cells e0.2 c0,2.0,2.0,0.0,True
+E10 held_x0.8_at_4h cells e0.2 c0.25,2.0,2.0,0.0,True
+E10 held_x0.8_at_4h cells e0.3 c0,2.0,2.0,0.0,True
+E10 held_x0.8_at_4h cells e0.3 c0.25,2.0,2.0,0.0,True
+E10 held_x0.8_at_4h cells e0.4 c0,2.0,2.0,0.0,True
+E10 held_x0.8_at_4h cells e0.4 c0.25,2.0,2.0,0.0,True
+E10 held_x0.8_at_4h on time,0.467,0.4666666666666667,0.0005,True
+E10 held x0.6 on time at B 0.20,0.907,0.9066666666666666,0.0005,True
+E10 held x0.8 on time at B 0.05,0.853,0.8533333333333334,0.0005,True
+"E10 held x0.8 cells, A alone",2.0,2.0,0.0,True
+E10 held-out anchor flags x1.0 e0.05,0.027,0.0266666666666666,0.0005,True
+E10 held-out anchor flags x0.9 e0.05,0.053,0.0533333333333333,0.0005,True
+E10 held-out anchor flags x1.0 e0.1117,0.04,0.04,0.0005,True
+E10 held-out anchor flags x0.9 e0.1117,0.027,0.0266666666666666,0.0005,True
+E10 held-out anchor flags x1.0 e0.2,0.087,0.0866666666666666,0.0005,True
+E10 held-out anchor flags x0.9 e0.2,0.093,0.0933333333333333,0.0005,True
+E10 held-out anchor flags x1.0 e0.4,0.16,0.16,0.0005,True
+E10 held-out anchor flags x0.9 e0.4,0.2,0.2,0.0005,True
+T8 probe runs,24.0,24.0,0.0,True
+T8 probe errors,0.0,0.0,0.0,True
+T8 probe anchor_trust_b runs flagged,0.0,0.0,0.0,True
+T8 probe anchor_trust_b max volume low,391.0,391.3332251896716,0.5,True
+T8 probe anchor_trust_b max volume high,411.0,411.0481834235447,0.5,True
+T8 probe anchor_trust_b first alert low,5.5,5.516666666666667,0.05,True
+T8 probe anchor_trust_b first alert high,6.5,6.483333333333333,0.05,True
+T8 probe misaligned_trust_b runs flagged,6.0,6.0,0.0,True
+T8 probe misaligned_trust_b max volume low,391.0,391.1377898087851,0.5,True
+T8 probe misaligned_trust_b max volume high,417.0,416.5377331352154,0.5,True
+T8 probe misaligned_trust_b first alert low,5.7,5.733333333333333,0.05,True
+T8 probe misaligned_trust_b first alert high,6.0,6.016666666666667,0.05,True
+T8 probe misaligned_average runs flagged,6.0,6.0,0.0,True
+T8 probe misaligned_average max volume low,452.0,452.3127010657744,0.5,True
+T8 probe misaligned_average max volume high,484.0,484.3978727681103,0.5,True
+T8 probe misaligned_average first alert low,6.1,6.116666666666666,0.05,True
+T8 probe misaligned_average first alert high,7.4,7.383333333333334,0.05,True
+T8 probe common-mode runs flagged,0.0,0.0,0.0,True
+T8 probe common-mode x0.9 runs without alert,2.0,2.0,0.0,True
+T8 probe common-mode x1.0 max volume low,549.0,548.9417991754092,0.5,True
+T8 probe common-mode x1.0 max volume high,600.0,600.3351734466876,0.5,True
+T8 probe flag earliest h,4.12,4.116666666666666,0.005,True
+T8 probe flag latest h,4.27,4.266666666666667,0.005,True
+T8 probe anchor_trust_b sessions,12.0,12.0,0.0,True
+T8 probe anchor_trust_b sessions voiding 50%,12.0,12.0,0.0,True
+T8 probe misaligned_trust_b sessions,12.0,12.0,0.0,True
+T8 probe misaligned_trust_b sessions voiding 50%,12.0,12.0,0.0,True
+T8 probe misaligned_average sessions,8.0,8.0,0.0,True
+T8 probe misaligned_average sessions voiding 50%,8.0,8.0,0.0,True
+T8 probe misaligned_trust_b_common_mode sessions,9.0,9.0,0.0,True
+T8 probe misaligned_trust_b_common_mode sessions voiding 50%,4.0,4.0,0.0,True

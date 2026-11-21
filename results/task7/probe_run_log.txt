@@ -1,0 +1,18 @@
+﻿task7 closed-loop probe: 12 runs ...
+  1/12 done  23:45:14
+  2/12 done  23:45:14
+  3/12 done  23:45:14
+  4/12 done  23:45:14
+  5/12 done  23:45:14
+  6/12 done  23:45:14
+  7/12 done  23:45:14
+  8/12 done  23:45:14
+  9/12 done  23:45:14
+  10/12 done  23:45:14
+  11/12 done  23:45:15
+  12/12 done  23:45:15
+{
+  "runs": 12,
+  "errors": 0,
+  "invariants_hold_in_all_runs": true
+}

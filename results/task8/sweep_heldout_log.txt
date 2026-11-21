@@ -1,0 +1,6 @@
+﻿sweep heldout: 80 jobs, 15 sensor seeds per trace ...
+  20/80 jobs  (20 run now)  10:20:47  2.5 min
+  40/80 jobs  (40 run now)  10:22:34  4.3 min
+  60/80 jobs  (60 run now)  10:24:23  6.1 min
+  80/80 jobs  (80 run now)  10:25:46  7.4 min
+sweep heldout: finished

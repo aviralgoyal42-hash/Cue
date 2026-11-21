@@ -1,0 +1,34 @@
+﻿Phase 1: simulating 30 physiology runs ...
+  somatic_x1.0_seed42: 43 s
+  somatic_x1.0_seed1: 41 s
+  somatic_x1.0_seed2: 40 s
+  somatic_x1.0_seed3: 41 s
+  somatic_x1.0_seed4: 40 s
+  somatic_x1.0_seed5: 40 s
+  somatic_x1.0_seed6: 40 s
+  somatic_x1.0_seed7: 42 s
+  somatic_x1.0_seed8: 39 s
+  somatic_x1.0_seed9: 41 s
+  somatic_x1.0_seed10: 40 s
+  somatic_x1.0_seed11: 41 s
+  somatic_x1.0_seed12: 39 s
+  somatic_x1.0_seed13: 38 s
+  somatic_x1.0_seed14: 38 s
+  somatic_x0.9_seed42: 216 s
+  somatic_x0.9_seed1: 224 s
+  somatic_x0.9_seed2: 192 s
+  somatic_x0.9_seed3: 206 s
+  somatic_x0.9_seed4: 222 s
+  somatic_x0.9_seed5: 212 s
+  somatic_x0.9_seed6: 222 s
+  somatic_x0.9_seed7: 213 s
+  somatic_x0.9_seed8: 197 s
+  somatic_x0.9_seed9: 208 s
+  somatic_x0.9_seed10: 204 s
+  somatic_x0.9_seed11: 210 s
+  somatic_x0.9_seed12: 121 s
+  somatic_x0.9_seed13: 115 s
+  somatic_x0.9_seed14: 111 s
+Phase 2: monitoring runs ...
+Phase 3: evaluation ...
+54000 monitoring runs; 69 of 180 combinations pass C1-C3.

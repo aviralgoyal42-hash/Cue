@@ -1,0 +1,15 @@
+{
+  "runs": {
+    "rows_exp3": 36,
+    "rows_exp3b": 36,
+    "columns_compared": 31,
+    "identical": true
+  },
+  "sessions": {
+    "rows_exp3": 104,
+    "rows_exp3b": 104,
+    "columns_compared": 22,
+    "identical": true
+  },
+  "reproduces": true
+}

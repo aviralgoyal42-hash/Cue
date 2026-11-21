@@ -1,0 +1,7 @@
+# Project Cue: minimal environment (Python 3.11-3.13; tested with 3.12.10).
+# Versions match the pins in the upstream lower-urinary-tract-sim requirements.txt.
+numpy==2.3.1
+scipy==1.15.2
+pandas==2.2.3
+matplotlib==3.10.0
+pytest==9.2.0

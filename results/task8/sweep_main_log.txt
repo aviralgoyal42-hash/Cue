@@ -1,0 +1,29 @@
+﻿sweep main: 540 jobs, 15 sensor seeds per trace ...
+  20/540 jobs  (20 run now)  09:53:40  1.8 min
+  40/540 jobs  (40 run now)  09:54:47  3.0 min
+  60/540 jobs  (60 run now)  09:55:35  3.8 min
+  80/540 jobs  (80 run now)  09:56:26  4.6 min
+  100/540 jobs  (100 run now)  09:57:13  5.4 min
+  120/540 jobs  (120 run now)  09:58:06  6.3 min
+  140/540 jobs  (140 run now)  09:58:56  7.1 min
+  160/540 jobs  (160 run now)  09:59:46  7.9 min
+  180/540 jobs  (180 run now)  10:00:36  8.8 min
+  200/540 jobs  (200 run now)  10:02:30  10.7 min
+  220/540 jobs  (220 run now)  10:03:21  11.5 min
+  240/540 jobs  (240 run now)  10:04:10  12.3 min
+  260/540 jobs  (260 run now)  10:05:11  13.4 min
+  280/540 jobs  (280 run now)  10:06:02  14.2 min
+  300/540 jobs  (300 run now)  10:07:02  15.2 min
+  320/540 jobs  (320 run now)  10:07:50  16.0 min
+  340/540 jobs  (340 run now)  10:08:44  16.9 min
+  360/540 jobs  (360 run now)  10:09:34  17.7 min
+  380/540 jobs  (380 run now)  10:11:20  19.5 min
+  400/540 jobs  (400 run now)  10:12:25  20.6 min
+  420/540 jobs  (420 run now)  10:13:30  21.7 min
+  440/540 jobs  (440 run now)  10:14:17  22.5 min
+  460/540 jobs  (460 run now)  10:15:06  23.3 min
+  480/540 jobs  (480 run now)  10:15:58  24.1 min
+  500/540 jobs  (500 run now)  10:16:46  24.9 min
+  520/540 jobs  (520 run now)  10:17:34  25.7 min
+  540/540 jobs  (540 run now)  10:18:17  26.5 min
+sweep main: finished

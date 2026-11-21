@@ -1,0 +1,31 @@
+{
+  "exp3_runs": {
+    "rows_old": 312,
+    "rows_new": 312,
+    "columns_compared": 37,
+    "columns_only_in_old": [],
+    "identical": true
+  },
+  "exp3_sessions": {
+    "rows_old": 2214,
+    "rows_new": 2214,
+    "columns_compared": 27,
+    "columns_only_in_old": [],
+    "identical": true
+  },
+  "exp4_runs": {
+    "rows_old": 324,
+    "rows_new": 324,
+    "columns_compared": 37,
+    "columns_only_in_old": [],
+    "identical": true
+  },
+  "exp4_sessions": {
+    "rows_old": 1889,
+    "rows_new": 1889,
+    "columns_compared": 27,
+    "columns_only_in_old": [],
+    "identical": true
+  },
+  "reproduces": true
+}

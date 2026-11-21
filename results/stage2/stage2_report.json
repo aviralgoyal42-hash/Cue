@@ -1,0 +1,182 @@
+{
+  "upstream_commit": "bd8f2a072ef017b99dc051b24972333141f7d257",
+  "numpy": "2.3.1",
+  "pandas": "2.2.3",
+  "figure2_run": {
+    "runtime_s": 44.8,
+    "rows": 864000,
+    "max_abs_difference_vs_notebook": 4.871027350361601e-07,
+    "tolerance": 5e-07,
+    "match": true,
+    "summary": {
+      "n_void_starts": 3,
+      "void_start_times_h": [
+        7.007,
+        12.727,
+        18.052
+      ],
+      "volume_at_void_start_ml": [
+        489.56,
+        489.57,
+        489.58
+      ],
+      "pressure_at_void_start_cmH2O": [
+        53.17,
+        53.17,
+        53.17
+      ],
+      "volume_at_void_end_ml": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "void_durations_s": [
+        26.7,
+        26.7,
+        26.7
+      ],
+      "peak_flow_ml_per_s": 21.112,
+      "max_volume_ml": 489.58,
+      "max_p_D_cmH2O": 54.73,
+      "mean_Q_in_ml_per_s": 0.02265,
+      "storage_closure_p_S_cmH2O_at_end": 59.083
+    },
+    "notebook_metrics": {
+      "mean_intervoid_interval_hrs": 5.52248611111111,
+      "mean_peak_capacity_ml": 489.5687523389581,
+      "mean_voided_volume_ml": 489.5687523389581
+    }
+  },
+  "baseline_5day": {
+    "runtime_s": 238.1,
+    "metrics": {
+      "mean_intervoid_interval_hrs": 6.037925925925926,
+      "mean_peak_capacity_ml": 489.5625739596421,
+      "mean_voided_volume_ml": 489.5625739596421
+    },
+    "metrics_rounded": {
+      "mean_intervoid_interval_hrs": 6.04,
+      "mean_peak_capacity_ml": 489.56,
+      "mean_voided_volume_ml": 489.56
+    },
+    "expected": {
+      "mean_intervoid_interval_hrs": 6.04,
+      "mean_peak_capacity_ml": 489.56,
+      "mean_voided_volume_ml": 489.56
+    },
+    "match": true,
+    "summary": {
+      "n_void_starts": 19,
+      "void_start_times_h": [
+        7.007,
+        12.727,
+        18.052,
+        24.047,
+        31.025,
+        36.54,
+        41.825,
+        48.214,
+        55.444,
+        60.97,
+        66.343,
+        73.252,
+        80.259,
+        85.791,
+        91.289,
+        97.878,
+        104.767,
+        110.071,
+        115.69
+      ],
+      "volume_at_void_start_ml": [
+        489.56,
+        489.57,
+        489.58,
+        489.54,
+        489.55,
+        489.56,
+        489.58,
+        489.56,
+        489.56,
+        489.55,
+        489.57,
+        489.56,
+        489.58,
+        489.59,
+        489.56,
+        489.54,
+        489.57,
+        489.54,
+        489.57
+      ],
+      "pressure_at_void_start_cmH2O": [
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17,
+        53.17
+      ],
+      "volume_at_void_end_ml": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "void_durations_s": [
+        26.7,
+        26.7,
+        26.7,
+        26.6,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7,
+        26.7
+      ],
+      "peak_flow_ml_per_s": 21.113,
+      "max_volume_ml": 489.59,
+      "max_p_D_cmH2O": 54.73,
+      "mean_Q_in_ml_per_s": 0.02233,
+      "storage_closure_p_S_cmH2O_at_end": 59.083
+    }
+  }
+}

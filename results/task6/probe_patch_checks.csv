@@ -1,0 +1,13 @@
+group,stim_name,task5_twin,sphincter_scaling,phys_seed,probe,sensor_name,user_name,pressure_name,threshold_ml,pressure_ceiling_cmH2O,max_duration_s,ultrasound_interval_during_stim_s,flag_h,rule,ratio
+B-probe,e0.6_s0.0_5on5off,,1.0,42,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.3,level_drop,0.7558698694401527
+B-probe,e0.6_s0.0_5on5off,,1.0,42,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.366666666666666,dropout_rise,0.775787099870767
+B-probe,e0.6_s0.0_5on5off,,1.0,1,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.216666666666667,dropout_rise,1.0
+B-probe,e0.6_s0.0_5on5off,,1.0,1,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.233333333333333,level_drop,0.845620070336607
+B-probe,e0.6_s0.0_5on5off,,1.0,2,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.15,dropout_rise,1.0
+B-probe,e0.6_s0.0_5on5off,,1.0,2,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.233333333333333,level_drop,0.8627608929868105
+B-probe,e0.6_s0.0_5on5off,,0.9,42,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.3,level_drop,0.7558698694401527
+B-probe,e0.6_s0.0_5on5off,,0.9,42,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.366666666666666,dropout_rise,0.775787099870767
+B-probe,e0.6_s0.0_5on5off,,0.9,1,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.216666666666667,dropout_rise,1.0
+B-probe,e0.6_s0.0_5on5off,,0.9,1,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.233333333333333,level_drop,0.845620070336607
+B-probe,e0.6_s0.0_5on5off,,0.9,2,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.15,dropout_rise,1.0
+B-probe,e0.6_s0.0_5on5off,,0.9,2,misaligned_monitor_on,misaligned_at_4h,prompt,ok,400.0,55.0,60.0,60.0,4.233333333333333,level_drop,0.8627608929868105

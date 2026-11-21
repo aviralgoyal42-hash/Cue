@@ -1,0 +1,2 @@
+window_n,k_noise,k_noise_after_dropout,min_drop_fraction,min_ml,noise_n,noise_floor,dropout_slots,dropout_baseline_slots,dropout_chance,dropout_floor,compensate
+15,3.5,2.0,0.1,100.0,120,0.02,20,120,0.0001,0.02,True

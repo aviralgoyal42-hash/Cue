@@ -1,0 +1,92 @@
+﻿exp3: 312 runs ...
+  25/312 done
+  50/312 done
+  75/312 done
+  100/312 done
+  125/312 done
+  150/312 done
+  175/312 done
+  200/312 done
+  225/312 done
+  250/312 done
+  275/312 done
+  300/312 done
+exp4: 324 runs ...
+python.exe : concurrent.futures.process._RemoteTraceback: 
+At line:1 char:302
++ ... tch {} } }; & "$env:USERPROFILE\.venvs\project-cue\Scripts\python.exe ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (concurrent.futu...moteTraceback: :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+"""
+Traceback (most recent call last):
+  File "C:\Users\Sumit\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\process.py", line 264, in 
+_process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sumit\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\process.py", line 213, in 
+_process_chunk
+    return [fn(*args) for args in chunk]
+            ^^^^^^^^^
+  File "C:\Users\Sumit\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\7cfffe8b-02c5-480a-b6b2-4dd363
+b62f44\be813092-ec30-45ee-a1c2-4d4063ff861b\scratch-2026-11-03-0dcdfd\project-cue\experiments\stage6_experiments3_4.py"
+, line 131, in run_one
+    data[cols].iloc[::10].to_csv(RESULTS / "traces" / f"{tag}.csv", index=False)
+  File "C:\Users\Sumit\.venvs\project-cue\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sumit\.venvs\project-cue\Lib\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sumit\.venvs\project-cue\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Users\Sumit\.venvs\project-cue\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\Sumit\.venvs\project-cue\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Sumit\\AppData\\Local\\Claude-Data\\claude_pzs8sxrj
+xfjjc\\scratch-workspaces\\7cfffe8b-02c5-480a-b6b2-4dd363b62f44\\be813092-ec30-45ee-a1c2-4d4063ff861b\\scratch-2026-11-
+03-0dcdfd\\project-cue\\results\\stage6\\traces\\reference_e1.0_s0.5_5on5off_e1.0_s0.5_5on5off_55_60.csv'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Sumit\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\7cfffe8b-02c5-480a-b6b2-4dd363
+b62f44\be813092-ec30-45ee-a1c2-4d4063ff861b\scratch-2026-11-03-0dcdfd\project-cue\experiments\stage6_experiments3_4.py"
+, line 295, in <module>
+    main()
+  File "C:\Users\Sumit\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\7cfffe8b-02c5-480a-b6b2-4dd363
+b62f44\be813092-ec30-45ee-a1c2-4d4063ff861b\scratch-2026-11-03-0dcdfd\project-cue\experiments\stage6_experiments3_4.py"
+, line 284, in main
+    runs, sessions = run_all(exp4_cases(), "exp4")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sumit\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\7cfffe8b-02c5-480a-b6b2-4dd363
+b62f44\be813092-ec30-45ee-a1c2-4d4063ff861b\scratch-2026-11-03-0dcdfd\project-cue\experiments\stage6_experiments3_4.py"
+, line 139, in run_all
+    for i, (row, sess) in enumerate(pool.map(run_one, cases, chunksize=1)):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sumit\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\process.py", line 636, in 
+_chain_from_iterable_of_lists
+    for element in iterable:
+                   ^^^^^^^^
+  File "C:\Users\Sumit\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 619, in 
+result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sumit\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 317, in 
+_result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sumit\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sumit\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in 
+__get_result
+    raise self._exception
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Sumit\\AppData\\Local\\Claude-Data\\claude_pzs8sxrj
+xfjjc\\scratch-workspaces\\7cfffe8b-02c5-480a-b6b2-4dd363b62f44\\be813092-ec30-45ee-a1c2-4d4063ff861b\\scratch-2026-11-
+03-0dcdfd\\project-cue\\results\\stage6\\traces\\reference_e1.0_s0.5_5on5off_e1.0_s0.5_5on5off_55_60.csv'

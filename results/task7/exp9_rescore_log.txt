@@ -1,0 +1,135 @@
+﻿                scenario  sphincter_scaling        variant  true_ratio  n_runs  corrected_runs  corrected_rate  ratio_median  ratio_p05  ratio_p95  over_corrected_rate  under_corrected_rate  line_rate  flat_few_readings  flat_negative_slope
+        misaligned_at_4h                1.0 old_correction        0.70     150             149           0.993         0.816      0.732      0.913                0.000                 0.886      0.000                  0                    0
+        misaligned_at_4h                1.0 new_correction        0.70     150             149           0.993         0.700      0.623      0.783                0.181                 0.161      1.000                  0                    0
+          mis_x0.5_at_4h                1.0 old_correction        0.50     150             150           1.000         0.576      0.529      0.641                0.000                 0.773      0.000                  0                    0
+          mis_x0.5_at_4h                1.0 new_correction        0.50     150             150           1.000         0.496      0.457      0.544                0.020                 0.040      1.000                  0                    0
+         mis_x0.85_at_4h                1.0 old_correction        0.85     150              62           0.413         0.976      0.874      1.000                0.000                 0.919      0.000                  0                    0
+         mis_x0.85_at_4h                1.0 new_correction        0.85     150              62           0.413         0.846      0.745      0.966                0.242                 0.274      1.000                  0                    0
+          mis_x0.7_at_2h                1.0 old_correction        0.70     150             131           0.873         0.944      0.835      1.000                0.000                 1.000      0.000                  0                    0
+          mis_x0.7_at_2h                1.0 new_correction        0.70     150             131           0.873         0.703      0.629      0.848                0.137                 0.160      1.000                  0                    0
+          mis_x0.7_at_6h                1.0 old_correction        0.70     150             149           0.993         0.785      0.719      0.856                0.000                 0.819      0.000                  0                    0
+          mis_x0.7_at_6h                1.0 new_correction        0.70     150             149           0.993         0.708      0.643      0.783                0.074                 0.181      1.000                  0                    0
+mis_x0.7_at_4h_gain_only                1.0 old_correction        0.70     150             146           0.973         0.790      0.706      0.853                0.000                 0.808      0.000                  0                    0
+mis_x0.7_at_4h_gain_only                1.0 new_correction        0.70     150             146           0.973         0.698      0.634      0.760                0.123                 0.089      1.000                  0                    0
+  mis_dropout_only_at_4h                1.0 old_correction        1.00     150              21           0.140         1.000      0.967      1.000                0.000                 0.000      0.000                  0                    0
+  mis_dropout_only_at_4h                1.0 new_correction        1.00     150              21           0.140         0.953      0.903      0.995                0.476                 0.000      1.000                  0                    0
+        misaligned_at_4h                0.9 old_correction        0.70     150             150           1.000         0.824      0.734      0.905                0.000                 0.913      0.000                  0                    0
+        misaligned_at_4h                0.9 new_correction        0.70     150             150           1.000         0.706      0.629      0.783                0.167                 0.173      1.000                  0                    0
+          mis_x0.5_at_4h                0.9 old_correction        0.50     150             150           1.000         0.578      0.523      0.630                0.000                 0.747      0.000                  0                    0
+          mis_x0.5_at_4h                0.9 new_correction        0.50     150             150           1.000         0.499      0.440      0.551                0.133                 0.053      1.000                  0                    0
+         mis_x0.85_at_4h                0.9 old_correction        0.85     150             121           0.807         0.955      0.886      1.000                0.000                 0.909      0.000                  0                    0
+         mis_x0.85_at_4h                0.9 new_correction        0.85     150             121           0.807         0.870      0.779      1.000                0.116                 0.388      0.975                  0                    3
+          mis_x0.7_at_2h                0.9 old_correction        0.70     150             145           0.967         0.937      0.850      1.000                0.000                 1.000      0.000                  0                    0
+          mis_x0.7_at_2h                0.9 new_correction        0.70     150             145           0.967         0.699      0.631      0.937                0.138                 0.241      0.979                  0                    3
+          mis_x0.7_at_6h                0.9 old_correction        0.70     150             150           1.000         0.787      0.710      0.846                0.000                 0.833      0.000                  0                    0
+          mis_x0.7_at_6h                0.9 new_correction        0.70     150             150           1.000         0.708      0.639      0.762                0.087                 0.107      1.000                  0                    0
+mis_x0.7_at_4h_gain_only                0.9 old_correction        0.70     150             145           0.967         0.787      0.718      0.860                0.000                 0.779      0.000                  0                    0
+mis_x0.7_at_4h_gain_only                0.9 new_correction        0.70     150             145           0.967         0.690      0.624      0.767                0.166                 0.103      1.000                  0                    0
+  mis_dropout_only_at_4h                0.9 old_correction        1.00     150             103           0.687         0.936      0.867      1.000                0.631                 0.000      0.000                  0                    0
+  mis_dropout_only_at_4h                0.9 new_correction        1.00     150             103           0.687         0.914      0.811      0.982                0.796                 0.000      0.922                  0                    8
+{
+  "F1_runs_compared": 6300,
+  "F1_differences": {},
+  "F1_pass": true,
+  "M1_on_time_rate_by_scaling": {
+    "1.0": 0.9933333333333333,
+    "0.9": 1.0
+  },
+  "M1_pass": true,
+  "M2_cells": 28,
+  "M2_highest_flag_rate": 0.04,
+  "M2_pass": true,
+  "R1_ratio_median_new": {
+    "1.0": 0.7000817558037891,
+    "0.9": 0.7058327602014705
+  },
+  "R1_ratio_median_old": {
+    "1.0": 0.8157829167738208,
+    "0.9": 0.8238526310457899
+  },
+  "R1_band": [
+    0.65,
+    0.75
+  ],
+  "M4_cells_checked": 84,
+  "M4_cells_pass_to_fail": [],
+  "M3_target_cells_working": {
+    "monitor_off": 0,
+    "old_correction": 2,
+    "new_correction": 4
+  },
+  "M3_cells_rescued_new": [
+    "x0.9 350 mL",
+    "x0.9 400 mL",
+    "x1.0 350 mL",
+    "x1.0 400 mL"
+  ],
+  "M3_cells_still_failing_new": [
+    "x0.9 450 mL",
+    "x1.0 450 mL"
+  ],
+  "M3_cells_old_rescued_but_new_lost": [],
+  "R1_pass": true,
+  "M4_pass": true,
+  "improvement": true,
+  "HELD_OUT": {
+    "mis_x0.5_at_4h": {
+      "band": [
+        0.45,
+        0.55
+      ],
+      "ratio_median_new": {
+        "1.0": 0.495809657508129,
+        "0.9": 0.49930917429260746
+      },
+      "ratio_median_old": {
+        "1.0": 0.5763735122691005,
+        "0.9": 0.578184240963163
+      },
+      "pass": true,
+      "corrected_rate_new": {
+        "1.0": 1.0,
+        "0.9": 1.0
+      },
+      "over_corrected_rate_new": {
+        "1.0": 0.02,
+        "0.9": 0.13333333333333333
+      },
+      "cells_working": {
+        "monitor_off": 0,
+        "old_correction": 2,
+        "new_correction": 4
+      }
+    },
+    "mis_x0.85_at_4h": {
+      "band": [
+        0.8,
+        0.9
+      ],
+      "ratio_median_new": {
+        "1.0": 0.8459028696197699,
+        "0.9": 0.8701625886983589
+      },
+      "ratio_median_old": {
+        "1.0": 0.9764910419345436,
+        "0.9": 0.9547290358068008
+      },
+      "pass": true,
+      "corrected_rate_new": {
+        "1.0": 0.41333333333333333,
+        "0.9": 0.8066666666666666
+      },
+      "over_corrected_rate_new": {
+        "1.0": 0.24193548387096775,
+        "0.9": 0.11570247933884298
+      },
+      "cells_working": {
+        "monitor_off": 2,
+        "old_correction": 3,
+        "new_correction": 3
+      }
+    }
+  },
+  "H1_pass": true,
+  "H2_pass": true
+}

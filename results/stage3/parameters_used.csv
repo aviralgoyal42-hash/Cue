@@ -1,0 +1,14 @@
+section,name,value,unit,status,source
+SIMULATION,dt_s,0.1,s,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062), paper_figures notebooks. Must stay < 0.4 s: forward Euler on the sphincter equation (tau_S = 0.2 s) diverges above that (Stage 2 finding)."
+SIMULATION,duration_s,86400,s,ASSUMED,One simulated day: long enough for several filling cycles.
+SIMULATION,seed,42,-,SOURCED,"Seed used in lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) notebooks (an arbitrary but fixed choice)."
+SIMULATION,inflow_noise,1.0,-,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) default. Note: raises mean inflow from 0.017 to ~0.023 mL/s (Stage 2)."
+SIMULATION,initial_volume_ml,0.0,mL,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) starts from an empty bladder."
+SCI,enabled,True,-,ASSUMED,Experiments 1-4 all use the simplified SCI condition.
+SCI,injury_level,suprasacral,-,ASSUMED,"ONE simplified condition: injury above the sacral cord, sacral reflex arc intact. The true injury level is unconfirmed. Other levels are not implemented."
+SCI,voluntary_voiding,False,-,ASSUMED,Sensation to the brain and the decision to void are lost (upstream is_voiding() trigger switched off).
+SCI,coordinated_voiding_program,False,-,ASSUMED,"The descending coordinated void (detrusor on, sphincter relaxed) is lost."
+SCI,storage_drive_profile,upstream,-,ASSUMED,"The upstream storage-phase drives (volume-dependent Gaussians) stand in for the intact spinal reflexes below the injury. The paper calls them signals 'from the brain', so this reinterpretation is ours."
+SCI,fullness_reference_ml,500.0,mL,SOURCED,"lower-urinary-tract-sim v1.3.0 (Lister et al. 2025, R Soc Open Sci 12:242062) max_V_B. Used ONLY to scale fullness inside the neural drives, so they behave exactly as upstream up to 500 mL. Above 500 mL they are extrapolated."
+SCI,drive_above_reference,extrapolate,-,ASSUMED,"How the neural drives behave above 500 mL, where upstream never goes. 'extrapolate' (default) = upstream formulas unchanged, i.e. least modification; 'hold' = drive frozen at its 500 mL value. Neither is sourced; both are reported."
+SCI,volume_ceiling_ml,1000.0,mL,ASSUMED,"Placeholder. Upstream hard-clips volume at 500 mL; no sourced SCI value was found. Inflow arriving at the ceiling is discarded by the model, so results are reported as a sweep over several ceilings and the discarded volume is measured."
